@@ -1,0 +1,21 @@
+PACKAGE demo_subsystem
+PUBLIC
+
+SYSTEM subsystem_test
+END subsystem_test;
+
+-- place the mouse cursor starting here
+SYSTEM IMPLEMENTATION subsystem_test.impl
+END subsystem_test.impl;
+-- until here
+
+DATA sensor_data
+END sensor_data;
+
+DATA command_data
+END command_data;
+
+PROCESS control_processing
+END control_processing;
+
+END demo_subsystem;

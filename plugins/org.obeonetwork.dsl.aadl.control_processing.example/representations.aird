@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aadl2="http://aadl.info/AADL/2.0" xmlns:description="http://www.obeo.fr/dsl/viewpoint/description/1.1.0" xmlns:instance="http://aadl.info/AADL/2.0/instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.obeo.fr/dsl/viewpoint/description/style/1.1.0" xmlns:viewpoint="http://www.obeo.fr/dsl/viewpoint/1.1.0" xsi:schemaLocation="http://www.obeo.fr/dsl/viewpoint/description/1.1.0 http://www.obeo.fr/dsl/viewpoint/1.1.0#//description http://www.obeo.fr/dsl/viewpoint/description/style/1.1.0 http://www.obeo.fr/dsl/viewpoint/1.1.0#//description/style" xmi:id="_bqB8UQC4EeKSuvUR6Xxqng" selectedViews="_rpgQwAC4EeKSuvUR6Xxqng">
+  <models xmi:type="aadl2:AadlPackage" href="example.aadl#/"/>
+  <models xmi:type="instance:SystemInstance" href="instances/example_subsystem_test_impl_Instance.aaxl2#_ld0KkAC4EeKSuvUR6Xxqng"/>
+  <eAnnotations xmi:type="description:DAnnotationEntry" xmi:id="_bqB8UgC4EeKSuvUR6Xxqng" source="Migration">
+    <details>style</details>
+    <details>someViewsAreHiddenDeactivation</details>
+    <details>edgeLabels</details>
+    <details>LabelAlignmentForDNodeListElementMigrationForNotHavingSessionDirtyAtOpening</details>
+    <details>LabelAlignmentForDNodeMigrationForNotHavingSessionDirtyAtOpening</details>
+    <details>GMFViewSizeForDNodeNotResizable</details>
+    <details>GMFTreeEdgeFixAnchors</details>
+    <details>sequenceAbsoluteBoundsFlag</details>
+  </eAnnotations>
+  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_rpgQwAC4EeKSuvUR6Xxqng" initialized="true">
+    <ownedRepresentations xmi:type="viewpoint:DSemanticDiagram" xmi:id="_x45LMAC4EeKSuvUR6Xxqng" name="new AADL Package Diagram">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_x56e4AC4EeKSuvUR6Xxqng" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_x56e4QC4EeKSuvUR6Xxqng" type="Viewpoint" element="_x45LMAC4EeKSuvUR6Xxqng" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_yHF_QAC4EeKSuvUR6Xxqng" type="2001" element="_yGs9sAC4EeKSuvUR6Xxqng">
+            <children xmi:type="notation:Node" xmi:id="_yHGmUAC4EeKSuvUR6Xxqng" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_yHGmUQC4EeKSuvUR6Xxqng" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_aT0KwADNEeKfTshw9sM2fg" type="3003" element="_aR9woADNEeKfTshw9sM2fg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_aT0KwQDNEeKfTshw9sM2fg" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aT0KwgDNEeKfTshw9sM2fg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_yHF_QQC4EeKSuvUR6Xxqng" fontName="Cantarell"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yHF_QgC4EeKSuvUR6Xxqng" x="180" y="72" width="20" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_DSHpYADQEeKXftvblIpfog" type="2001" element="_DQ_A8QDQEeKXftvblIpfog">
+            <children xmi:type="notation:Node" xmi:id="_DSL60ADQEeKXftvblIpfog" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_DSL60QDQEeKXftvblIpfog" x="31" y="12"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_DSTPkADQEeKXftvblIpfog" type="3016" element="_DRAPEADQEeKXftvblIpfog">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_DSTPkQDQEeKXftvblIpfog" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DSTPkgDQEeKXftvblIpfog"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_DSHpYQDQEeKXftvblIpfog" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DSHpYgDQEeKXftvblIpfog" x="336" y="144" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_DSQMQADQEeKXftvblIpfog" type="2001" element="_DRBdMADQEeKXftvblIpfog">
+            <children xmi:type="notation:Node" xmi:id="_DSQzUADQEeKXftvblIpfog" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_DSQzUQDQEeKXftvblIpfog" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_DST2oADQEeKXftvblIpfog" type="3016" element="_DRCEQADQEeKXftvblIpfog">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_DST2oQDQEeKXftvblIpfog" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DST2ogDQEeKXftvblIpfog"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_DSQMQQDQEeKXftvblIpfog" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DSQMQgDQEeKXftvblIpfog" x="336" y="192" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_DSRaYADQEeKXftvblIpfog" type="2001" element="_DRCrUADQEeKXftvblIpfog">
+            <children xmi:type="notation:Node" xmi:id="_DSSBcADQEeKXftvblIpfog" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_DSSBcQDQEeKXftvblIpfog" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_DSZ9QADQEeKXftvblIpfog" type="3017" element="_DRmsAADQEeKXftvblIpfog">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_DSZ9QQDQEeKXftvblIpfog" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DSZ9QgDQEeKXftvblIpfog"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_DSRaYQDQEeKXftvblIpfog" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DSRaYgDQEeKXftvblIpfog" x="60" y="192" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XLC7oADQEeKPr89S1t9ZYw" type="2001" element="_XKjzcADQEeKPr89S1t9ZYw">
+            <children xmi:type="notation:Node" xmi:id="_XLEJwADQEeKPr89S1t9ZYw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_XLEJwQDQEeKPr89S1t9ZYw" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vMe7YADQEeKsd8NNk59_tQ" type="3003" element="_vLRacQDQEeKsd8NNk59_tQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_vMe7YQDQEeKsd8NNk59_tQ" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vMe7YgDQEeKsd8NNk59_tQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_XLC7oQDQEeKPr89S1t9ZYw" fontName="Cantarell"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XLC7ogDQEeKPr89S1t9ZYw" x="180" y="24" width="20" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_bG0GQADTEeKaOs6qr_WpeQ" type="2001" element="_bGiZcADTEeKaOs6qr_WpeQ">
+            <children xmi:type="notation:Node" xmi:id="_bG6z8ADTEeKaOs6qr_WpeQ" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_bG6z8QDTEeKaOs6qr_WpeQ" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_bHmJYADTEeKaOs6qr_WpeQ" type="3004" element="_bGjnkADTEeKaOs6qr_WpeQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_bHmJYQDTEeKaOs6qr_WpeQ" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bHmJYgDTEeKaOs6qr_WpeQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_bG0GQQDTEeKaOs6qr_WpeQ" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bG0GQgDTEeKaOs6qr_WpeQ" x="12" y="72" width="30" height="30"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_x56e4gC4EeKSuvUR6Xxqng"/>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_DQ_A8QDQEeKXftvblIpfog" name="sensor_data" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="aadl2:DataType" href="example.aadl#//@ownedPublicSection/@ownedClassifier.2"/>
+        <semanticElements xmi:type="aadl2:DataType" href="example.aadl#//@ownedPublicSection/@ownedClassifier.2"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="viewpoint:Ellipse" xmi:id="_DRAPEADQEeKXftvblIpfog">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_DRA2IADQEeKXftvblIpfog"/>
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='SoCiS%20AADL%20Design']/@ownedRepresentations[name='AADL%20Package%20Diagram']/@defaultLayer/@nodeMappings[name='Data']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_DRA2IQDQEeKXftvblIpfog"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_DRA2IgDQEeKXftvblIpfog" red="136" green="136" blue="136"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='SoCiS%20AADL%20Design']/@ownedRepresentations[name='AADL%20Package%20Diagram']/@defaultLayer/@nodeMappings[name='Data']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_DRBdMADQEeKXftvblIpfog" name="command_data" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="aadl2:DataType" href="example.aadl#//@ownedPublicSection/@ownedClassifier.3"/>
+        <semanticElements xmi:type="aadl2:DataType" href="example.aadl#//@ownedPublicSection/@ownedClassifier.3"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="viewpoint:Ellipse" xmi:id="_DRCEQADQEeKXftvblIpfog">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_DRCEQQDQEeKXftvblIpfog"/>
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='SoCiS%20AADL%20Design']/@ownedRepresentations[name='AADL%20Package%20Diagram']/@defaultLayer/@nodeMappings[name='Data']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_DRCEQgDQEeKXftvblIpfog"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_DRCEQwDQEeKXftvblIpfog" red="136" green="136" blue="136"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='SoCiS%20AADL%20Design']/@ownedRepresentations[name='AADL%20Package%20Diagram']/@defaultLayer/@nodeMappings[name='Data']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_XKjzcADQEeKPr89S1t9ZYw" name="subsystem_test" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="aadl2:SystemType" href="example.aadl#//@ownedPublicSection/@ownedClassifier.0"/>
+        <semanticElements xmi:type="aadl2:SystemType" href="example.aadl#//@ownedPublicSection/@ownedClassifier.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="viewpoint:Square" xmi:id="_vLRacQDQEeKsd8NNk59_tQ">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_vLRacgDQEeKsd8NNk59_tQ"/>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='SoCiS%20AADL%20Design']/@ownedRepresentations[name='AADL%20Package%20Diagram']/@defaultLayer/@nodeMappings[name='System']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_vLRacwDQEeKsd8NNk59_tQ"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_vLRadADQEeKsd8NNk59_tQ" red="173" green="127" blue="168"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='SoCiS%20AADL%20Design']/@ownedRepresentations[name='AADL%20Package%20Diagram']/@defaultLayer/@nodeMappings[name='System']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_yGs9sAC4EeKSuvUR6Xxqng" name="subsystem_test.impl" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="aadl2:SystemImplementation" href="example.aadl#//@ownedPublicSection/@ownedClassifier.1"/>
+        <semanticElements xmi:type="aadl2:SystemImplementation" href="example.aadl#//@ownedPublicSection/@ownedClassifier.1"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="viewpoint:Square" xmi:id="_aR9woADNEeKfTshw9sM2fg">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_vLTPoADQEeKsd8NNk59_tQ"/>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='SoCiS%20AADL%20Design']/@ownedRepresentations[name='AADL%20Package%20Diagram']/@defaultLayer/@nodeMappings[name='System']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_vLTPoQDQEeKsd8NNk59_tQ"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_vLTPogDQEeKsd8NNk59_tQ" red="173" green="127" blue="168"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='SoCiS%20AADL%20Design']/@ownedRepresentations[name='AADL%20Package%20Diagram']/@defaultLayer/@nodeMappings[name='System']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_DRCrUADQEeKXftvblIpfog" name="control_processing" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="aadl2:ProcessType" href="example.aadl#//@ownedPublicSection/@ownedClassifier.4"/>
+        <semanticElements xmi:type="aadl2:ProcessType" href="example.aadl#//@ownedPublicSection/@ownedClassifier.4"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="viewpoint:Lozenge" xmi:id="_DRmsAADQEeKXftvblIpfog">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_DRnTEADQEeKXftvblIpfog"/>
+          <description xmi:type="style:LozengeNodeDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='SoCiS%20AADL%20Design']/@ownedRepresentations[name='AADL%20Package%20Diagram']/@defaultLayer/@nodeMappings[name='Process']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_DRnTEQDQEeKXftvblIpfog"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_bGhLUQDTEeKaOs6qr_WpeQ" red="252" green="175" blue="62"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='SoCiS%20AADL%20Design']/@ownedRepresentations[name='AADL%20Package%20Diagram']/@defaultLayer/@nodeMappings[name='Process']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_bGiZcADTEeKaOs6qr_WpeQ" name="subsystem_test.impl" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="aadl2:SystemImplementation" href="example.aadl#//@ownedPublicSection/@ownedClassifier.1"/>
+        <semanticElements xmi:type="aadl2:SystemImplementation" href="example.aadl#//@ownedPublicSection/@ownedClassifier.1"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="viewpoint:BundledImage" xmi:id="_bGjnkADTEeKaOs6qr_WpeQ">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_bGjnkQDTEeKaOs6qr_WpeQ"/>
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='SoCiS%20AADL%20Design']/@ownedRepresentations[name='AADL%20Package%20Diagram']/@defaultLayer/@nodeMappings[name='SystemImplementation']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_bGjnkgDTEeKaOs6qr_WpeQ"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_bGjnkwDTEeKaOs6qr_WpeQ"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='SoCiS%20AADL%20Design']/@ownedRepresentations[name='AADL%20Package%20Diagram']/@defaultLayer/@nodeMappings[name='SystemImplementation']"/>
+      </ownedDiagramElements>
+      <description xmi:type="description:DiagramDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='SoCiS%20AADL%20Design']/@ownedRepresentations[name='AADL%20Package%20Diagram']"/>
+      <filterVariableHistory xmi:type="viewpoint:FilterVariableHistory" xmi:id="_x45LMQC4EeKSuvUR6Xxqng"/>
+      <activatedLayers xmi:type="description:Layer" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='SoCiS%20AADL%20Design']/@ownedRepresentations[name='AADL%20Package%20Diagram']/@defaultLayer"/>
+      <target xmi:type="aadl2:AadlPackage" href="example.aadl#/"/>
+    </ownedRepresentations>
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='SoCiS%20AADL%20Design']"/>
+  </ownedViews>
+</viewpoint:DAnalysis>
