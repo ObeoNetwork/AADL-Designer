@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.obeo.fr/dsl/viewpoint/description/1.1.0" xmlns:style="http://www.obeo.fr/dsl/viewpoint/description/style/1.1.0" name="aadl">
-  <ownedViewpoints name="SoCiS AADL Design">
-    <ownedRepresentations xsi:type="description:DiagramDescription" name="AADL Package Diagram" domainClass="AadlPackage">
+  <ownedViewpoints name="AADL">
+    <ownedRepresentations xsi:type="description:DiagramDescription" name="Package Diagram" domainClass="aadl2.AadlPackage">
       <defaultLayer name="Default">
-        <nodeMappings name="System" domainClass="System">
-          <style xsi:type="style:SquareDescription" resizeKind="NSEW">
+        <nodeMappings name="System" domainClass="aadl2.System">
+          <style xsi:type="style:SquareDescription" showIcon="false" resizeKind="NSEW">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='purple']"/>
           </style>
         </nodeMappings>
-        <nodeMappings name="Data" domainClass="Data">
-          <style xsi:type="style:EllipseNodeDescription" resizeKind="NSEW">
+        <nodeMappings name="Data" domainClass="aadl2.Data">
+          <style xsi:type="style:EllipseNodeDescription" showIcon="false" resizeKind="NSEW">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
           </style>
         </nodeMappings>
-        <nodeMappings name="Process" label="Process" domainClass="Process">
-          <style xsi:type="style:LozengeNodeDescription" resizeKind="NSEW">
+        <nodeMappings name="Process" label="Process" domainClass="aadl2.Process">
+          <style xsi:type="style:LozengeNodeDescription" showIcon="false" resizeKind="NSEW">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='orange']"/>
           </style>
         </nodeMappings>
-        <nodeMappings name="SystemImplementation" domainClass="SystemImplementation">
-          <style xsi:type="style:BundledImageDescription" resizeKind="NSEW">
+        <nodeMappings name="SystemImplementation" domainClass="aadl2.SystemImplementation">
+          <style xsi:type="style:BundledImageDescription" showIcon="false" resizeKind="NSEW">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
