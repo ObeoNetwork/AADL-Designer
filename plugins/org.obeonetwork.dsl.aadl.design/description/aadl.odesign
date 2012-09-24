@@ -3,24 +3,24 @@
   <ownedViewpoints name="AADL">
     <ownedRepresentations xsi:type="description:DiagramDescription" name="Package Diagram" domainClass="aadl2.AadlPackage">
       <defaultLayer name="Default">
-        <nodeMappings name="System" semanticCandidatesExpression="[if (target.eClass().name.equalsIgnoreCase('SystemType'))][target/][/if]" domainClass="aadl2.System">
-          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg"/>
-        </nodeMappings>
         <nodeMappings name="Data" domainClass="aadl2.Data">
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data.svg"/>
         </nodeMappings>
         <nodeMappings name="Process" label="Process" domainClass="aadl2.Process">
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/process.svg"/>
         </nodeMappings>
-        <nodeMappings name="SystemImplementation" domainClass="aadl2.SystemImplementation">
-          <style xsi:type="style:BundledImageDescription" showIcon="false" resizeKind="NSEW">
-            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-          </style>
-        </nodeMappings>
+        <containerMappings name="SystemTypeContainer" domainClass="aadl2.SystemType" listContainer="true">
+          <subNodeMappings name="SystemImplementation" domainClass="aadl2.SystemImplementation">
+            <style xsi:type="style:BundledImageDescription" showIcon="false" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="10" labelFormat="bold" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg"/>
+        </containerMappings>
         <toolSections name="Components">
-          <ownedTools xsi:type="tool:NodeCreationDescription" name="System" nodeMappings="//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@nodeMappings[name='System']">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="System">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>
