@@ -3,7 +3,7 @@
   <ownedViewpoints name="AADL">
     <ownedRepresentations xsi:type="description:DiagramDescription" name="Package Diagram" domainClass="aadl2.AadlPackage">
       <defaultLayer name="Default">
-        <nodeMappings name="System" domainClass="aadl2.System">
+        <nodeMappings name="System" semanticCandidatesExpression="[if (target.eClass().name.equalsIgnoreCase('SystemType'))][target/][/if]" domainClass="aadl2.System">
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg"/>
         </nodeMappings>
         <nodeMappings name="Data" domainClass="aadl2.Data">
