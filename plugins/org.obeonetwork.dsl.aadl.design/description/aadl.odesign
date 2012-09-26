@@ -20,7 +20,7 @@
           <style xsi:type="style:WorkspaceImageDescription" labelSize="10" labelFormat="bold" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg"/>
         </containerMappings>
         <toolSections name="Components">
-          <ownedTools xsi:type="tool:NodeCreationDescription" name="System">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="System" nodeMappings="//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@containerMappings[name='SystemTypeContainer']/@subNodeMappings[name='SystemImplementation']">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>
@@ -28,6 +28,15 @@
                 <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.NamedElement" referenceName="publicSection">
                   <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="['New_NamedElement'/]"/>
                 </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Comp_Data" nodeMappings="//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@nodeMappings[name='Data']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[container/]">
+                <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.Data" referenceName="publicSection"/>
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
