@@ -3,7 +3,7 @@
   <ownedViewpoints name="AADL">
     <ownedRepresentations xsi:type="description:DiagramDescription" name="Package Diagram" domainClass="aadl2.AadlPackage">
       <defaultLayer name="Default">
-        <nodeMappings name="Data" domainClass="aadl2.Data">
+        <nodeMappings name="Data" domainClass="aadl2.DataType">
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data.svg"/>
         </nodeMappings>
         <nodeMappings name="Process" label="Process" domainClass="aadl2.Process">
@@ -18,6 +18,12 @@
             </style>
           </subNodeMappings>
           <style xsi:type="style:WorkspaceImageDescription" labelSize="10" labelFormat="bold" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg"/>
+        </containerMappings>
+        <containerMappings name="ThreadTypeContainer" domainClass="aadl2.ThreadType" listContainer="true">
+          <subNodeMappings name="ThreadTypeImplementation" domainClass="aadl2.ThreadImplementation">
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/thread.svg"/>
+          </subNodeMappings>
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="10" labelFormat="bold" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/thread.svg"/>
         </containerMappings>
         <toolSections name="Components">
           <ownedTools xsi:type="tool:NodeCreationDescription" name="System" nodeMappings="//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@containerMappings[name='SystemTypeContainer']/@subNodeMappings[name='SystemImplementation']">
@@ -36,7 +42,7 @@
             <viewVariable name="containerView"/>
             <initialOperation>
               <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[container/]">
-                <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.Data" referenceName="publicSection"/>
+                <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.DataType" referenceName="publicSection"/>
               </firstModelOperations>
             </initialOperation>
           </ownedTools>

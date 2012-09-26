@@ -201,7 +201,7 @@
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4zcrAgZ1EeK0we7b9Y7QOg"/>
             </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_4zRE0QZ1EeK0we7b9Y7QOg" fontName="Cantarell" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4zRE0gZ1EeK0we7b9Y7QOg" x="516" y="96" width="92" height="57"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4zRE0gZ1EeK0we7b9Y7QOg" x="588" y="48" width="92" height="57"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_4zVWQAZ1EeK0we7b9Y7QOg" type="2001" element="_4zGFsQZ1EeK0we7b9Y7QOg">
             <children xmi:type="notation:Node" xmi:id="_4zV9UAZ1EeK0we7b9Y7QOg" type="5002">
@@ -212,7 +212,7 @@
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4zdSEgZ1EeK0we7b9Y7QOg"/>
             </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_4zVWQQZ1EeK0we7b9Y7QOg" fontName="Cantarell" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4zVWQgZ1EeK0we7b9Y7QOg" x="516" y="168" width="92" height="57"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4zVWQgZ1EeK0we7b9Y7QOg" x="480" y="48" width="92" height="57"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_4zWkYAZ1EeK0we7b9Y7QOg" type="2001" element="_4zHT0AZ1EeK0we7b9Y7QOg">
             <children xmi:type="notation:Node" xmi:id="_4zWkYwZ1EeK0we7b9Y7QOg" type="5002">
@@ -223,7 +223,7 @@
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4zd5IgZ1EeK0we7b9Y7QOg"/>
             </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_4zWkYQZ1EeK0we7b9Y7QOg" fontName="Cantarell" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4zWkYgZ1EeK0we7b9Y7QOg" x="516" y="240" width="92" height="57"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4zWkYgZ1EeK0we7b9Y7QOg" x="696" y="48" width="92" height="57"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_tNNLMAZ2EeKw_bkYJ5gEUA" type="2003" element="_HyavQQZ3EeKJfrnZ3DvDBw">
             <children xmi:type="notation:Node" xmi:id="_tNRcoAZ2EeKw_bkYJ5gEUA" type="5007"/>
@@ -235,7 +235,37 @@
               <styles xmi:type="notation:FilteringStyle" xmi:id="_tNRcowZ2EeKw_bkYJ5gEUA"/>
             </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_tNNLMQZ2EeKw_bkYJ5gEUA" fontName="Cantarell" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tNNLMgZ2EeKw_bkYJ5gEUA" x="156" y="96" width="291" height="183"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tNNLMgZ2EeKw_bkYJ5gEUA" x="72" y="72" width="291" height="183"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_c-7eEAfcEeKq1YlbmJzlAQ" type="2003" element="_AbwjEQfdEeKifPv3kZhKHA">
+            <children xmi:type="notation:Node" xmi:id="_c_DZ4AfcEeKq1YlbmJzlAQ" type="5007"/>
+            <children xmi:type="notation:Node" xmi:id="_c_EA8AfcEeKq1YlbmJzlAQ" type="7004">
+              <children xmi:type="notation:Node" xmi:id="_Op-8UAfdEeK-Yt06PxX4gw" type="3010" element="_OpInwQfdEeK-Yt06PxX4gw">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_Op-8UQfdEeK-Yt06PxX4gw"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_OqAKcAfdEeK-Yt06PxX4gw" type="3010" element="_OpLEAAfdEeK-Yt06PxX4gw">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_OqAKcQfdEeK-Yt06PxX4gw"/>
+              </children>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_c_EA8QfcEeKq1YlbmJzlAQ"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_c_EA8gfcEeKq1YlbmJzlAQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_c-8FIAfcEeKq1YlbmJzlAQ" fontName="Cantarell"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_c-8FIQfcEeKq1YlbmJzlAQ" x="624" y="156" width="219" height="87"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_c_I5cAfcEeKq1YlbmJzlAQ" type="2003" element="_AbzmYAfdEeKifPv3kZhKHA">
+            <children xmi:type="notation:Node" xmi:id="_c_KHkAfcEeKq1YlbmJzlAQ" type="5007"/>
+            <children xmi:type="notation:Node" xmi:id="_c_KHkQfcEeKq1YlbmJzlAQ" type="7004">
+              <children xmi:type="notation:Node" xmi:id="_OqD00AfdEeK-Yt06PxX4gw" type="3010" element="_OpMSIAfdEeK-Yt06PxX4gw">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_OqD00QfdEeK-Yt06PxX4gw"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_OqD00gfdEeK-Yt06PxX4gw" type="3010" element="_OpNgQAfdEeK-Yt06PxX4gw">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_OqD00wfdEeK-Yt06PxX4gw"/>
+              </children>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_c_KHkgfcEeKq1YlbmJzlAQ"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_c_KHkwfcEeKq1YlbmJzlAQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_c_I5cQfcEeKq1YlbmJzlAQ" fontName="Cantarell"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_c_I5cgfcEeKq1YlbmJzlAQ" x="408" y="156" width="195" height="87"/>
           </children>
           <styles xmi:type="notation:DiagramStyle" xmi:id="_4ySNYgZ1EeK0we7b9Y7QOg"/>
         </data>
@@ -293,6 +323,60 @@
             <color xmi:type="viewpoint:RGBValues" xmi:id="_Hyg14wZ3EeKJfrnZ3DvDBw"/>
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@containerMappings[name='SystemTypeContainer']/@subNodeMappings[name='SystemImplementation']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DNodeList" xmi:id="_AbwjEQfdEeKifPv3kZhKHA" name="control_out">
+        <target xmi:type="aadl2:ThreadType" href="control_processing.aadl#//@ownedPublicSection/@ownedClassifier.5"/>
+        <semanticElements xmi:type="aadl2:ThreadType" href="control_processing.aadl#//@ownedPublicSection/@ownedClassifier.5"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_AbxxMAfdEeKifPv3kZhKHA" labelSize="10" labelFormat="bold" labelPosition="node" workspacePath="/org.obeonetwork.dsl.aadl.design/images/thread.svg">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@containerMappings[name='ThreadTypeContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@containerMappings[name='ThreadTypeContainer']"/>
+        <ownedElements xmi:type="viewpoint:DNodeListElement" xmi:id="_OpInwQfdEeK-Yt06PxX4gw" name="control_out.output_processing_01">
+          <target xmi:type="aadl2:ThreadImplementation" href="control_processing.aadl#//@ownedPublicSection/@ownedClassifier.6"/>
+          <semanticElements xmi:type="aadl2:ThreadImplementation" href="control_processing.aadl#//@ownedPublicSection/@ownedClassifier.6"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_OpJ14AfdEeK-Yt06PxX4gw" showIcon="false" labelPosition="node" workspacePath="/org.obeonetwork.dsl.aadl.design/images/thread.svg">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@containerMappings[name='ThreadTypeContainer']/@subNodeMappings[name='ThreadTypeImplementation']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@containerMappings[name='ThreadTypeContainer']/@subNodeMappings[name='ThreadTypeImplementation']"/>
+        </ownedElements>
+        <ownedElements xmi:type="viewpoint:DNodeListElement" xmi:id="_OpLEAAfdEeK-Yt06PxX4gw" name="control_in.input_processing_01">
+          <target xmi:type="aadl2:ThreadImplementation" href="control_processing.aadl#//@ownedPublicSection/@ownedClassifier.8"/>
+          <semanticElements xmi:type="aadl2:ThreadImplementation" href="control_processing.aadl#//@ownedPublicSection/@ownedClassifier.8"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_OpLEAQfdEeK-Yt06PxX4gw" showIcon="false" labelPosition="node" workspacePath="/org.obeonetwork.dsl.aadl.design/images/thread.svg">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@containerMappings[name='ThreadTypeContainer']/@subNodeMappings[name='ThreadTypeImplementation']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@containerMappings[name='ThreadTypeContainer']/@subNodeMappings[name='ThreadTypeImplementation']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DNodeList" xmi:id="_AbzmYAfdEeKifPv3kZhKHA" name="control_in">
+        <target xmi:type="aadl2:ThreadType" href="control_processing.aadl#//@ownedPublicSection/@ownedClassifier.7"/>
+        <semanticElements xmi:type="aadl2:ThreadType" href="control_processing.aadl#//@ownedPublicSection/@ownedClassifier.7"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_AbzmYQfdEeKifPv3kZhKHA" labelSize="10" labelFormat="bold" labelPosition="node" workspacePath="/org.obeonetwork.dsl.aadl.design/images/thread.svg">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@containerMappings[name='ThreadTypeContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@containerMappings[name='ThreadTypeContainer']"/>
+        <ownedElements xmi:type="viewpoint:DNodeListElement" xmi:id="_OpMSIAfdEeK-Yt06PxX4gw" name="control_out.output_processing_01">
+          <target xmi:type="aadl2:ThreadImplementation" href="control_processing.aadl#//@ownedPublicSection/@ownedClassifier.6"/>
+          <semanticElements xmi:type="aadl2:ThreadImplementation" href="control_processing.aadl#//@ownedPublicSection/@ownedClassifier.6"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_OpM5MAfdEeK-Yt06PxX4gw" showIcon="false" labelPosition="node" workspacePath="/org.obeonetwork.dsl.aadl.design/images/thread.svg">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@containerMappings[name='ThreadTypeContainer']/@subNodeMappings[name='ThreadTypeImplementation']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@containerMappings[name='ThreadTypeContainer']/@subNodeMappings[name='ThreadTypeImplementation']"/>
+        </ownedElements>
+        <ownedElements xmi:type="viewpoint:DNodeListElement" xmi:id="_OpNgQAfdEeK-Yt06PxX4gw" name="control_in.input_processing_01">
+          <target xmi:type="aadl2:ThreadImplementation" href="control_processing.aadl#//@ownedPublicSection/@ownedClassifier.8"/>
+          <semanticElements xmi:type="aadl2:ThreadImplementation" href="control_processing.aadl#//@ownedPublicSection/@ownedClassifier.8"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_OpNgQQfdEeK-Yt06PxX4gw" showIcon="false" labelPosition="node" workspacePath="/org.obeonetwork.dsl.aadl.design/images/thread.svg">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@containerMappings[name='ThreadTypeContainer']/@subNodeMappings[name='ThreadTypeImplementation']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@containerMappings[name='ThreadTypeContainer']/@subNodeMappings[name='ThreadTypeImplementation']"/>
         </ownedElements>
       </ownedDiagramElements>
       <description xmi:type="description:DiagramDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']"/>
