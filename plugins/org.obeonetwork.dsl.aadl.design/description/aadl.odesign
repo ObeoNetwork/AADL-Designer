@@ -3,7 +3,7 @@
   <ownedViewpoints name="AADL">
     <ownedRepresentations xsi:type="description:DiagramDescription" name="Package Diagram" domainClass="aadl2.AadlPackage">
       <defaultLayer name="Default">
-        <nodeMappings name="Data" domainClass="aadl2.DataType">
+        <nodeMappings name="Data" domainClass="aadl2.Data">
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data.svg"/>
         </nodeMappings>
         <nodeMappings name="Process" label="Process" domainClass="aadl2.Process">
@@ -18,12 +18,6 @@
             </style>
           </subNodeMappings>
           <style xsi:type="style:WorkspaceImageDescription" labelSize="10" labelFormat="bold" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg"/>
-        </containerMappings>
-        <containerMappings name="ThreadTypeContainer" domainClass="aadl2.ThreadType" listContainer="true">
-          <subNodeMappings name="ThreadTypeImplementation" domainClass="aadl2.ThreadImplementation">
-            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/thread.svg"/>
-          </subNodeMappings>
-          <style xsi:type="style:WorkspaceImageDescription" labelSize="10" labelFormat="bold" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/thread.svg"/>
         </containerMappings>
         <toolSections name="Components">
           <ownedTools xsi:type="tool:NodeCreationDescription" name="System" nodeMappings="//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@containerMappings[name='SystemTypeContainer']/@subNodeMappings[name='SystemImplementation']">
@@ -42,11 +36,60 @@
             <viewVariable name="containerView"/>
             <initialOperation>
               <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[container/]">
-                <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.DataType" referenceName="publicSection"/>
+                <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.Data" referenceName="publicSection"/>
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
         </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+  </ownedViewpoints>
+  <ownedViewpoints name="AADL2" modelFileExtension="aadl">
+    <ownedRepresentations xsi:type="description:DiagramDescription" name="Package Diagram" domainClass="aadl2.AadlPackage">
+      <defaultLayer name="Default">
+        <containerMappings name="PublicPackageSection" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.PublicPackageSection">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/package.svg"/>
+        </containerMappings>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description:DiagramDescription" name="Declaration Diagram" domainClass="aadl2.PackageSection">
+      <defaultLayer name="Default">
+        <nodeMappings name="DataType" semanticCandidatesExpression="&lt;%eContents()%>" domainClass="aadl2.DataType">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data.svg"/>
+        </nodeMappings>
+        <nodeMappings name="ThreadType" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.ThreadType">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/thread.svg"/>
+        </nodeMappings>
+        <nodeMappings name="ProcessType"/>
+        <nodeMappings name="BusType"/>
+        <containerMappings name="SystemType" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SystemType">
+          <borderedNodeMappings name="DataPort" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.DataPort"/>
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg"/>
+        </containerMappings>
+        <toolSections name="Software Components">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="DataType_CR" label="Datatype" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='DataType']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[target/]">
+                <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.DataType" referenceName="ownedClassifier">
+                  <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="New Data"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections name="Execution Platform Components"/>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description:DiagramDescription" name="Implementation Diagram" domainClass="aadl2.PackageSection">
+      <defaultLayer name="Default">
+        <containerMappings name="SystemImplementation" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SystemImplementation">
+          <subNodeMappings name="SubSystem" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SystemSubcomponent">
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg"/>
+          </subNodeMappings>
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg"/>
+        </containerMappings>
       </defaultLayer>
     </ownedRepresentations>
   </ownedViewpoints>
