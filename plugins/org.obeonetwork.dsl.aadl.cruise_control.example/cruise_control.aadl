@@ -1,0 +1,263 @@
+package CruiseControl
+public
+
+data Bool_Type
+--   properties
+--      Source_Data_Size             => 16 B;
+end Bool_Type;
+ 
+data Float_Type
+--   properties
+--      Source_Data_Size             => 32 B;
+end Float_Type;
+ 
+--   Composition of HCI System
+ 
+thread Button_Panel
+   features
+      Activate                     : out data port Bool_Type;
+      Cancel                       : out data port Bool_Type;
+      Onnotoff                     : out data port Bool_Type;
+      Incspeed                     : out data port Bool_Type;
+      Decspd                       : out data port Bool_Type;
+end Button_Panel;
+ 
+thread implementation Button_Panel.Gui
+--   properties
+--      Dispatch_Protocol            =>Periodic;
+--      Period                       => 20 Ms;
+end Button_Panel.Gui;
+ 
+thread Drivermodelogic
+   features
+      Breakpedalpressed            : in data port Bool_Type;
+      Clutchpedalpressed           : in data port Bool_Type;
+      Activate                     : in data port Bool_Type;
+      Cancel                       : in data port Bool_Type;
+      Onnotoff                     : in data port Bool_Type;
+      Cruiseactive                 : out data port Bool_Type;
+end Drivermodelogic;
+ 
+thread implementation Drivermodelogic.Simulink
+--   properties
+--      Dispatch_Protocol            =>Periodic;
+--      Period                       => 10 Ms;
+end Drivermodelogic.Simulink;
+ 
+thread Refspd
+   features
+      Activate                     : in data port Bool_Type;
+      Cruiseactive                 : in data port Bool_Type;
+      Incspeed                     : in data port Bool_Type;
+      Decspd                       : in data port Bool_Type;
+      Refspd_Mph                   : out data port Float_Type;
+end Refspd;
+ 
+thread implementation Refspd.Simulink
+--   properties
+--      Dispatch_Protocol            =>Periodic;
+--      Period                       => 20 Ms;
+end Refspd.Simulink;
+ 
+thread Instrumentpanel
+   features
+      Autospd_Mph                  : in data port Float_Type;
+      Engspd_Rpm                   :  in data port Float_Type;
+      Refspd_Mph                   :  in data port Float_Type;
+end Instrumentpanel;
+ 
+thread implementation Instrumentpanel.Gui
+--   properties
+--      Dispatch_Protocol            =>Periodic;
+--      Period                       => 30 Ms;
+end Instrumentpanel.Gui;
+ 
+process Hci_Process
+   features
+      Breakpedalpressed            : in data port Bool_Type;
+      Clutchpedalpressed           : in data port Bool_Type;
+      Autospd_Mph                  : in data port Float_Type;
+      Engspd_Rpm                   :  in data port Float_Type;
+      Cruiseactive                 : out data port Bool_Type;
+      Refspd_Mph                   : out data port Float_Type;
+end Hci_Process;
+ 
+process implementation Hci_Process.Model
+   subcomponents
+      T_Buttonpanel                : thread Button_Panel.Gui;
+      T_Drivermodelogic            : thread Drivermodelogic.Simulink;
+      T_Refspd                     : thread Refspd.Simulink;
+      T_Instrumentpanel            : thread Instrumentpanel.Gui;
+--   connections
+--      -- Bus
+--      data port Breakpedalpressed  -> T_Drivermodelogic.Breakpedalpressed;
+--      data port Clutchpedalpressed -> T_Drivermodelogic.Clutchpedalpressed;
+--      data port Autospd_Mph        -> T_Instrumentpanel.Autospd_Mph;
+--      data port Engspd_Rpm         -> T_Instrumentpanel.Engspd_Rpm;
+--      data port T_Drivermodelogic.Cruiseactive-> Cruiseactive;
+--      data port T_Refspd.Refspd_Mph-> Refspd_Mph;
+--      -- Internal
+--      data port T_Drivermodelogic.Cruiseactive-> T_Refspd.Cruiseactive;
+--      data port T_Buttonpanel.Activate->  T_Drivermodelogic.Activate;
+--      data port T_Buttonpanel.Cancel->  T_Drivermodelogic.Cancel;
+--      data port T_Buttonpanel.Onnotoff->  T_Drivermodelogic.Onnotoff;
+--      data port T_Buttonpanel.Activate->  T_Refspd.Activate;
+--      data port T_Buttonpanel.Incspeed->  T_Refspd.Incspeed;
+--      data port T_Buttonpanel.Decspd->  T_Refspd.Decspd;
+--      data port T_Refspd.Refspd_Mph->  T_Instrumentpanel.Refspd_Mph;
+end Hci_Process.Model;
+ 
+system Hci
+   features
+      Breakpedalpressed            : in data port Bool_Type;
+      Clutchpedalpressed           : in data port Bool_Type;
+      Autospd_Mph                  : in data port Float_Type;
+      Engspd_Rpm                   :  in data port Float_Type;
+      Cruiseactive                 : out data port Bool_Type;
+      Refspd_Mph                   : out data port Float_Type;
+end Hci;
+ 
+system implementation Hci.Model
+   subcomponents
+      P_Hci_Process                : process Hci_Process.Model;
+--   connections
+--      -- Bus
+--      data port Breakpedalpressed  -> P_Hci_Process.Breakpedalpressed;
+--      data port Clutchpedalpressed -> P_Hci_Process.Clutchpedalpressed;
+--      data port Autospd_Mph        -> P_Hci_Process.Autospd_Mph;
+--      data port Engspd_Rpm         -> P_Hci_Process.Engspd_Rpm;
+--      data port P_Hci_Process.Cruiseactive-> Cruiseactive;
+--      data port P_Hci_Process.Refspd_Mph-> Refspd_Mph;
+end Hci.Model;
+ 
+--   End of Composition of HCI System
+ 
+ 
+--   Composition of CruiseControlLaws System
+ 
+thread Cruise1
+   features
+      Cruiseactive                 : in data port Bool_Type;
+      Refspd_Mph                   : in data port Float_Type;
+      Autospd_Mph                  : in data port Float_Type;
+      Filautospd_Mph               : out data port Float_Type;
+      Filrefspd_Mph                : out data port Float_Type;
+end Cruise1;
+ 
+thread implementation Cruise1.Simulink
+--   properties
+--      Dispatch_Protocol            =>Periodic;
+--      Period                       => 20 Ms;
+end Cruise1.Simulink;
+ 
+thread Cruise2
+   features
+      Filautospd_Mph               : in data port Float_Type;
+      Filrefspd_Mph                : in data port Float_Type;
+      Throttlepos_In               : out data port Float_Type;
+end Cruise2;
+ 
+thread implementation Cruise2.Simulink
+--   properties
+--      Dispatch_Protocol            =>Periodic;
+--      Period                       => 20 Ms;
+end Cruise2.Simulink;
+ 
+process Cruisecontrol_Process
+   features
+      Cruiseactive                 : in data port Bool_Type;
+      Refspd_Mph                   : in data port Float_Type;
+      Autospd_Mph                  : in data port Float_Type;
+      Throttlepos_In               : out data port Float_Type;
+end Cruisecontrol_Process;
+ 
+process implementation Cruisecontrol_Process.Model
+   subcomponents
+      T_Cruise1                    : thread Cruise1.Simulink;
+      T_Cruise2                    : thread Cruise2.Simulink;
+--   connections
+--      --  Bus
+--      data port Cruiseactive       ->  T_Cruise1.Cruiseactive;
+--      data port Refspd_Mph         ->  T_Cruise1.Refspd_Mph;
+--      data port Autospd_Mph        ->  T_Cruise1.Autospd_Mph;
+--      data port T_Cruise2.Throttlepos_In->  Throttlepos_In;
+--      --  Internal
+--      data port T_Cruise1.Filautospd_Mph->  T_Cruise2.Filautospd_Mph;
+--      data port T_Cruise1.Filrefspd_Mph->  T_Cruise2.Filrefspd_Mph;
+end Cruisecontrol_Process.Model;
+ 
+system Cruisecontrollaws
+   features
+      Cruiseactive                 : in data port Bool_Type;
+      Refspd_Mph                   : in data port Float_Type;
+      Autospd_Mph                  : in data port Float_Type;
+      Throttlepos_In               : out data port Float_Type;
+end Cruisecontrollaws;
+ 
+system implementation Cruisecontrollaws.Model
+   subcomponents
+      P_Cruisecontrol_Process      : process Cruisecontrol_Process.Model;
+--   connections
+--      --  Bus
+--      data port Cruiseactive       ->  P_Cruisecontrol_Process.Cruiseactive;
+--      data port Refspd_Mph         ->  P_Cruisecontrol_Process.Refspd_Mph;
+--      data port Autospd_Mph        ->  P_Cruisecontrol_Process.Autospd_Mph;
+--      data port P_Cruisecontrol_Process.Throttlepos_In->  Throttlepos_In;
+end Cruisecontrollaws.Model;
+ 
+ 
+--   End of Composition of CruiseControlLaws System
+bus Lan_Type
+end Lan_Type;
+
+bus implementation Lan_Type.i
+end Lan_Type.i;
+
+ 
+processor Powerpc
+   features
+      B_Lan:requires bus access Lan_Type;
+end Powerpc;
+ 
+processor implementation Powerpc.Generic
+end Powerpc.Generic;
+ 
+ 
+system Cruisecontrol
+   features
+      Breakpedalpressed            : in data port Bool_Type;
+      Clutchpedalpressed           : in data port Bool_Type;
+      Autospd_Mph                  : in data port Float_Type;
+      Engspd_Rpm                   :  in data port Float_Type;
+      Throttlepos_In               : out data port Float_Type;
+end Cruisecontrol;
+ 
+system implementation Cruisecontrol.Generic
+   subcomponents
+      Lan                          : bus Lan_Type.i;
+      S_Hci                        : system Hci.Model;
+      S_Cruisecontrollaws          : system Cruisecontrollaws.Model;
+      Hci_Processor                : processor Powerpc.Generic;
+      Ccl_Processor                : processor Powerpc.Generic;
+--   connections
+--      -- External
+--      data port   Breakpedalpressed->   S_Hci.Breakpedalpressed;
+--      data port   Clutchpedalpressed->   S_Hci.Clutchpedalpressed;
+--      data port   Autospd_Mph      ->   S_Hci.Autospd_Mph;
+--      data port   Engspd_Rpm       ->   S_Hci.Engspd_Rpm;
+--      data port   Autospd_Mph      ->   S_Cruisecontrollaws.Autospd_Mph;
+--      data port   S_Cruisecontrollaws.Throttlepos_In->   Throttlepos_In;
+--      Cruiseactive                 : data port S_Hci.Cruiseactive->  S_Cruisecontrollaws.Cruiseactive {Allowed_Connection_Binding=> reference Lan;};
+--      Refspd_Mph                   : data port S_Hci.Refspd_Mph->  S_Cruisecontrollaws.Refspd_Mph {Allowed_Connection_Binding=> reference Lan;};
+--      --  Bus
+--      bus access Lan -> Hci_Processor.B_Lan;
+--      bus access Lan -> Ccl_Processor.B_Lan;
+--properties
+--	Allowed_Processor_Binding=> reference Hci_Processor applies to S_Hci;
+--	Allowed_Processor_Binding=> reference Ccl_Processor applies to S_Cruisecontrollaws;
+end Cruisecontrol.Generic;
+
+	data piout
+	end piout;
+
+end CruiseControl;
