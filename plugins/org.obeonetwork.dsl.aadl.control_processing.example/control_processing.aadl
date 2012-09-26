@@ -18,4 +18,16 @@ END command_data;
 PROCESS control_processing
 END control_processing;
 
+THREAD control_out
+END control_out;
+
+THREAD IMPLEMENTATION control_out.output_processing_01
+END control_out.output_processing_01;
+
+THREAD control_in
+END control_in;
+
+THREAD IMPLEMENTATION control_in.input_processing_01
+END control_in.input_processing_01;
+
 END demo_subsystem;
