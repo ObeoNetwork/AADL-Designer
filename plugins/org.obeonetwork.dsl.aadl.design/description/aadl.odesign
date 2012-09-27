@@ -69,6 +69,12 @@
         <nodeMappings name="ProcessorType" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.ProcessorType">
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/processor.svg"/>
         </nodeMappings>
+        <nodeMappings name="ThreadGroupType" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.ThreadGroupType">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/processor.svg"/>
+        </nodeMappings>
+        <nodeMappings name="SubprogramType" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SubprogramType">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/processor.svg"/>
+        </nodeMappings>
         <containerMappings name="SystemType" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SystemType">
           <borderedNodeMappings name="DataPort" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.DataPort">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg"/>
