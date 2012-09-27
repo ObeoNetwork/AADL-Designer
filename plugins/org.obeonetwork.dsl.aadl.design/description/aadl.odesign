@@ -126,6 +126,17 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="SubprogramType_CR" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='SubprogramType']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[target/]">
+                <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.SubprogramType" referenceName="ownedClassifier">
+                  <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="New Subprogram"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
         </toolSections>
         <toolSections name="Execution Platform Components"/>
       </defaultLayer>
