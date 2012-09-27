@@ -93,7 +93,7 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool:NodeCreationDescription" name="ProcessType_CR" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='ProcessType']">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="ProcessType_CR" label="Processtype" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='ProcessType']">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>
@@ -104,7 +104,7 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool:NodeCreationDescription" name="ThreadType_CR" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='ThreadType']">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="ThreadType_CR" label="Threadtype" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='ThreadType']">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>
@@ -115,7 +115,7 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool:NodeCreationDescription" name="ThreadGroupType_CR" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='ThreadGroupType']">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="ThreadGroupType_CR" label="Thread Group Type" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='ThreadGroupType']">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>
@@ -126,7 +126,7 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool:NodeCreationDescription" name="SubprogramType_CR" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='SubprogramType']">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="SubprogramType_CR" label="Subprogramtype" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='SubprogramType']">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>
