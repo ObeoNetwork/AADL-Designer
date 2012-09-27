@@ -75,6 +75,9 @@
         <nodeMappings name="SubprogramType" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SubprogramType">
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/subprogram.svg"/>
         </nodeMappings>
+        <nodeMappings name="MemoryType" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.MemoryType">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/memory.svg"/>
+        </nodeMappings>
         <containerMappings name="SystemType" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SystemType">
           <borderedNodeMappings name="DataPort" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.DataPort">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg"/>
