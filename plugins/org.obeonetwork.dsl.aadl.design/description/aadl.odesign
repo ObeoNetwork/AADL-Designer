@@ -78,6 +78,9 @@
         <nodeMappings name="MemoryType" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.MemoryType">
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/memory.svg"/>
         </nodeMappings>
+        <nodeMappings name="DeviceType" semanticCandidatesExpression="&lt;%eContents()%>" domainClass="aadl2.DeviceType">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/device.svg"/>
+        </nodeMappings>
         <containerMappings name="SystemType" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SystemType">
           <borderedNodeMappings name="DataPort" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.DataPort">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg"/>
