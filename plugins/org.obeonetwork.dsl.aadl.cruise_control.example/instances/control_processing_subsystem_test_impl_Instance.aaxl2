@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="ASCII"?>
+<instance:SystemInstance xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:instance="http://aadl.info/AADL/2.0/instance" xmi:id="_av5mYQi7EeKVy6YrFzUdCA" name="subsystem_test_impl_Instance" category="system">
+  <systemImplementation href="../control_processing.aadl#//@ownedPublicSection/@ownedClassifier.1"/>
+</instance:SystemInstance>
