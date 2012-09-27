@@ -60,7 +60,9 @@
         <nodeMappings name="ThreadType" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.ThreadType">
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/thread.svg"/>
         </nodeMappings>
-        <nodeMappings name="ProcessType"/>
+        <nodeMappings name="ProcessType" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.ProcessType">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/process.svg"/>
+        </nodeMappings>
         <nodeMappings name="BusType"/>
         <nodeMappings name="ProcessorType" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.ProcessorType">
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/processor.svg"/>
