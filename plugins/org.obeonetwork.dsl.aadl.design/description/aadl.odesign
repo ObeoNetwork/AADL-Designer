@@ -54,13 +54,13 @@
     </ownedRepresentations>
     <ownedRepresentations xsi:type="description:DiagramDescription" name="Declaration Diagram" domainClass="aadl2.PackageSection">
       <defaultLayer name="Default">
-        <nodeMappings name="DataType" semanticCandidatesExpression="&lt;%eContents()%>" domainClass="aadl2.DataType">
+        <nodeMappings name="DataType" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='DataType_DEL']" semanticCandidatesExpression="&lt;%eContents()%>" domainClass="aadl2.DataType">
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data.svg"/>
         </nodeMappings>
-        <nodeMappings name="ThreadType" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.ThreadType">
+        <nodeMappings name="ThreadType" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='ThreadType_DEL']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.ThreadType">
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/thread.svg"/>
         </nodeMappings>
-        <nodeMappings name="ProcessType" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.ProcessType">
+        <nodeMappings name="ProcessType" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='ProcessType_DEL']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.ProcessType">
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/process.svg"/>
         </nodeMappings>
         <nodeMappings name="BusType" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.BusType">
@@ -69,16 +69,16 @@
         <nodeMappings name="ProcessorType" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='ProcessorType_DEL']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.ProcessorType">
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/processor.svg"/>
         </nodeMappings>
-        <nodeMappings name="ThreadGroupType" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.ThreadGroupType">
+        <nodeMappings name="ThreadGroupType" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='ThreadGroupType_DEL']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.ThreadGroupType">
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/threadgroup.svg"/>
         </nodeMappings>
-        <nodeMappings name="SubprogramType" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SubprogramType">
+        <nodeMappings name="SubprogramType" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='SubprogramType_DEL']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SubprogramType">
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/subprogram.svg"/>
         </nodeMappings>
-        <nodeMappings name="MemoryType" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.MemoryType">
+        <nodeMappings name="MemoryType" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='MemoryType_DEL']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.MemoryType">
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/memory.svg"/>
         </nodeMappings>
-        <nodeMappings name="DeviceType" semanticCandidatesExpression="&lt;%eContents()%>" domainClass="aadl2.DeviceType">
+        <nodeMappings name="DeviceType" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='DeviceType_DEL']" semanticCandidatesExpression="&lt;%eContents()%>" domainClass="aadl2.DeviceType">
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/device.svg"/>
         </nodeMappings>
         <containerMappings name="SystemType" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SystemType">
@@ -143,6 +143,56 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="DataType_DEL" label="Delete Datatype">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[element/]">
+                <subModelOperations xsi:type="tool:RemoveElement"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="ThreadType_DEL" label="Delete Threadtype">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[element/]">
+                <subModelOperations xsi:type="tool:RemoveElement"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="ProcessType_DEL" label="Delete ProcessType">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[element/]">
+                <subModelOperations xsi:type="tool:RemoveElement"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="ThreadGroupType_DEL" label="Delete ThreadGroupType">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[element/]">
+                <subModelOperations xsi:type="tool:RemoveElement"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="SubprogramType_DEL" label="Delete SubprogramType">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[element/]">
+                <subModelOperations xsi:type="tool:RemoveElement"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
         </toolSections>
         <toolSections name="Execution Platform Components">
           <ownedTools xsi:type="tool:NodeCreationDescription" name="ProcessorType_CR" label="Processortype" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='ProcessorType']">
@@ -190,6 +240,36 @@
             </initialOperation>
           </ownedTools>
           <ownedTools xsi:type="tool:DeleteElementDescription" name="ProcessorType_DEL" label="Delete Processortype">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[element/]">
+                <subModelOperations xsi:type="tool:RemoveElement"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="MemoryType_DEL" label="Delete Memorytype">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[element/]">
+                <subModelOperations xsi:type="tool:RemoveElement"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="BusType_DEL" label="Delete Bustype">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[element/]">
+                <subModelOperations xsi:type="tool:RemoveElement"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="DeviceType_DEL" label="Delete Devicetype">
             <element name="element"/>
             <elementView name="elementView"/>
             <containerView name="containerView"/>
