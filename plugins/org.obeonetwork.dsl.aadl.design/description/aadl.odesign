@@ -88,7 +88,7 @@
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg"/>
         </containerMappings>
         <toolSections name="Software Components">
-          <ownedTools xsi:type="tool:NodeCreationDescription" name="DataType_CR" label="Datatype" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='DataType']">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="DataType_CR" label="Data Type" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='DataType']">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>
@@ -99,7 +99,7 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool:NodeCreationDescription" name="ProcessType_CR" label="Processtype" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='ProcessType']">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="ProcessType_CR" label="Process Type" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='ProcessType']">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>
@@ -110,7 +110,7 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool:NodeCreationDescription" name="ThreadType_CR" label="Threadtype" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='ThreadType']">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="ThreadType_CR" label="Thread Type" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='ThreadType']">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>
@@ -132,7 +132,7 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool:NodeCreationDescription" name="SubprogramType_CR" label="Subprogramtype" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='SubprogramType']">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="SubprogramType_CR" label="Subprogram Type" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='SubprogramType']">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>
@@ -195,7 +195,7 @@
           </ownedTools>
         </toolSections>
         <toolSections name="Execution Platform Components">
-          <ownedTools xsi:type="tool:NodeCreationDescription" name="ProcessorType_CR" label="Processortype" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='ProcessorType']">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="ProcessorType_CR" label="Processor Type" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='ProcessorType']">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>
@@ -206,7 +206,7 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool:NodeCreationDescription" name="MemoryType_CR" label="Memorytype" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='MemoryType']">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="MemoryType_CR" label="Memory Type" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='MemoryType']">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>
@@ -217,7 +217,7 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool:NodeCreationDescription" name="BusType_CR" label="Bustype" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='BusType']">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="BusType_CR" label="Bus Type" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='BusType']">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>
@@ -228,7 +228,7 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool:NodeCreationDescription" name="DeviceType_CR" label="DeviceType" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='DeviceType']">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="DeviceType_CR" label="Device Type" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='DeviceType']">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>
