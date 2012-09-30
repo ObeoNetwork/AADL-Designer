@@ -368,7 +368,31 @@
           <subNodeMappings name="SubProcess" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.ProcessSubcomponent">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/process.svg"/>
           </subNodeMappings>
-          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg"/>
+          <subNodeMappings name="SubBus" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.BusSubcomponent">
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/bus.svg"/>
+          </subNodeMappings>
+          <subNodeMappings name="SubData" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.DataSubcomponent">
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data.svg"/>
+          </subNodeMappings>
+          <subNodeMappings name="SubDevice" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.DeviceSubcomponent">
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/device.svg"/>
+          </subNodeMappings>
+          <subNodeMappings name="SubMemory" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.MemorySubcomponent">
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/memory.svg"/>
+          </subNodeMappings>
+          <subNodeMappings name="SubProcessor" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.ProcessorSubcomponent">
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/processor.svg"/>
+          </subNodeMappings>
+          <subNodeMappings name="SubSubProgram" label="SubProgram" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SubprogramSubcomponent">
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/subprogram.svg"/>
+          </subNodeMappings>
+          <subNodeMappings name="SubSubProgramGroup" label="SubProgramGroup" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SubprogramGroupSubcomponent">
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/subprogram.svg"/>
+          </subNodeMappings>
+          <subNodeMappings name="SubVirtualProcessor" label="SubVirtualProcessor" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.VirtualProcessorSubcomponent">
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/subprogram.svg"/>
+          </subNodeMappings>
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="16" labelFormat="bold" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg"/>
         </containerMappings>
       </defaultLayer>
     </ownedRepresentations>
