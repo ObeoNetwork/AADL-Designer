@@ -365,6 +365,9 @@
           <subNodeMappings name="SubSystem" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SystemSubcomponent">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg"/>
           </subNodeMappings>
+          <subNodeMappings name="SubProcess" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.ProcessSubcomponent">
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/process.svg"/>
+          </subNodeMappings>
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg"/>
         </containerMappings>
       </defaultLayer>
