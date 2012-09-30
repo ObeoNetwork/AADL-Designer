@@ -392,7 +392,19 @@
           <subNodeMappings name="SubVirtualProcessor" label="SubVirtualProcessor" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.VirtualProcessorSubcomponent">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/subprogram.svg"/>
           </subNodeMappings>
-          <style xsi:type="style:WorkspaceImageDescription" labelSize="16" labelFormat="bold" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg"/>
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelFormat="bold" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg"/>
+        </containerMappings>
+        <containerMappings name="ThreadImplementation" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.ThreadImplementation">
+          <subNodeMappings name="SubSubProgramGroup" label="SubProgramGroup" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SubprogramGroupSubcomponent">
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/subprogram.svg"/>
+          </subNodeMappings>
+          <subNodeMappings name="SubSubProgram" label="SubProgram" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SubprogramSubcomponent">
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/subprogram.svg"/>
+          </subNodeMappings>
+          <subNodeMappings name="SubData" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.DataSubcomponent">
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data.svg"/>
+          </subNodeMappings>
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelFormat="bold" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/thread.svg"/>
         </containerMappings>
       </defaultLayer>
     </ownedRepresentations>
