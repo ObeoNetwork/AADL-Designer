@@ -406,6 +406,24 @@
           </subNodeMappings>
           <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelFormat="bold" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/thread.svg"/>
         </containerMappings>
+        <containerMappings name="ProcessImplementation" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.ProcessImplementation">
+          <subNodeMappings name="SubData" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.DataSubcomponent">
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data.svg"/>
+          </subNodeMappings>
+          <subNodeMappings name="SubSubProgramGroup" label="SubProgramGroup" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SubprogramGroupSubcomponent">
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/subprogram.svg"/>
+          </subNodeMappings>
+          <subNodeMappings name="SubSubProgram" label="SubProgram" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SubprogramSubcomponent">
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/subprogram.svg"/>
+          </subNodeMappings>
+          <subNodeMappings name="SubThread" label="SubThread" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.ThreadSubcomponent">
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/thread.svg"/>
+          </subNodeMappings>
+          <subNodeMappings name="SubThreadGroup" label="SubThreadGroup" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.ThreadGroupSubcomponent">
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/threadgroup.svg"/>
+          </subNodeMappings>
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelFormat="bold" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/process.svg"/>
+        </containerMappings>
       </defaultLayer>
     </ownedRepresentations>
   </ownedViewpoints>
