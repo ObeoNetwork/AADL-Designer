@@ -47,7 +47,7 @@
   <ownedViewpoints name="AADL2" modelFileExtension="aadl">
     <ownedRepresentations xsi:type="description:DiagramDescription" name="Package Diagram" domainClass="aadl2.AadlPackage">
       <defaultLayer name="Default">
-        <nodeMappings name="Aadl Package" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.AadlPackage">
+        <nodeMappings name="Aadl Package" semanticCandidatesExpression="[getPackages()/]" domainClass="aadl2.PackageSection">
           <style xsi:type="style:SquareDescription" labelExpression="['bla'/]" resizeKind="NSEW">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
@@ -436,5 +436,6 @@
         </containerMappings>
       </defaultLayer>
     </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="org.obeonetwork.dsl.aadl.design.AadlServices"/>
   </ownedViewpoints>
 </description:Group>
