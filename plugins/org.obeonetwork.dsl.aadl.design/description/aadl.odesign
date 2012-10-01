@@ -50,6 +50,9 @@
         <containerMappings name="PublicPackageSection" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.PublicPackageSection">
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/package.svg"/>
         </containerMappings>
+        <containerMappings name="PrivatePackageSection" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.PrivatePackageSection">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/package.svg"/>
+        </containerMappings>
       </defaultLayer>
     </ownedRepresentations>
     <ownedRepresentations xsi:type="description:DiagramDescription" name="Declaration Diagram" domainClass="aadl2.PackageSection">
