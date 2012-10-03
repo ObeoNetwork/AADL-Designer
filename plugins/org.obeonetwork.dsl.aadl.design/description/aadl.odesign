@@ -101,7 +101,7 @@
         </edgeMappings>
         <containerMappings name="SystemType" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='SystemType_DEL']" labelDirectEdit="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='SystemType_EDIT']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SystemType">
           <borderedNodeMappings name="DataPort" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.DataPort">
-            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg"/>
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg"/>
           </borderedNodeMappings>
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg"/>
         </containerMappings>
