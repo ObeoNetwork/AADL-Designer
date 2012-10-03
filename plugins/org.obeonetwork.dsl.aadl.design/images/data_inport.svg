@@ -9,12 +9,12 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="69.78125"
-   height="80.4375"
+   width="12.98887"
+   height="14.94133"
    id="svg3125"
    version="1.1"
    inkscape:version="0.48.2 r9819"
-   sodipodi:docname="New document 4">
+   sodipodi:docname="data_inport.svg">
   <defs
      id="defs3127" />
   <sodipodi:namedview
@@ -25,8 +25,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="3.959798"
-     inkscape:cx="122.6656"
-     inkscape:cy="88.731567"
+     inkscape:cx="3.7177007"
+     inkscape:cy="55.984297"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -55,10 +55,10 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-206.625,-540.65625)">
+     transform="translate(-234.78544,-573.40515)">
     <path
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 207.14286,620.21933 68.27403,-39.41804 -68.0159,-39.26899 z"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1875px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 234.87919,588.25273 12.80137,-7.39088 -12.75297,-7.36295 z"
        id="path3133"
        inkscape:connector-curvature="0" />
   </g>
