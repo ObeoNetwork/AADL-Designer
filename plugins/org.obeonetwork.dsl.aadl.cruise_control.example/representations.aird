@@ -848,7 +848,7 @@
               <styles xmi:type="notation:FilteringStyle" xmi:id="_eEiQQw03EeKa5rBlrFEUHA"/>
             </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_eEhpMQ03EeKa5rBlrFEUHA" fontName="Cantarell" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eEhpMg03EeKa5rBlrFEUHA" x="360" y="84" width="135" height="63"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eEhpMg03EeKa5rBlrFEUHA" x="360" y="120" width="135" height="63"/>
           </children>
           <styles xmi:type="notation:DiagramStyle" xmi:id="_Av_yAgi_EeKrrKHHrKmc4Q"/>
         </data>
