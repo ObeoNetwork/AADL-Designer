@@ -260,4 +260,11 @@ end Cruisecontrol.Generic;
 	data piout
 	end piout;
 
+system simple
+end simple;
+
+system complex extends simple
+end complex;
+
+
 end CruiseControl;
