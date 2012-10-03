@@ -153,6 +153,17 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="SystemType_CR" label="System Type" containerMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[target/]">
+                <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.SystemType" referenceName="ownedClassifier">
+                  <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="New System"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
           <ownedTools xsi:type="tool:DeleteElementDescription" name="DataType_DEL" label="Delete Datatype">
             <element name="element"/>
             <elementView name="elementView"/>
