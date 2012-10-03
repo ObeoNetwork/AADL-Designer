@@ -64,7 +64,7 @@
     </ownedRepresentations>
     <ownedRepresentations xsi:type="description:DiagramDescription" name="Declaration Diagram" domainClass="aadl2.PackageSection">
       <defaultLayer name="Default">
-        <nodeMappings name="DataType" navigationDescriptions="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='DataType_Navigation']" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='DataType_DEL']" labelDirectEdit="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='DataType_EDIT']" semanticCandidatesExpression="&lt;%eContents()%>" domainClass="aadl2.DataType">
+        <nodeMappings name="DataType" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='DataType_DEL']" labelDirectEdit="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='DataType_EDIT']" semanticCandidatesExpression="&lt;%eContents()%>" domainClass="aadl2.DataType">
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data.svg"/>
         </nodeMappings>
         <nodeMappings name="ThreadType" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='ThreadType_DEL']" labelDirectEdit="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='ThreadType_EDIT']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.ThreadType">
@@ -273,11 +273,6 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool:DiagramNavigationDescription" name="DataType_Navigation" diagramDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']">
-            <containerViewVariable name="containerView"/>
-            <containerVariable name="container"/>
-            <representationNameVariable name="diagramName"/>
-          </ownedTools>
           <ownedTools xsi:type="tool:DeleteElementDescription" name="SystemType_DEL" label="Delete Systemtype">
             <element name="element"/>
             <elementView name="elementView"/>
@@ -311,6 +306,19 @@
             <initialOperation>
               <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[self/]">
                 <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="[arg0/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="Generalization" edgeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@edgeMappings[name='TypeExtension']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[source/]">
+                <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.TypeExtension" referenceName="generalization">
+                  <subModelOperations xsi:type="tool:SetValue" featureName="extended" valueExpression="[target/]"/>
+                </subModelOperations>
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
