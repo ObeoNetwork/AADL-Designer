@@ -100,7 +100,7 @@
           </style>
         </edgeMappings>
         <containerMappings name="SystemType" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='SystemType_DEL']" labelDirectEdit="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='SystemType_EDIT']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SystemType">
-          <borderedNodeMappings name="DataPort" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.DataPort">
+          <borderedNodeMappings name="DataPort" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='DataPort_DEL']" labelDirectEdit="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='DataPort_EDIT']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.DataPort">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg"/>
           </borderedNodeMappings>
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg"/>
@@ -168,6 +168,17 @@
               <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[target/]">
                 <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.SystemType" referenceName="ownedClassifier">
                   <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="New System"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="DataPort_CR" label="Data Port" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[target/]">
+                <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.DataPort" referenceName="ownedDataPort">
+                  <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="New Data Port"/>
                 </subModelOperations>
               </firstModelOperations>
             </initialOperation>
@@ -285,14 +296,21 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool:NodeCreationDescription" name="DataPort_CR" label="Data Port" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']">
-            <variable name="container"/>
-            <viewVariable name="containerView"/>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="DataPort_DEL" label="Delete DataPort">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
             <initialOperation>
-              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[target/]">
-                <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.DataPort" referenceName="ownedDataPort">
-                  <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="New Data Port"/>
-                </subModelOperations>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[element/]">
+                <subModelOperations xsi:type="tool:RemoveElement"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="DataPort_EDIT" label="Edit Data Port Label">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[self/]">
+                <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="[arg0/]"/>
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
