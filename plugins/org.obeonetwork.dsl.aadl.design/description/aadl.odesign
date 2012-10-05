@@ -285,6 +285,19 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="SystemExtension_CR" label="System Extension" edgeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@edgeMappings[name='TypeExtension']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[source/]">
+                <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.TypeExtension" referenceName="ownedExtension">
+                  <subModelOperations xsi:type="tool:SetValue" featureName="extended" valueExpression="[target/]"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
         </toolSections>
         <toolSections name="Execution Platform Components">
           <ownedTools xsi:type="tool:NodeCreationDescription" name="ProcessorType_CR" label="Processor Type" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='ProcessorType']">
