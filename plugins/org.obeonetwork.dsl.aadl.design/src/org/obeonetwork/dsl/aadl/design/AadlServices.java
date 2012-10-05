@@ -26,7 +26,7 @@ public class AadlServices {
 				.println("\n============================= Starting AADLServices ===========================");
 		// Getting the resource set
 		ResourceSet resSet = model.eResource().getResourceSet();
-		ArrayList<AadlPackage> aadlPackageList = new ArrayList<>();
+		ArrayList<AadlPackage> aadlPackageList = new ArrayList<AadlPackage>();
 
 		// getting all the resources of the resource set
 		List<org.eclipse.emf.ecore.resource.Resource> aadlFiles = resSet
