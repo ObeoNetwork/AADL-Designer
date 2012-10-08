@@ -291,7 +291,7 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool:DeleteElementDescription" name="DataPort_DEL" label="Delete DataPort">
+	<ownedTools xsi:type="tool:DeleteElementDescription" name="DataPort_DEL" label="Delete DataPort">
             <element name="element"/>
             <elementView name="elementView"/>
             <containerView name="containerView"/>
@@ -309,14 +309,14 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool:EdgeCreationDescription" name="Generalization" edgeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@edgeMappings[name='TypeExtension']">
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="SystemExtension_CR" label="System Extension" edgeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@edgeMappings[name='TypeExtension']">
             <sourceVariable name="source"/>
             <targetVariable name="target"/>
             <sourceViewVariable name="sourceView"/>
             <targetViewVariable name="targetView"/>
             <initialOperation>
               <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[source/]">
-                <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.TypeExtension" referenceName="generalization">
+                <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.TypeExtension" referenceName="ownedExtension">
                   <subModelOperations xsi:type="tool:SetValue" featureName="extended" valueExpression="[target/]"/>
                 </subModelOperations>
               </firstModelOperations>
