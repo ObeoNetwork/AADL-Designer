@@ -54,12 +54,19 @@
             <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
           </style>
         </nodeMappings>
-        <containerMappings name="PublicPackageSection" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.PublicPackageSection">
+        <containerMappings name="PublicPackageSection" detailDescriptions="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='DeclarationDiagram_CR']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.PublicPackageSection">
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/package.svg"/>
         </containerMappings>
-        <containerMappings name="PrivatePackageSection" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.PrivatePackageSection">
+        <containerMappings name="PrivatePackageSection" detailDescriptions="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='DeclarationDiagram_CR']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.PrivatePackageSection">
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/package.svg"/>
         </containerMappings>
+        <toolSections name="New_DeclarationDiagram">
+          <ownedTools xsi:type="tool:DiagramCreationDescription" name="DeclarationDiagram_CR" label="Declaration Diagram" titleExpression="New Declaration Diagram" diagramDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']">
+            <initialOperation/>
+            <containerViewVariable name="containerView"/>
+            <representationNameVariable name="diagramName"/>
+          </ownedTools>
+        </toolSections>
       </defaultLayer>
     </ownedRepresentations>
     <ownedRepresentations xsi:type="description:DiagramDescription" name="Declaration Diagram" domainClass="aadl2.PackageSection">
@@ -291,7 +298,7 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-	<ownedTools xsi:type="tool:DeleteElementDescription" name="DataPort_DEL" label="Delete DataPort">
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="DataPort_DEL" label="Delete DataPort">
             <element name="element"/>
             <elementView name="elementView"/>
             <containerView name="containerView"/>
