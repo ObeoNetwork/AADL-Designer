@@ -54,14 +54,19 @@
             <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
           </style>
         </nodeMappings>
-        <containerMappings name="PublicPackageSection" detailDescriptions="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='DeclarationDiagram_CR']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.PublicPackageSection">
+        <containerMappings name="PublicPackageSection" detailDescriptions="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='DeclarationDiagram_CR'] //@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='ImplementationDiagram_CR']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.PublicPackageSection">
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/package.svg"/>
         </containerMappings>
-        <containerMappings name="PrivatePackageSection" detailDescriptions="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='DeclarationDiagram_CR']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.PrivatePackageSection">
+        <containerMappings name="PrivatePackageSection" detailDescriptions="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='DeclarationDiagram_CR'] //@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='ImplementationDiagram_CR']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.PrivatePackageSection">
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/package.svg"/>
         </containerMappings>
         <toolSections name="New_DeclarationDiagram">
           <ownedTools xsi:type="tool:DiagramCreationDescription" name="DeclarationDiagram_CR" label="Declaration Diagram" titleExpression="New Declaration Diagram" diagramDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']">
+            <initialOperation/>
+            <containerViewVariable name="containerView"/>
+            <representationNameVariable name="diagramName"/>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DiagramCreationDescription" name="ImplementationDiagram_CR" label="Implementation Diagram" titleExpression="New Implementation Diagram" diagramDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']">
             <initialOperation/>
             <containerViewVariable name="containerView"/>
             <representationNameVariable name="diagramName"/>
