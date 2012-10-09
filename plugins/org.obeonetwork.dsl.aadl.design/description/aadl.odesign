@@ -480,14 +480,14 @@
           <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelFormat="bold" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/process.svg"/>
         </containerMappings>
         <toolSections name="SystemTools">
-          <ownedTools xsi:type="tool:SelectionWizardDescription" name="SysImple" candidatesExpression="[getSystems()/]">
+          <ownedTools xsi:type="tool:SelectionWizardDescription" name="SystemImplementation" candidatesExpression="[getSystems()/]" windowTitle="System Selection">
             <element name="element"/>
             <containerView name="containerView"/>
             <container name="container"/>
             <initialOperation>
               <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[container/]">
                 <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.SystemImplementation" referenceName="ownedClassifier" variableName="instanceSysImpl">
-                  <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="New SystemImplementation"/>
+                  <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="[element.name + '.New_Implementation'/]"/>
                   <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.Realization" referenceName="ownedRealization">
                     <subModelOperations xsi:type="tool:SetValue" featureName="implemented" valueExpression="[element/]"/>
                   </subModelOperations>
