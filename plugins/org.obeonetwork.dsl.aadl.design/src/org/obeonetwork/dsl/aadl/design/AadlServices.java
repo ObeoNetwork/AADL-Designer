@@ -1,6 +1,7 @@
 package org.obeonetwork.dsl.aadl.design;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 
 import org.eclipse.emf.common.util.TreeIterator;
@@ -8,6 +9,7 @@ import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.resource.ResourceSet;
 import org.osate.aadl2.Aadl2Package;
 import org.osate.aadl2.AadlPackage;
+import org.osate.aadl2.SystemType;
 
 public class AadlServices {
 
@@ -61,5 +63,24 @@ public class AadlServices {
 				.println("============================= Ending AADLServices ===========================\n");
 		return aadlPackageList;
 	}
+	
+	
+	public ArrayList<SystemType> getSystems(EObject model){
+		ArrayList<SystemType> sysTypeCollectionResult = new ArrayList<>();
 
+		//getting the iterator for all the objects
+		TreeIterator<EObject> i = model.eAllContents();
+		
+		//creating the Resource list to be returned
+		while (i.hasNext()){
+			EObject singleResource = i.next();
+			if (singleResource.eClass().getName().equals("SystemType")){
+		
+				//we have a SystemType Resource to add to the collection
+				sysTypeCollectionResult.add((SystemType)singleResource);
+			}
+		}
+		
+		return sysTypeCollectionResult;
+	}
 }

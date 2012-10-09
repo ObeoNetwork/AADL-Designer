@@ -480,16 +480,11 @@
           <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelFormat="bold" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/process.svg"/>
         </containerMappings>
         <toolSections name="SystemTools">
-          <ownedTools xsi:type="tool:NodeCreationDescription" name="System_SubSystem_CR" label="Subsystem" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@containerMappings[name='SystemImplementation']/@subNodeMappings[name='SubSystem']">
-            <variable name="container"/>
-            <viewVariable name="containerView"/>
-            <initialOperation>
-              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[target/]">
-                <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.SystemSubcomponent" referenceName="ownedSystemSubcomponent">
-                  <subModelOperations xsi:type="tool:SetValue"/>
-                </subModelOperations>
-              </firstModelOperations>
-            </initialOperation>
+          <ownedTools xsi:type="tool:SelectionWizardDescription" name="SysImple" candidatesExpression="[getSystems()/]">
+            <element name="element"/>
+            <containerView name="containerView"/>
+            <container name="container"/>
+            <initialOperation/>
           </ownedTools>
         </toolSections>
       </defaultLayer>
