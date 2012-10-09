@@ -479,8 +479,8 @@
           </subNodeMappings>
           <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelFormat="bold" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/process.svg"/>
         </containerMappings>
-        <toolSections name="SystemTools">
-          <ownedTools xsi:type="tool:SelectionWizardDescription" name="SystemImplementation" candidatesExpression="[getSystems()/]" windowTitle="System Selection">
+        <toolSections name="Software Components Implementation">
+          <ownedTools xsi:type="tool:SelectionWizardDescription" name="SystemImplementation_CR" label="System Implementation" candidatesExpression="[getSystems()/]" iconPath="/org.obeonetwork.dsl.aadl.design/images/system_icon.gif" windowTitle="System Selection">
             <element name="element"/>
             <containerView name="containerView"/>
             <container name="container"/>
