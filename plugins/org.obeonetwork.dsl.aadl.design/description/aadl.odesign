@@ -416,7 +416,7 @@
         <nodeMappings name="DataType" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='DataType_DEL']" labelDirectEdit="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='DataType_EDIT']" semanticCandidatesExpression="&lt;%eContents()%>" domainClass="aadl2.DataType">
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data.svg"/>
         </nodeMappings>
-        <containerMappings name="SystemImplementation" labelDirectEdit="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='SystemImplementation_EDIT']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SystemImplementation">
+        <containerMappings name="SystemImplementation" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='SystemImplementation_DEL']" labelDirectEdit="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='SystemImplementation_EDIT']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SystemImplementation">
           <subNodeMappings name="SubSystem" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SystemSubcomponent">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg"/>
           </subNodeMappings>
@@ -500,6 +500,16 @@
             <initialOperation>
               <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[self/]">
                 <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="[arg0/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="SystemImplementation_DEL" label="Delete System Implementation">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[element/]">
+                <subModelOperations xsi:type="tool:RemoveElement"/>
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
