@@ -1,49 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.obeo.fr/dsl/viewpoint/description/1.1.0" xmlns:style="http://www.obeo.fr/dsl/viewpoint/description/style/1.1.0" xmlns:tool="http://www.obeo.fr/dsl/viewpoint/description/tool/1.1.0" name="aadl">
-  <ownedViewpoints name="AADL">
-    <ownedRepresentations xsi:type="description:DiagramDescription" name="AADL Package Diagram" domainClass="aadl2.AadlPackage">
-      <defaultLayer name="Default">
-        <nodeMappings name="Data" domainClass="aadl2.Data">
-          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data.svg"/>
-        </nodeMappings>
-        <nodeMappings name="Process" label="Process" domainClass="aadl2.Process">
-          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/process.svg"/>
-        </nodeMappings>
-        <containerMappings name="SystemTypeContainer" domainClass="aadl2.SystemType" listContainer="true">
-          <subNodeMappings name="SystemImplementation" domainClass="aadl2.SystemImplementation">
-            <style xsi:type="style:BundledImageDescription" showIcon="false" resizeKind="NSEW">
-              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            </style>
-          </subNodeMappings>
-          <style xsi:type="style:WorkspaceImageDescription" labelSize="10" labelFormat="bold" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg"/>
-        </containerMappings>
-        <toolSections name="Components">
-          <ownedTools xsi:type="tool:NodeCreationDescription" name="System" nodeMappings="//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='AADL%20Package%20Diagram']/@defaultLayer/@containerMappings[name='SystemTypeContainer']/@subNodeMappings[name='SystemImplementation']">
-            <variable name="container"/>
-            <viewVariable name="containerView"/>
-            <initialOperation>
-              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[container/]">
-                <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.NamedElement" referenceName="publicSection">
-                  <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="['New_NamedElement'/]"/>
-                </subModelOperations>
-              </firstModelOperations>
-            </initialOperation>
-          </ownedTools>
-          <ownedTools xsi:type="tool:NodeCreationDescription" name="Comp_Data" nodeMappings="//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='AADL%20Package%20Diagram']/@defaultLayer/@nodeMappings[name='Data']">
-            <variable name="container"/>
-            <viewVariable name="containerView"/>
-            <initialOperation>
-              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[container/]">
-                <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.Data" referenceName="publicSection"/>
-              </firstModelOperations>
-            </initialOperation>
-          </ownedTools>
-        </toolSections>
-      </defaultLayer>
-    </ownedRepresentations>
-  </ownedViewpoints>
   <ownedViewpoints name="AADL2" modelFileExtension="aadl">
     <ownedRepresentations xsi:type="description:DiagramDescription" name="Package Diagram" domainClass="aadl2.AadlPackage">
       <defaultLayer name="Default">
@@ -457,7 +413,7 @@
     </ownedRepresentations>
     <ownedRepresentations xsi:type="description:DiagramDescription" name="Implementation Diagram" domainClass="aadl2.PackageSection">
       <defaultLayer name="Default">
-        <nodeMappings name="DataType" navigationDescriptions="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='DataType_Demo_Nav']" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='DataType_DEL']" labelDirectEdit="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='DataType_EDIT']" semanticCandidatesExpression="&lt;%eContents()%>" domainClass="aadl2.DataType">
+        <nodeMappings name="DataType" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='DataType_DEL']" labelDirectEdit="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='DataType_EDIT']" semanticCandidatesExpression="&lt;%eContents()%>" domainClass="aadl2.DataType">
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data.svg"/>
         </nodeMappings>
         <containerMappings name="SystemImplementation" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SystemImplementation">
@@ -534,13 +490,6 @@
                 </subModelOperations>
               </firstModelOperations>
             </initialOperation>
-          </ownedTools>
-        </toolSections>
-        <toolSections name="DemoNavi">
-          <ownedTools xsi:type="tool:DiagramNavigationDescription" name="DataType_Demo_Nav" diagramDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']">
-            <containerViewVariable name="containerView"/>
-            <containerVariable name="container"/>
-            <representationNameVariable name="diagramName"/>
           </ownedTools>
         </toolSections>
       </defaultLayer>
