@@ -484,7 +484,16 @@
             <element name="element"/>
             <containerView name="containerView"/>
             <container name="container"/>
-            <initialOperation/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[container/]">
+                <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.SystemImplementation" referenceName="ownedClassifier" variableName="instanceSysImpl">
+                  <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="New SystemImplementation"/>
+                  <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.Realization" referenceName="ownedRealization">
+                    <subModelOperations xsi:type="tool:SetValue" featureName="implemented" valueExpression="[element/]"/>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
           </ownedTools>
         </toolSections>
       </defaultLayer>
