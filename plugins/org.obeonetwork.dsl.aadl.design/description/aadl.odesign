@@ -578,6 +578,50 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="SysImpl_Subcomponent_Processor_CR" label="Processor" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@containerMappings[name='SystemImplementation']/@subNodeMappings[name='SubProcessor']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[target/]">
+                <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.ProcessorSubcomponent" referenceName="ownedProcessorSubcomponent">
+                  <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="New ProcessorSubcomponent"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="SysImpl_Subcomponent_Program_CR" label="Program" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@containerMappings[name='SystemImplementation']/@subNodeMappings[name='SubSubProgram']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[target/]">
+                <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.SubprogramSubcomponent" referenceName="ownedSubprogramSubcomponent">
+                  <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="New ProgramSubcomponent"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="SysImpl_Subcomponent_ProgramGroup_CR" label="Program Group" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@containerMappings[name='SystemImplementation']/@subNodeMappings[name='SubSubProgramGroup']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[target/]">
+                <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.SubprogramGroupSubcomponent" referenceName="ownedSubprogramGroupSubcomponent">
+                  <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="New ProgramGroupSubcomponent"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="SysImpl_Subcomponent_VirtualProcessor_CR" label="Virtual Processor" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@containerMappings[name='SystemImplementation']/@subNodeMappings[name='SubVirtualProcessor']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[target/]">
+                <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.VirtualProcessorSubcomponent" referenceName="ownedVirtualProcessorSubcomponent">
+                  <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="New VirtualProcessorSubcomponent"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
         </toolSections>
       </defaultLayer>
     </ownedRepresentations>
