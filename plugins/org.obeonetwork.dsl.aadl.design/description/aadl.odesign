@@ -462,19 +462,19 @@
           <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelFormat="bold" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/thread.svg"/>
         </containerMappings>
         <containerMappings name="ProcessImplementation" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='ProcessImplementation_DEL']" labelDirectEdit="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='ProcessImplementation_EDIT']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.ProcessImplementation">
-          <subNodeMappings name="SubData" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.DataSubcomponent">
+          <subNodeMappings name="SubData" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='ProcessImpl_Subcomponent_Data_DEL']" labelDirectEdit="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='ProcessImpl_Subcomponent_Data_EDIT']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.DataSubcomponent">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data.svg"/>
           </subNodeMappings>
-          <subNodeMappings name="SubSubProgramGroup" label="SubProgramGroup" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SubprogramGroupSubcomponent">
+          <subNodeMappings name="SubSubProgramGroup" label="SubProgramGroup" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='ProcessImpl_Subcomponent_ProgramGroup_DEL']" labelDirectEdit="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='ProcessImpl_Subcomponent_ProgramGroup_EDIT']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SubprogramGroupSubcomponent">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/subprogram.svg"/>
           </subNodeMappings>
-          <subNodeMappings name="SubSubProgram" label="SubProgram" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SubprogramSubcomponent">
+          <subNodeMappings name="SubSubProgram" label="SubProgram" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='ProcessImpl_Subcomponent_Program_DEL']" labelDirectEdit="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='ProcessImpl_Subcomponent_Program_EDIT']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SubprogramSubcomponent">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/subprogram.svg"/>
           </subNodeMappings>
-          <subNodeMappings name="SubThread" label="SubThread" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.ThreadSubcomponent">
+          <subNodeMappings name="SubThread" label="SubThread" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='ProcessImpl_Subcomponent_Thread_DEL']" labelDirectEdit="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='ProcessImpl_Subcomponent_Thread_EDIT']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.ThreadSubcomponent">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/thread.svg"/>
           </subNodeMappings>
-          <subNodeMappings name="SubThreadGroup" label="SubThreadGroup" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.ThreadGroupSubcomponent">
+          <subNodeMappings name="SubThreadGroup" label="SubThreadGroup" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='ProcessImpl_Subcomponent_ThreadGroup_DEL']" labelDirectEdit="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='ProcessImpl_Subcomponent_ThreadGroup_EDIT']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.ThreadGroupSubcomponent">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/threadgroup.svg"/>
           </subNodeMappings>
           <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelFormat="bold" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/process.svg"/>
@@ -982,6 +982,153 @@
             </initialOperation>
           </ownedTools>
           <ownedTools xsi:type="tool:DirectEditLabel" name="ThreadImpl_Subcomponent_ProgramGroup_EDIT" label="Edit ProgramGroup Subcomponent Label">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[self/]">
+                <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="[arg0/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections name="ProcessSubcomponents" label="Process Subcomponents">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="ProcessImpl_Subcomponent_Data_CR" label="Data" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@containerMappings[name='ProcessImplementation']/@subNodeMappings[name='SubData']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[target/]">
+                <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.DataSubcomponent" referenceName="ownedDataSubcomponent">
+                  <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="New DataSubcomponent"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="ProcessImpl_Subcomponent_Program_CR" label="Program" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@containerMappings[name='ProcessImplementation']/@subNodeMappings[name='SubSubProgram']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[target/]">
+                <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.SubprogramSubcomponent" referenceName="ownedSubprogramSubcomponent">
+                  <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="New ProgramSubcomponent"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="ProcessImpl_Subcomponent_ProgramGroup_CR" label="Program Group" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@containerMappings[name='ProcessImplementation']/@subNodeMappings[name='SubSubProgramGroup']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[target/]">
+                <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.SubprogramGroupSubcomponent" referenceName="ownedSubprogramGroupSubcomponent">
+                  <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="New ProgramGroupSubcomponent"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="ProcessImpl_Subcomponent_Thread_CR" label="Thread" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@containerMappings[name='ProcessImplementation']/@subNodeMappings[name='SubThread']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[target/]">
+                <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.ThreadSubcomponent" referenceName="ownedThreadSubcomponent">
+                  <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="New ThreadSubcomponent"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="ProcessImpl_Subcomponent_ThreadGroup_CR" label="Thread Group" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@containerMappings[name='ProcessImplementation']/@subNodeMappings[name='SubThreadGroup']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[target/]">
+                <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.ThreadGroupSubcomponent" referenceName="ownedThreadGroupSubcomponent">
+                  <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="New ThreadGroupSubcomponent"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="ProcessImpl_Subcomponent_Data_DEL" label="Delete Data Subcomponent">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[element/]">
+                <subModelOperations xsi:type="tool:RemoveElement"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="ProcessImpl_Subcomponent_Program_DEL" label="Delete Program Subcomponent">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[element/]">
+                <subModelOperations xsi:type="tool:RemoveElement"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="ProcessImpl_Subcomponent_ProgramGroup_DEL" label="Delete ProgramGroup Subcomponent">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[element/]">
+                <subModelOperations xsi:type="tool:RemoveElement"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="ProcessImpl_Subcomponent_Thread_DEL" label="Delete Thread Subcomponent">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[element/]">
+                <subModelOperations xsi:type="tool:RemoveElement"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="ProcessImpl_Subcomponent_ThreadGroup_DEL" label="Delete ThreadGroup Subcomponent">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[element/]">
+                <subModelOperations xsi:type="tool:RemoveElement"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="ProcessImpl_Subcomponent_Data_EDIT" label="Edit Data Subcomponent Label">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[self/]">
+                <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="[arg0/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="ProcessImpl_Subcomponent_Program_EDIT" label="Edit Program Subcomponent Label">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[self/]">
+                <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="[arg0/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="ProcessImpl_Subcomponent_ProgramGroup_EDIT" label="Edit ProgramGroup Subcomponent Label">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[self/]">
+                <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="[arg0/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="ProcessImpl_Subcomponent_Thread_EDIT" label="Edit Thread Subcomponent Label">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[self/]">
+                <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="[arg0/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="ProcessImpl_Subcomponent_ThreadGroup_EDIT" label="Edit ThreadGroup Subcomponent Label">
             <mask mask="{0}"/>
             <initialOperation>
               <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[self/]">
