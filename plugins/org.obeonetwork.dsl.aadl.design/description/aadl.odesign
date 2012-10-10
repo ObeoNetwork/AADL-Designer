@@ -413,9 +413,6 @@
     </ownedRepresentations>
     <ownedRepresentations xsi:type="description:DiagramDescription" name="Implementation Diagram" domainClass="aadl2.PackageSection">
       <defaultLayer name="Default">
-        <nodeMappings name="DataType" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='DataType_DEL']" labelDirectEdit="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='DataType_EDIT']" semanticCandidatesExpression="&lt;%eContents()%>" domainClass="aadl2.DataType">
-          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data.svg"/>
-        </nodeMappings>
         <containerMappings name="SystemImplementation" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='SystemImplementation_DEL']" labelDirectEdit="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='SystemImplementation_EDIT']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SystemImplementation">
           <subNodeMappings name="SubSystem" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SystemSubcomponent">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg"/>
