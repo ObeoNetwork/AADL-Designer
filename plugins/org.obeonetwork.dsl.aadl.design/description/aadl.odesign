@@ -414,37 +414,37 @@
     <ownedRepresentations xsi:type="description:DiagramDescription" name="Implementation Diagram" domainClass="aadl2.PackageSection">
       <defaultLayer name="Default">
         <containerMappings name="SystemImplementation" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='SystemImplementation_DEL']" labelDirectEdit="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='SystemImplementation_EDIT']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SystemImplementation">
-          <subNodeMappings name="SubSystem" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SystemSubcomponent">
+          <subNodeMappings name="SubSystem" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_System_DEL']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SystemSubcomponent">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg"/>
           </subNodeMappings>
-          <subNodeMappings name="SubProcess" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.ProcessSubcomponent">
+          <subNodeMappings name="SubProcess" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_Process_DEL']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.ProcessSubcomponent">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/process.svg"/>
           </subNodeMappings>
-          <subNodeMappings name="SubBus" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.BusSubcomponent">
+          <subNodeMappings name="SubBus" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_Bus_DEL']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.BusSubcomponent">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/bus.svg"/>
           </subNodeMappings>
-          <subNodeMappings name="SubData" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.DataSubcomponent">
+          <subNodeMappings name="SubData" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_Data_DEL']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.DataSubcomponent">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data.svg"/>
           </subNodeMappings>
-          <subNodeMappings name="SubDevice" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.DeviceSubcomponent">
+          <subNodeMappings name="SubDevice" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_Device_DEL']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.DeviceSubcomponent">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/device.svg"/>
           </subNodeMappings>
-          <subNodeMappings name="SubMemory" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.MemorySubcomponent">
+          <subNodeMappings name="SubMemory" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_Memory_DEL']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.MemorySubcomponent">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/memory.svg"/>
           </subNodeMappings>
-          <subNodeMappings name="SubProcessor" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.ProcessorSubcomponent">
+          <subNodeMappings name="SubProcessor" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_Processor_DEL']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.ProcessorSubcomponent">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/processor.svg"/>
           </subNodeMappings>
-          <subNodeMappings name="SubSubProgram" label="SubProgram" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SubprogramSubcomponent">
+          <subNodeMappings name="SubSubProgram" label="SubProgram" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_Program_DEL']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SubprogramSubcomponent">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/subprogram.svg"/>
           </subNodeMappings>
-          <subNodeMappings name="SubSubProgramGroup" label="SubProgramGroup" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SubprogramGroupSubcomponent">
+          <subNodeMappings name="SubSubProgramGroup" label="SubProgramGroup" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_ProgramGroup_DEL']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SubprogramGroupSubcomponent">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/subprogram.svg"/>
           </subNodeMappings>
-          <subNodeMappings name="SubVirtualProcessor" label="SubVirtualProcessor" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.VirtualProcessorSubcomponent">
+          <subNodeMappings name="SubVirtualProcessor" label="SubVirtualProcessor" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_VirtualProcessor_DEL']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.VirtualProcessorSubcomponent">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/virtualprocessor.svg"/>
           </subNodeMappings>
-          <subNodeMappings name="SubVirtualBus" label="SubVirtualBus" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.VirtualBusSubcomponent">
+          <subNodeMappings name="SubVirtualBus" label="SubVirtualBus" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_VirtualBus_DEL']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.VirtualBusSubcomponent">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/virtualbus.svg"/>
           </subNodeMappings>
           <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelFormat="bold" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg"/>
@@ -633,6 +633,116 @@
                 <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.VirtualBusSubcomponent" referenceName="ownedVirtualBusSubcomponent">
                   <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="New VirtualBusSubcomponent"/>
                 </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="SysImpl_Subcomponent_System_DEL" label="Delete System Subcomponent">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[element/]">
+                <subModelOperations xsi:type="tool:RemoveElement"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="SysImpl_Subcomponent_Process_DEL" label="Delete Process Subcomponent">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[element/]">
+                <subModelOperations xsi:type="tool:RemoveElement"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="SysImpl_Subcomponent_Bus_DEL" label="Delete Bus Subcomponent">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[element/]">
+                <subModelOperations xsi:type="tool:RemoveElement"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="SysImpl_Subcomponent_Data_DEL" label="Delete Data Subcomponent">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[element/]">
+                <subModelOperations xsi:type="tool:RemoveElement"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="SysImpl_Subcomponent_Device_DEL" label="Delete Device Sbbcomponent">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[element/]">
+                <subModelOperations xsi:type="tool:RemoveElement"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="SysImpl_Subcomponent_Memory_DEL" label="Delete Memory Subcomponent">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[element/]">
+                <subModelOperations xsi:type="tool:RemoveElement"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="SysImpl_Subcomponent_Processor_DEL" label="Delete Processor Subcomponent">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[element/]">
+                <subModelOperations xsi:type="tool:RemoveElement"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="SysImpl_Subcomponent_Program_DEL" label="Delete Program Subcomponent">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[element/]">
+                <subModelOperations xsi:type="tool:RemoveElement"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="SysImpl_Subcomponent_ProgramGroup_DEL" label="Delete ProgramGroup Subcomponent">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[element/]">
+                <subModelOperations xsi:type="tool:RemoveElement"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="SysImpl_Subcomponent_VirtualProcessor_DEL" label="Delete VirtualProcessor Subcomponent">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[element/]">
+                <subModelOperations xsi:type="tool:RemoveElement"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="SysImpl_Subcomponent_VirtualBus_DEL" label="Delete VirtualBus Subcomponent">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[element/]">
+                <subModelOperations xsi:type="tool:RemoveElement"/>
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
