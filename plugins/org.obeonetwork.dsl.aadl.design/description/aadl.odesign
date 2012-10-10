@@ -511,6 +511,41 @@
             </initialOperation>
           </ownedTools>
         </toolSections>
+        <toolSections name="SystemComponents" label="System Subcomponents">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="SysImpl_Subcomponent_System_CR" label="System" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@containerMappings[name='SystemImplementation']/@subNodeMappings[name='SubSystem']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[target/]">
+                <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.SystemSubcomponent" referenceName="ownedSystemSubcomponent">
+                  <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="New SystemSubcomponent"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="SysImpl_Subcomponent_Process_CR" label="Process" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@containerMappings[name='SystemImplementation']/@subNodeMappings[name='SubProcess']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[target/]">
+                <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.ProcessSubcomponent" referenceName="ownedProcessSubcomponent">
+                  <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="New ProcessSubcomponent"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="SysImpl_Subcomponent_Bus_CR" label="Bus" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@containerMappings[name='SystemImplementation']/@subNodeMappings[name='SubBus']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[target/]">
+                <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.BusSubcomponent" referenceName="ownedBusSubcomponent">
+                  <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="New BusSubcomponent"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
       </defaultLayer>
     </ownedRepresentations>
     <ownedJavaExtensions qualifiedClassName="org.obeonetwork.dsl.aadl.design.AadlServices"/>
