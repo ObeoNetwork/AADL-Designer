@@ -868,6 +868,41 @@
             </initialOperation>
           </ownedTools>
         </toolSections>
+        <toolSections name="ThreadSubcomponents" label="Thread Subcomponents">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="ThreadImpl_Subcomponent_Data_CR" label="Data" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@containerMappings[name='ThreadImplementation']/@subNodeMappings[name='SubData']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[target/]">
+                <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.DataSubcomponent" referenceName="ownedDataSubcomponent">
+                  <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="New DataSubcomponent"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="ThreadImpl_Subcomponent_Program_CR" label="Program" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@containerMappings[name='ThreadImplementation']/@subNodeMappings[name='SubSubProgram']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[target/]">
+                <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.SubprogramSubcomponent" referenceName="ownedSubprogramSubcomponent">
+                  <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="New ProgramSubcomponent"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="ThreadImpl_Subcomponent_ProgramGroup_CR" label="Program Group" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@containerMappings[name='ThreadImplementation']/@subNodeMappings[name='SubSubProgramGroup']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[target/]">
+                <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.SubprogramGroupSubcomponent" referenceName="ownedSubprogramGroupSubcomponent">
+                  <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="New ProgramGroupSubcomponent"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
       </defaultLayer>
     </ownedRepresentations>
     <ownedJavaExtensions qualifiedClassName="org.obeonetwork.dsl.aadl.design.AadlServices"/>
