@@ -414,37 +414,37 @@
     <ownedRepresentations xsi:type="description:DiagramDescription" name="Implementation Diagram" domainClass="aadl2.PackageSection">
       <defaultLayer name="Default">
         <containerMappings name="SystemImplementation" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='SystemImplementation_DEL']" labelDirectEdit="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='SystemImplementation_EDIT']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SystemImplementation">
-          <subNodeMappings name="SubSystem" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_System_DEL']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SystemSubcomponent">
+          <subNodeMappings name="SubSystem" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_System_DEL']" labelDirectEdit="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_System_EDIT']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SystemSubcomponent">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg"/>
           </subNodeMappings>
-          <subNodeMappings name="SubProcess" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_Process_DEL']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.ProcessSubcomponent">
+          <subNodeMappings name="SubProcess" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_Process_DEL']" labelDirectEdit="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_Process_EDIT']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.ProcessSubcomponent">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/process.svg"/>
           </subNodeMappings>
-          <subNodeMappings name="SubBus" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_Bus_DEL']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.BusSubcomponent">
+          <subNodeMappings name="SubBus" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_Bus_DEL']" labelDirectEdit="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_Bus_EDIT']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.BusSubcomponent">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/bus.svg"/>
           </subNodeMappings>
-          <subNodeMappings name="SubData" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_Data_DEL']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.DataSubcomponent">
+          <subNodeMappings name="SubData" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_Data_DEL']" labelDirectEdit="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_Data_EDIT']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.DataSubcomponent">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data.svg"/>
           </subNodeMappings>
-          <subNodeMappings name="SubDevice" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_Device_DEL']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.DeviceSubcomponent">
+          <subNodeMappings name="SubDevice" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_Device_DEL']" labelDirectEdit="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_Device_EDIT']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.DeviceSubcomponent">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/device.svg"/>
           </subNodeMappings>
-          <subNodeMappings name="SubMemory" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_Memory_DEL']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.MemorySubcomponent">
+          <subNodeMappings name="SubMemory" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_Memory_DEL']" labelDirectEdit="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_Memory_EDIT']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.MemorySubcomponent">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/memory.svg"/>
           </subNodeMappings>
-          <subNodeMappings name="SubProcessor" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_Processor_DEL']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.ProcessorSubcomponent">
+          <subNodeMappings name="SubProcessor" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_Processor_DEL']" labelDirectEdit="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_Processor_EDIT']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.ProcessorSubcomponent">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/processor.svg"/>
           </subNodeMappings>
-          <subNodeMappings name="SubSubProgram" label="SubProgram" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_Program_DEL']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SubprogramSubcomponent">
+          <subNodeMappings name="SubSubProgram" label="SubProgram" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_Program_DEL']" labelDirectEdit="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_Program_EDIT']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SubprogramSubcomponent">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/subprogram.svg"/>
           </subNodeMappings>
-          <subNodeMappings name="SubSubProgramGroup" label="SubProgramGroup" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_ProgramGroup_DEL']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SubprogramGroupSubcomponent">
+          <subNodeMappings name="SubSubProgramGroup" label="SubProgramGroup" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_ProgramGroup_DEL']" labelDirectEdit="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_ProgramGroup_EDIT']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SubprogramGroupSubcomponent">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/subprogram.svg"/>
           </subNodeMappings>
-          <subNodeMappings name="SubVirtualProcessor" label="SubVirtualProcessor" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_VirtualProcessor_DEL']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.VirtualProcessorSubcomponent">
+          <subNodeMappings name="SubVirtualProcessor" label="SubVirtualProcessor" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_VirtualProcessor_DEL']" labelDirectEdit="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_VirtualProcessor_EDIT']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.VirtualProcessorSubcomponent">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/virtualprocessor.svg"/>
           </subNodeMappings>
-          <subNodeMappings name="SubVirtualBus" label="SubVirtualBus" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_VirtualBus_DEL']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.VirtualBusSubcomponent">
+          <subNodeMappings name="SubVirtualBus" label="SubVirtualBus" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_VirtualBus_DEL']" labelDirectEdit="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_VirtualBus_EDIT']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.VirtualBusSubcomponent">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/virtualbus.svg"/>
           </subNodeMappings>
           <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelFormat="bold" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg"/>
@@ -743,6 +743,94 @@
             <initialOperation>
               <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[element/]">
                 <subModelOperations xsi:type="tool:RemoveElement"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="SysImpl_Subcomponent_System_EDIT" label="Edit System Subcomponent Label">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[self/]">
+                <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="[arg0/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="SysImpl_Subcomponent_Process_EDIT" label="Edit Process Subcomponent Label">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[self/]">
+                <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="[arg0/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="SysImpl_Subcomponent_Bus_EDIT" label="Edit Bus Subcomponent Label">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[self/]">
+                <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="[arg0/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="SysImpl_Subcomponent_Data_EDIT" label="Edit Data Subcomponent Label">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[self/]">
+                <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="[arg0/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="SysImpl_Subcomponent_Device_EDIT" label="Edit Device Subcomponent Label">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[self/]">
+                <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="[arg0/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="SysImpl_Subcomponent_Memory_EDIT" label="Edit Memory Subcomponent Label">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[self/]">
+                <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="[arg0/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="SysImpl_Subcomponent_Processor_EDIT" label="Edit Processor Subcomponent Label">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[self/]">
+                <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="[arg0/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="SysImpl_Subcomponent_Program_EDIT" label="Edit Program Subcomponent Label">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[self/]">
+                <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="[arg0/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="SysImpl_Subcomponent_ProgramGroup_EDIT" label="Edit ProgramGroup Subcomponent Label">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[self/]">
+                <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="[arg0/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="SysImpl_Subcomponent_VirtualProcessor_EDIT" label="Edit VirtualProcessor Subcomponent Label">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[self/]">
+                <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="[arg0/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="SysImpl_Subcomponent_VirtualBus_EDIT" label="Edit VirtualBus Subcomponent Label">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[self/]">
+                <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="[arg0/]"/>
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
