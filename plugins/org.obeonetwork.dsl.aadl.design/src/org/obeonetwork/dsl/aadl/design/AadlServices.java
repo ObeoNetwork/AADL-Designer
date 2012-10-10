@@ -9,7 +9,9 @@ import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.resource.ResourceSet;
 import org.osate.aadl2.Aadl2Package;
 import org.osate.aadl2.AadlPackage;
+import org.osate.aadl2.ComponentType;
 import org.osate.aadl2.SystemType;
+import org.osate.aadl2.ThreadType;
 
 public class AadlServices {
 
@@ -64,9 +66,9 @@ public class AadlServices {
 		return aadlPackageList;
 	}
 	
+	public ArrayList<ComponentType> getComponents(EObject model, String componentType){
+		ArrayList<ComponentType> componentsCollectionResult = new ArrayList<>();
 	
-	public ArrayList<SystemType> getSystems(EObject model){
-		ArrayList<SystemType> sysTypeCollectionResult = new ArrayList<>();
 
 		//getting the iterator for all the objects
 		TreeIterator<EObject> i = model.eAllContents();
@@ -74,13 +76,17 @@ public class AadlServices {
 		//creating the Resource list to be returned
 		while (i.hasNext()){
 			EObject singleResource = i.next();
-			if (singleResource.eClass().getName().equals("SystemType")){
+			
+			//finding the desired component Type
+			if (singleResource.eClass().getName().equals(componentType)){
 		
-				//we have a SystemType Resource to add to the collection
-				sysTypeCollectionResult.add((SystemType)singleResource);
+				//we have a component to add to the collection
+				componentsCollectionResult.add((ComponentType)singleResource);
 			}
 		}
 		
-		return sysTypeCollectionResult;
+		return componentsCollectionResult;
 	}
+	
+	
 }
