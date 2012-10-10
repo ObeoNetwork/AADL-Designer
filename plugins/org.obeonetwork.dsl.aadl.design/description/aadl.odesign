@@ -546,6 +546,21 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
+          <ownedTools xsi:type="tool:SelectionWizardDescription" name="ProcessImplementation_CR" label="Process Implementation" precondition="[oclIsKindOf(aadl2::PackageSection)/]" candidatesExpression="[getComponents('ProcessType')/]" iconPath="/org.obeonetwork.dsl.aadl.design/images/process_icon.gif" windowTitle="Process Selection">
+            <element name="element"/>
+            <containerView name="containerView"/>
+            <container name="container"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[container/]">
+                <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.ProcessImplementation" referenceName="ownedClassifier" variableName="instanceProcessImpl">
+                  <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="[element.name + '.New_Implementation'/]"/>
+                  <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.Realization" referenceName="ownedRealization">
+                    <subModelOperations xsi:type="tool:SetValue" featureName="implemented" valueExpression="[element/]"/>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
         </toolSections>
         <toolSections name="SystemComponents" label="System Subcomponents">
           <ownedTools xsi:type="tool:NodeCreationDescription" name="SysImpl_Subcomponent_System_CR" label="System" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@containerMappings[name='SystemImplementation']/@subNodeMappings[name='SubSystem']">
