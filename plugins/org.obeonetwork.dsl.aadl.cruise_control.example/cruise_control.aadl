@@ -266,5 +266,16 @@ end simple;
 system complex extends simple
 end complex;
 
+system neam
+end neam;
+
+system implementation neam.Generic
+end neam.Generic;
+
+	system implementation simple.New_Implementation
+	end simple.New_Implementation;
+
+	process implementation Cruisecontrol_Process.ssss
+	end Cruisecontrol_Process.ssss;
 
 end CruiseControl;

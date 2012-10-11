@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aadl2="http://aadl.info/AADL/2.0" xmlns:description="http://www.obeo.fr/dsl/viewpoint/description/1.1.0" xmlns:instance="http://aadl.info/AADL/2.0/instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.obeo.fr/dsl/viewpoint/description/style/1.1.0" xmlns:viewpoint="http://www.obeo.fr/dsl/viewpoint/1.1.0" xsi:schemaLocation="http://www.obeo.fr/dsl/viewpoint/description/1.1.0 http://www.obeo.fr/dsl/viewpoint/1.1.0#//description http://www.obeo.fr/dsl/viewpoint/description/style/1.1.0 http://www.obeo.fr/dsl/viewpoint/1.1.0#//description/style" xmi:id="_fggsYAgQEeKE4pA0LeKrDw" selectedViews="_w_d2kAgQEeKE4pA0LeKrDw _cv-AsAi7EeKVy6YrFzUdCA">
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aadl2="http://aadl.info/AADL/2.0" xmlns:description="http://www.obeo.fr/dsl/viewpoint/description/1.1.0" xmlns:instance="http://aadl.info/AADL/2.0/instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.obeo.fr/dsl/viewpoint/description/style/1.1.0" xmlns:viewpoint="http://www.obeo.fr/dsl/viewpoint/1.1.0" xsi:schemaLocation="http://www.obeo.fr/dsl/viewpoint/description/1.1.0 http://www.obeo.fr/dsl/viewpoint/1.1.0#//description http://www.obeo.fr/dsl/viewpoint/description/style/1.1.0 http://www.obeo.fr/dsl/viewpoint/1.1.0#//description/style" xmi:id="_fggsYAgQEeKE4pA0LeKrDw" selectedViews="_w_d2kAgQEeKE4pA0LeKrDw">
   <models xmi:type="aadl2:AadlPackage" href="cruise_control.aadl#/"/>
   <models xmi:type="instance:SystemInstance" href="instances/cruise_control_Hci_Model_Instance.aaxl2#_v8bsQAgQEeKE4pA0LeKrDw"/>
   <eAnnotations xmi:type="description:DAnnotationEntry" xmi:id="_fggsYQgQEeKE4pA0LeKrDw" source="Migration">
@@ -118,7 +118,7 @@
               <styles xmi:type="notation:FilteringStyle" xmi:id="_8iXl4wi8EeK-5YBm8NcVgA"/>
             </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_8iW-0Qi8EeK-5YBm8NcVgA" fontName="Cantarell" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8iW-0gi8EeK-5YBm8NcVgA" x="972" y="12" width="675" height="495"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8iW-0gi8EeK-5YBm8NcVgA" x="972" y="12" width="759" height="195"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_m9XVsAsUEeKIMNoYTUnhhw" type="2002" element="_m8cvsQsUEeKIMNoYTUnhhw">
             <children xmi:type="notation:Node" xmi:id="_m9cOMAsUEeKIMNoYTUnhhw" type="5006"/>
@@ -257,6 +257,33 @@
             </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_s0qpYQuaEeKHi6LIbqMUGw" fontName="Cantarell" fontHeight="12" bold="true"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s0qpYguaEeKHi6LIbqMUGw" x="276" y="-156"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_aQcKABINEeKnIb29nKFRYw" type="2002" element="_aPMz4RINEeKnIb29nKFRYw">
+            <children xmi:type="notation:Node" xmi:id="_aQgbcBINEeKnIb29nKFRYw" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_aQhCgBINEeKnIb29nKFRYw" type="7001">
+              <styles xmi:type="notation:SortingStyle" xmi:id="_aQhCgRINEeKnIb29nKFRYw"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_aQhCghINEeKnIb29nKFRYw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_aQcKARINEeKnIb29nKFRYw" fontName="Cantarell" fontHeight="12" bold="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aQcKAhINEeKnIb29nKFRYw" x="996" y="420" width="351" height="57"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_mfYXYBKiEeKljv1UKcJ3xQ" type="2002" element="_mc_xwRKiEeKljv1UKcJ3xQ">
+            <children xmi:type="notation:Node" xmi:id="_mffsIBKiEeKljv1UKcJ3xQ" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_mfgTMBKiEeKljv1UKcJ3xQ" type="7001">
+              <styles xmi:type="notation:SortingStyle" xmi:id="_mfgTMRKiEeKljv1UKcJ3xQ"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_mfgTMhKiEeKljv1UKcJ3xQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_mfYXYRKiEeKljv1UKcJ3xQ" fontName="Cantarell" fontHeight="12" bold="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mfYXYhKiEeKljv1UKcJ3xQ" x="1272" y="228" width="483" height="291"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_5uB9wBLHEeKK_oM1rih4zA" type="2002" element="_5tgZURLHEeKK_oM1rih4zA">
+            <children xmi:type="notation:Node" xmi:id="_5uG2QBLHEeKK_oM1rih4zA" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_5uHdUBLHEeKK_oM1rih4zA" type="7001">
+              <styles xmi:type="notation:SortingStyle" xmi:id="_5uHdURLHEeKK_oM1rih4zA"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_5uHdUhLHEeKK_oM1rih4zA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_5uB9wRLHEeKK_oM1rih4zA" fontName="Cantarell" fontHeight="12" bold="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5uB9whLHEeKK_oM1rih4zA" x="1968" y="516" width="456" height="177"/>
           </children>
           <styles xmi:type="notation:DiagramStyle" xmi:id="_8hDXQgi8EeK-5YBm8NcVgA"/>
         </data>
@@ -488,6 +515,36 @@
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@containerMappings[name='ProcessImplementation']/@subNodeMappings[name='SubThread']"/>
         </ownedDiagramElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DNodeContainer" xmi:id="_aPMz4RINEeKnIb29nKFRYw" name="neam.Generic">
+        <target xmi:type="aadl2:SystemImplementation" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.32"/>
+        <semanticElements xmi:type="aadl2:SystemImplementation" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.32"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_aPOCABINEeKnIb29nKFRYw" labelSize="12" labelFormat="bold" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@containerMappings[name='SystemImplementation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@containerMappings[name='SystemImplementation']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DNodeContainer" xmi:id="_mc_xwRKiEeKljv1UKcJ3xQ" name="simple.New_Implementation">
+        <target xmi:type="aadl2:SystemImplementation" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.33"/>
+        <semanticElements xmi:type="aadl2:SystemImplementation" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.33"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_mdAY0BKiEeKljv1UKcJ3xQ" labelSize="12" labelFormat="bold" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@containerMappings[name='SystemImplementation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@containerMappings[name='SystemImplementation']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DNodeContainer" xmi:id="_5tgZURLHEeKK_oM1rih4zA" name="Cruisecontrol_Process.ssss">
+        <target xmi:type="aadl2:ProcessImplementation" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.34"/>
+        <semanticElements xmi:type="aadl2:ProcessImplementation" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.34"/>
+        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_5thncBLHEeKK_oM1rih4zA" labelSize="12" labelFormat="bold" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/process.svg">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@containerMappings[name='ProcessImplementation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@containerMappings[name='ProcessImplementation']"/>
       </ownedDiagramElements>
       <description xmi:type="description:DiagramDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']"/>
       <filterVariableHistory xmi:type="viewpoint:FilterVariableHistory" xmi:id="_8g4_Mgi8EeK-5YBm8NcVgA"/>
@@ -848,9 +905,34 @@
               <styles xmi:type="notation:FilteringStyle" xmi:id="_eEiQQw03EeKa5rBlrFEUHA"/>
             </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_eEhpMQ03EeKa5rBlrFEUHA" fontName="Cantarell" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eEhpMg03EeKa5rBlrFEUHA" x="360" y="120" width="135" height="63"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eEhpMg03EeKa5rBlrFEUHA" x="360" y="180" width="135" height="63"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_nZCyQBH9EeK3x_ej7K8aFQ" type="2002" element="_nVXzMBH9EeK3x_ej7K8aFQ">
+            <children xmi:type="notation:Node" xmi:id="_nZEAYBH9EeK3x_ej7K8aFQ" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_nZEAYRH9EeK3x_ej7K8aFQ" type="7001">
+              <styles xmi:type="notation:SortingStyle" xmi:id="_nZEAYhH9EeK3x_ej7K8aFQ"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_nZEAYxH9EeK3x_ej7K8aFQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_nZCyQRH9EeK3x_ej7K8aFQ" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nZCyQhH9EeK3x_ej7K8aFQ" x="772" y="30"/>
           </children>
           <styles xmi:type="notation:DiagramStyle" xmi:id="_Av_yAgi_EeKrrKHHrKmc4Q"/>
+          <edges xmi:type="notation:Edge" xmi:id="_mM8LgBH9EeK3x_ej7K8aFQ" type="4001" element="_mMmNQRH9EeK3x_ej7K8aFQ" source="_eEhpMA03EeKa5rBlrFEUHA" target="_UfPxAA03EeKa5rBlrFEUHA">
+            <children xmi:type="notation:Node" xmi:id="_mNDgQBH9EeK3x_ej7K8aFQ" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mNDgQRH9EeK3x_ej7K8aFQ" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_mNEHUBH9EeK3x_ej7K8aFQ" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mNEHURH9EeK3x_ej7K8aFQ" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_mNEuYBH9EeK3x_ej7K8aFQ" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mNEuYRH9EeK3x_ej7K8aFQ" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_mM8ykBH9EeK3x_ej7K8aFQ"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_mM8ykRH9EeK3x_ej7K8aFQ" fontName="Cantarell"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mM8ykhH9EeK3x_ej7K8aFQ" points="[360, 180, 360, 180]$[360, 0, 360, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mNRisBH9EeK3x_ej7K8aFQ" id="(0.4962962962962963,0.49206349206349204)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mNRisRH9EeK3x_ej7K8aFQ" id="(0.4962962962962963,0.49333333333333335)"/>
+          </edges>
         </data>
       </ownedAnnotationEntries>
       <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_A2D9wAi_EeKrrKHHrKmc4Q" name="Bool_Type" width="-1" height="-1" resizeKind="NSEW">
@@ -955,7 +1037,7 @@
       <ownedDiagramElements xmi:type="viewpoint:DNodeContainer" xmi:id="_A2T1YAi_EeKrrKHHrKmc4Q" name="Hci">
         <target xmi:type="aadl2:SystemType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12"/>
         <semanticElements xmi:type="aadl2:SystemType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12"/>
-        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_1cpjkQjAEeKKe55nR8MW2g" name="Breakpedalpressed" width="-1" height="-1" resizeKind="NSEW">
+        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_1cpjkQjAEeKKe55nR8MW2g" name="Breakpedalpressed" width="-1" height="-1">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.0"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.0"/>
           <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -966,7 +1048,7 @@
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
         </ownedBorderedNodes>
-        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_1ctN8AjAEeKKe55nR8MW2g" name="Clutchpedalpressed" width="-1" height="-1" resizeKind="NSEW">
+        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_1ctN8AjAEeKKe55nR8MW2g" name="Clutchpedalpressed" width="-1" height="-1">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.1"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.1"/>
           <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -977,7 +1059,7 @@
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
         </ownedBorderedNodes>
-        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_1cucEAjAEeKKe55nR8MW2g" name="Autospd_Mph" width="-1" height="-1" resizeKind="NSEW">
+        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_1cucEAjAEeKKe55nR8MW2g" name="Autospd_Mph" width="-1" height="-1">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.2"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.2"/>
           <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_n0S94AjIEeKjXIwner2awg" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
@@ -985,7 +1067,7 @@
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
         </ownedBorderedNodes>
-        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_1cvqMAjAEeKKe55nR8MW2g" name="Engspd_Rpm" width="-1" height="-1" resizeKind="NSEW">
+        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_1cvqMAjAEeKKe55nR8MW2g" name="Engspd_Rpm" width="-1" height="-1">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.3"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.3"/>
           <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -996,7 +1078,7 @@
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
         </ownedBorderedNodes>
-        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_1cw4UAjAEeKKe55nR8MW2g" name="Cruiseactive" width="-1" height="-1" resizeKind="NSEW">
+        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_1cw4UAjAEeKKe55nR8MW2g" name="Cruiseactive" width="-1" height="-1">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.4"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.4"/>
           <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -1007,7 +1089,7 @@
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
         </ownedBorderedNodes>
-        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_1cxfZAjAEeKKe55nR8MW2g" name="Refspd_Mph" width="-1" height="-1" resizeKind="NSEW">
+        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_1cxfZAjAEeKKe55nR8MW2g" name="Refspd_Mph" width="-1" height="-1">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.5"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.5"/>
           <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -1029,7 +1111,7 @@
       <ownedDiagramElements xmi:type="viewpoint:DNodeContainer" xmi:id="_A2VqkAi_EeKrrKHHrKmc4Q" name="Cruisecontrollaws">
         <target xmi:type="aadl2:SystemType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.20"/>
         <semanticElements xmi:type="aadl2:SystemType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.20"/>
-        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_1czUkAjAEeKKe55nR8MW2g" name="Cruiseactive" width="-1" height="-1" resizeKind="NSEW">
+        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_1czUkAjAEeKKe55nR8MW2g" name="Cruiseactive" width="-1" height="-1">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedDataPort.0"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedDataPort.0"/>
           <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_n0WoQAjIEeKjXIwner2awg" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
@@ -1037,7 +1119,7 @@
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
         </ownedBorderedNodes>
-        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_1c0isAjAEeKKe55nR8MW2g" name="Refspd_Mph" width="-1" height="-1" resizeKind="NSEW">
+        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_1c0isAjAEeKKe55nR8MW2g" name="Refspd_Mph" width="-1" height="-1">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedDataPort.1"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedDataPort.1"/>
           <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_n0XPUAjIEeKjXIwner2awg" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
@@ -1045,7 +1127,7 @@
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
         </ownedBorderedNodes>
-        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_1c1JwAjAEeKKe55nR8MW2g" name="Autospd_Mph" width="-1" height="-1" resizeKind="NSEW">
+        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_1c1JwAjAEeKKe55nR8MW2g" name="Autospd_Mph" width="-1" height="-1">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedDataPort.2"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedDataPort.2"/>
           <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_n0YdcAjIEeKjXIwner2awg" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
@@ -1053,7 +1135,7 @@
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
         </ownedBorderedNodes>
-        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_1c1w1AjAEeKKe55nR8MW2g" name="Throttlepos_In" width="-1" height="-1" resizeKind="NSEW">
+        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_1c1w1AjAEeKKe55nR8MW2g" name="Throttlepos_In" width="-1" height="-1">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedDataPort.3"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedDataPort.3"/>
           <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_n0ZEgAjIEeKjXIwner2awg" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
@@ -1069,7 +1151,7 @@
       <ownedDiagramElements xmi:type="viewpoint:DNodeContainer" xmi:id="_A2W4sAi_EeKrrKHHrKmc4Q" name="Cruisecontrol">
         <target xmi:type="aadl2:SystemType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26"/>
         <semanticElements xmi:type="aadl2:SystemType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26"/>
-        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_1c3mAAjAEeKKe55nR8MW2g" name="Breakpedalpressed" width="-1" height="-1" resizeKind="NSEW">
+        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_1c3mAAjAEeKKe55nR8MW2g" name="Breakpedalpressed" width="-1" height="-1">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedDataPort.0"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedDataPort.0"/>
           <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_n0a5sAjIEeKjXIwner2awg" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
@@ -1077,7 +1159,7 @@
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
         </ownedBorderedNodes>
-        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_1c40IAjAEeKKe55nR8MW2g" name="Clutchpedalpressed" width="-1" height="-1" resizeKind="NSEW">
+        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_1c40IAjAEeKKe55nR8MW2g" name="Clutchpedalpressed" width="-1" height="-1">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedDataPort.1"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedDataPort.1"/>
           <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_n0bgwAjIEeKjXIwner2awg" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
@@ -1085,7 +1167,7 @@
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
         </ownedBorderedNodes>
-        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_1c5bMAjAEeKKe55nR8MW2g" name="Autospd_Mph" width="-1" height="-1" resizeKind="NSEW">
+        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_1c5bMAjAEeKKe55nR8MW2g" name="Autospd_Mph" width="-1" height="-1">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedDataPort.2"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedDataPort.2"/>
           <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_n0cH0AjIEeKjXIwner2awg" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
@@ -1093,7 +1175,7 @@
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
         </ownedBorderedNodes>
-        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_1c6CQQjAEeKKe55nR8MW2g" name="Engspd_Rpm" width="-1" height="-1" resizeKind="NSEW">
+        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_1c6CQQjAEeKKe55nR8MW2g" name="Engspd_Rpm" width="-1" height="-1">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedDataPort.3"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedDataPort.3"/>
           <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_n0cu4AjIEeKjXIwner2awg" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
@@ -1101,7 +1183,7 @@
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
         </ownedBorderedNodes>
-        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_1c6pVAjAEeKKe55nR8MW2g" name="Throttlepos_In" width="-1" height="-1" resizeKind="NSEW">
+        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_1c6pVAjAEeKKe55nR8MW2g" name="Throttlepos_In" width="-1" height="-1">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedDataPort.4"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedDataPort.4"/>
           <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_n0d9AAjIEeKjXIwner2awg" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
@@ -1155,7 +1237,7 @@
         </ownedStyle>
         <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='BusType']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="viewpoint:DNodeContainer" xmi:id="_Ue7A4Q03EeKa5rBlrFEUHA" name="simple">
+      <ownedDiagramElements xmi:type="viewpoint:DNodeContainer" xmi:id="_Ue7A4Q03EeKa5rBlrFEUHA" name="simple" incomingEdges="_mMmNQRH9EeK3x_ej7K8aFQ">
         <target xmi:type="aadl2:SystemType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.29"/>
         <semanticElements xmi:type="aadl2:SystemType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.29"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -1166,13 +1248,33 @@
         </ownedStyle>
         <actualMapping xmi:type="description:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="viewpoint:DNodeContainer" xmi:id="_eES_sA03EeKa5rBlrFEUHA" name="complex">
+      <ownedDiagramElements xmi:type="viewpoint:DNodeContainer" xmi:id="_eES_sA03EeKa5rBlrFEUHA" name="complex" outgoingEdges="_mMmNQRH9EeK3x_ej7K8aFQ">
         <target xmi:type="aadl2:SystemType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.30"/>
         <semanticElements xmi:type="aadl2:SystemType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.30"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_eETmwA03EeKa5rBlrFEUHA" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DEdge" xmi:id="_mMmNQRH9EeK3x_ej7K8aFQ" sourceNode="_eES_sA03EeKa5rBlrFEUHA" targetNode="_Ue7A4Q03EeKa5rBlrFEUHA">
+        <target xmi:type="aadl2:TypeExtension" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.30/@ownedExtension"/>
+        <semanticElements xmi:type="aadl2:TypeExtension" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.30/@ownedExtension"/>
+        <ownedStyle xmi:type="viewpoint:EdgeStyle" xmi:id="_mMp3oBH9EeK3x_ej7K8aFQ" size="2">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@edgeMappings[name='TypeExtension']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_mMp3oRH9EeK3x_ej7K8aFQ" red="136" green="136" blue="136"/>
+          <centerLabelStyle xmi:type="viewpoint:CenterLabelStyle" xmi:id="_mMp3ohH9EeK3x_ej7K8aFQ">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_mMp3oxH9EeK3x_ej7K8aFQ"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description:EdgeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@edgeMappings[name='TypeExtension']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DNodeContainer" xmi:id="_nVXzMBH9EeK3x_ej7K8aFQ" name="neam">
+        <target xmi:type="aadl2:SystemType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.31"/>
+        <semanticElements xmi:type="aadl2:SystemType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.31"/>
+        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_nVYaQBH9EeK3x_ej7K8aFQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg">
           <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']"/>
@@ -1212,6 +1314,739 @@
       <filterVariableHistory xmi:type="viewpoint:FilterVariableHistory" xmi:id="_K9qC8AurEeK0rLoS9tnGbg"/>
       <activatedLayers xmi:type="description:Layer" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer"/>
       <target xmi:type="aadl2:AadlPackage" href="cruise_control.aadl#/"/>
+    </ownedRepresentations>
+    <ownedRepresentations xmi:type="viewpoint:DSemanticDiagram" xmi:id="_W7-bsQ1DEeKBE4ugJPC9LQ" name="dummy">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_W8NFMA1DEeKBE4ugJPC9LQ" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_W8NFMQ1DEeKBE4ugJPC9LQ" type="Viewpoint" element="_W7-bsQ1DEeKBE4ugJPC9LQ" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_W_7uoA1DEeKBE4ugJPC9LQ" type="2001" element="_W-0UUA1DEeKBE4ugJPC9LQ">
+            <children xmi:type="notation:Node" xmi:id="_W_-K4A1DEeKBE4ugJPC9LQ" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_W_-K4Q1DEeKBE4ugJPC9LQ" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XAYakA1DEeKBE4ugJPC9LQ" type="3005" element="_W-07YA1DEeKBE4ugJPC9LQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_XAYakQ1DEeKBE4ugJPC9LQ" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XAYakg1DEeKBE4ugJPC9LQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_W_7uoQ1DEeKBE4ugJPC9LQ" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W_7uog1DEeKBE4ugJPC9LQ" width="92" height="57"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XAAAEA1DEeKBE4ugJPC9LQ" type="2001" element="_W-1icA1DEeKBE4ugJPC9LQ">
+            <children xmi:type="notation:Node" xmi:id="_XAAnIA1DEeKBE4ugJPC9LQ" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_XAAnIQ1DEeKBE4ugJPC9LQ" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XAZBoA1DEeKBE4ugJPC9LQ" type="3005" element="_W-1icQ1DEeKBE4ugJPC9LQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_XAZBoQ1DEeKBE4ugJPC9LQ" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XAZBog1DEeKBE4ugJPC9LQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_XAAAEQ1DEeKBE4ugJPC9LQ" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XAAAEg1DEeKBE4ugJPC9LQ" x="156" width="92" height="57"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XAAnIg1DEeKBE4ugJPC9LQ" type="2001" element="_W-2JgA1DEeKBE4ugJPC9LQ">
+            <children xmi:type="notation:Node" xmi:id="_XABOMA1DEeKBE4ugJPC9LQ" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_XABOMQ1DEeKBE4ugJPC9LQ" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XAZosA1DEeKBE4ugJPC9LQ" type="3005" element="_W-2JgQ1DEeKBE4ugJPC9LQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_XAZosQ1DEeKBE4ugJPC9LQ" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XAZosg1DEeKBE4ugJPC9LQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_XAAnIw1DEeKBE4ugJPC9LQ" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XAAnJA1DEeKBE4ugJPC9LQ" x="300" width="92" height="57"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XAB1QA1DEeKBE4ugJPC9LQ" type="2001" element="_W-3XoA1DEeKBE4ugJPC9LQ">
+            <children xmi:type="notation:Node" xmi:id="_XACcUA1DEeKBE4ugJPC9LQ" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_XACcUQ1DEeKBE4ugJPC9LQ" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XAaPwA1DEeKBE4ugJPC9LQ" type="3005" element="_W-3-sA1DEeKBE4ugJPC9LQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_XAaPwQ1DEeKBE4ugJPC9LQ" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XAaPwg1DEeKBE4ugJPC9LQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_XAB1QQ1DEeKBE4ugJPC9LQ" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XAB1Qg1DEeKBE4ugJPC9LQ" x="456" width="92" height="57"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XADDYA1DEeKBE4ugJPC9LQ" type="2001" element="_W-3-sQ1DEeKBE4ugJPC9LQ">
+            <children xmi:type="notation:Node" xmi:id="_XADDYw1DEeKBE4ugJPC9LQ" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_XADqcA1DEeKBE4ugJPC9LQ" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XAa20A1DEeKBE4ugJPC9LQ" type="3005" element="_W-4lwA1DEeKBE4ugJPC9LQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_XAa20Q1DEeKBE4ugJPC9LQ" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XAa20g1DEeKBE4ugJPC9LQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_XADDYQ1DEeKBE4ugJPC9LQ" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XADDYg1DEeKBE4ugJPC9LQ" x="612" width="92" height="57"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XADqcQ1DEeKBE4ugJPC9LQ" type="2001" element="_W-4lwQ1DEeKBE4ugJPC9LQ">
+            <children xmi:type="notation:Node" xmi:id="_XAERgA1DEeKBE4ugJPC9LQ" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_XAERgQ1DEeKBE4ugJPC9LQ" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XAbd4A1DEeKBE4ugJPC9LQ" type="3005" element="_W-5M0A1DEeKBE4ugJPC9LQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_XAbd4Q1DEeKBE4ugJPC9LQ" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XAbd4g1DEeKBE4ugJPC9LQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_XADqcg1DEeKBE4ugJPC9LQ" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XADqcw1DEeKBE4ugJPC9LQ" x="756" width="92" height="57"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XAE4kA1DEeKBE4ugJPC9LQ" type="2001" element="_W-5M0Q1DEeKBE4ugJPC9LQ">
+            <children xmi:type="notation:Node" xmi:id="_XAFfoA1DEeKBE4ugJPC9LQ" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_XAFfoQ1DEeKBE4ugJPC9LQ" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XAcsAA1DEeKBE4ugJPC9LQ" type="3005" element="_W-5z4A1DEeKBE4ugJPC9LQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_XAcsAQ1DEeKBE4ugJPC9LQ" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XAcsAg1DEeKBE4ugJPC9LQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_XAE4kQ1DEeKBE4ugJPC9LQ" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XAE4kg1DEeKBE4ugJPC9LQ" x="912" width="92" height="57"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XAGGsA1DEeKBE4ugJPC9LQ" type="2001" element="_W-5z4Q1DEeKBE4ugJPC9LQ">
+            <children xmi:type="notation:Node" xmi:id="_XAGtwA1DEeKBE4ugJPC9LQ" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_XAGtwQ1DEeKBE4ugJPC9LQ" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XAehMA1DEeKBE4ugJPC9LQ" type="3005" element="_W-6a8A1DEeKBE4ugJPC9LQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_XAehMQ1DEeKBE4ugJPC9LQ" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XAehMg1DEeKBE4ugJPC9LQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_XAGGsQ1DEeKBE4ugJPC9LQ" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XAGGsg1DEeKBE4ugJPC9LQ" x="1068" width="92" height="57"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XAHU0A1DEeKBE4ugJPC9LQ" type="2001" element="_W-6a8Q1DEeKBE4ugJPC9LQ">
+            <children xmi:type="notation:Node" xmi:id="_XAH74A1DEeKBE4ugJPC9LQ" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_XAH74Q1DEeKBE4ugJPC9LQ" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XAfIQA1DEeKBE4ugJPC9LQ" type="3005" element="_W-7CAA1DEeKBE4ugJPC9LQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_XAfIQQ1DEeKBE4ugJPC9LQ" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XAfIQg1DEeKBE4ugJPC9LQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_XAHU0Q1DEeKBE4ugJPC9LQ" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XAHU0g1DEeKBE4ugJPC9LQ" x="1212" width="92" height="57"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XAH74g1DEeKBE4ugJPC9LQ" type="2001" element="_W-8QIA1DEeKBE4ugJPC9LQ">
+            <children xmi:type="notation:Node" xmi:id="_XAIi8A1DEeKBE4ugJPC9LQ" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_XAIi8Q1DEeKBE4ugJPC9LQ" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XAfvUA1DEeKBE4ugJPC9LQ" type="3005" element="_W-8QIQ1DEeKBE4ugJPC9LQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_XAfvUQ1DEeKBE4ugJPC9LQ" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XAfvUg1DEeKBE4ugJPC9LQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_XAH74w1DEeKBE4ugJPC9LQ" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XAH75A1DEeKBE4ugJPC9LQ" x="1368" width="92" height="57"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XAJKAA1DEeKBE4ugJPC9LQ" type="2001" element="_W-83MA1DEeKBE4ugJPC9LQ">
+            <children xmi:type="notation:Node" xmi:id="_XAJxEA1DEeKBE4ugJPC9LQ" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_XAJxEQ1DEeKBE4ugJPC9LQ" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XAgWYA1DEeKBE4ugJPC9LQ" type="3005" element="_W-83MQ1DEeKBE4ugJPC9LQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_XAgWYQ1DEeKBE4ugJPC9LQ" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XAgWYg1DEeKBE4ugJPC9LQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_XAJKAQ1DEeKBE4ugJPC9LQ" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XAJKAg1DEeKBE4ugJPC9LQ" x="1524" width="92" height="57"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XAKYIA1DEeKBE4ugJPC9LQ" type="2001" element="_W--FUA1DEeKBE4ugJPC9LQ">
+            <children xmi:type="notation:Node" xmi:id="_XAK_MA1DEeKBE4ugJPC9LQ" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_XAK_MQ1DEeKBE4ugJPC9LQ" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XAg9cA1DEeKBE4ugJPC9LQ" type="3005" element="_W--sYA1DEeKBE4ugJPC9LQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_XAg9cQ1DEeKBE4ugJPC9LQ" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XAg9cg1DEeKBE4ugJPC9LQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_XAKYIQ1DEeKBE4ugJPC9LQ" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XAKYIg1DEeKBE4ugJPC9LQ" x="1668" width="200" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XALmQA1DEeKBE4ugJPC9LQ" type="2001" element="_W-_6gA1DEeKBE4ugJPC9LQ">
+            <children xmi:type="notation:Node" xmi:id="_XAMNUA1DEeKBE4ugJPC9LQ" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_XAMNUQ1DEeKBE4ugJPC9LQ" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XAhkgA1DEeKBE4ugJPC9LQ" type="3005" element="_W-_6gQ1DEeKBE4ugJPC9LQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_XAhkgQ1DEeKBE4ugJPC9LQ" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XAhkgg1DEeKBE4ugJPC9LQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_XALmQQ1DEeKBE4ugJPC9LQ" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XALmQg1DEeKBE4ugJPC9LQ" x="1932" width="416" height="85"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XAM0YA1DEeKBE4ugJPC9LQ" type="2002" element="_W_EL8A1DEeKBE4ugJPC9LQ">
+            <children xmi:type="notation:Node" xmi:id="_XAOCgA1DEeKBE4ugJPC9LQ" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_XAOpkA1DEeKBE4ugJPC9LQ" type="7001">
+              <styles xmi:type="notation:SortingStyle" xmi:id="_XAOpkQ1DEeKBE4ugJPC9LQ"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_XAOpkg1DEeKBE4ugJPC9LQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XAiyoA1DEeKBE4ugJPC9LQ" type="3012" element="_W_RnUA1DEeKBE4ugJPC9LQ">
+              <children xmi:type="notation:Node" xmi:id="_XAkn0A1DEeKBE4ugJPC9LQ" type="5010">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_XAkn0Q1DEeKBE4ugJPC9LQ" x="-16"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_XBE-IA1DEeKBE4ugJPC9LQ" type="3005" element="_W_SOYA1DEeKBE4ugJPC9LQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_XBE-IQ1DEeKBE4ugJPC9LQ" fontName="Cantarell"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XBE-Ig1DEeKBE4ugJPC9LQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_XAiyoQ1DEeKBE4ugJPC9LQ" fontName="Cantarell" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XAiyog1DEeKBE4ugJPC9LQ" y="62" width="70" height="80"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XAnEEA1DEeKBE4ugJPC9LQ" type="3012" element="_W_S1cA1DEeKBE4ugJPC9LQ">
+              <children xmi:type="notation:Node" xmi:id="_XAnrIA1DEeKBE4ugJPC9LQ" type="5010">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_XAnrIQ1DEeKBE4ugJPC9LQ" y="-21"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_XBFlMA1DEeKBE4ugJPC9LQ" type="3005" element="_W_S1cQ1DEeKBE4ugJPC9LQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_XBFlMQ1DEeKBE4ugJPC9LQ" fontName="Cantarell"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XBFlMg1DEeKBE4ugJPC9LQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_XAnEEQ1DEeKBE4ugJPC9LQ" fontName="Cantarell" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XAnEEg1DEeKBE4ugJPC9LQ" x="71" y="62" width="70" height="80"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XAqucA1DEeKBE4ugJPC9LQ" type="3012" element="_W_TcgA1DEeKBE4ugJPC9LQ">
+              <children xmi:type="notation:Node" xmi:id="_XAr8kA1DEeKBE4ugJPC9LQ" type="5010">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_XAr8kQ1DEeKBE4ugJPC9LQ" y="-21"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_XBGMQA1DEeKBE4ugJPC9LQ" type="3005" element="_W_UDkA1DEeKBE4ugJPC9LQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_XBGMQQ1DEeKBE4ugJPC9LQ" fontName="Cantarell"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XBGMQg1DEeKBE4ugJPC9LQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_XAqucQ1DEeKBE4ugJPC9LQ" fontName="Cantarell" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XAqucg1DEeKBE4ugJPC9LQ" x="142" y="8" width="70" height="80"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XAvm8A1DEeKBE4ugJPC9LQ" type="3012" element="_W_UqoA1DEeKBE4ugJPC9LQ">
+              <children xmi:type="notation:Node" xmi:id="_XAwOAA1DEeKBE4ugJPC9LQ" type="5010">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_XAwOAQ1DEeKBE4ugJPC9LQ" y="-21"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_XBHaYA1DEeKBE4ugJPC9LQ" type="3005" element="_W_UqoQ1DEeKBE4ugJPC9LQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_XBHaYQ1DEeKBE4ugJPC9LQ" fontName="Cantarell"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XBHaYg1DEeKBE4ugJPC9LQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_XAvm8Q1DEeKBE4ugJPC9LQ" fontName="Cantarell" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XAvm8g1DEeKBE4ugJPC9LQ" x="71" y="-72" width="70" height="80"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XA3iwA1DEeKBE4ugJPC9LQ" type="3012" element="_W_VRsA1DEeKBE4ugJPC9LQ">
+              <children xmi:type="notation:Node" xmi:id="_XA4J0A1DEeKBE4ugJPC9LQ" type="5010">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_XA4J0Q1DEeKBE4ugJPC9LQ" x="-16"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_XBHaYw1DEeKBE4ugJPC9LQ" type="3005" element="_W_VRsQ1DEeKBE4ugJPC9LQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_XBHaZA1DEeKBE4ugJPC9LQ" fontName="Cantarell"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XBHaZQ1DEeKBE4ugJPC9LQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_XA3iwQ1DEeKBE4ugJPC9LQ" fontName="Cantarell" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XA3iwg1DEeKBE4ugJPC9LQ" y="-72" width="70" height="80"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XA-QcA1DEeKBE4ugJPC9LQ" type="3012" element="_W_V4wA1DEeKBE4ugJPC9LQ">
+              <children xmi:type="notation:Node" xmi:id="_XA-3gA1DEeKBE4ugJPC9LQ" type="5010">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_XA-3gQ1DEeKBE4ugJPC9LQ" x="-16"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_XBIBcA1DEeKBE4ugJPC9LQ" type="3005" element="_W_Wf0A1DEeKBE4ugJPC9LQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_XBIBcQ1DEeKBE4ugJPC9LQ" fontName="Cantarell"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XBIBcg1DEeKBE4ugJPC9LQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_XA-QcQ1DEeKBE4ugJPC9LQ" fontName="Cantarell" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XA-Qcg1DEeKBE4ugJPC9LQ" y="-72" width="70" height="80"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_XAM0YQ1DEeKBE4ugJPC9LQ" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XAM0Yg1DEeKBE4ugJPC9LQ" x="2412"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XARs4A1DEeKBE4ugJPC9LQ" type="2002" element="_W_EzAA1DEeKBE4ugJPC9LQ">
+            <children xmi:type="notation:Node" xmi:id="_XAS7AA1DEeKBE4ugJPC9LQ" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_XAS7AQ1DEeKBE4ugJPC9LQ" type="7001">
+              <styles xmi:type="notation:SortingStyle" xmi:id="_XAS7Ag1DEeKBE4ugJPC9LQ"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_XAS7Aw1DEeKBE4ugJPC9LQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XBIogA1DEeKBE4ugJPC9LQ" type="3012" element="_W_XG4A1DEeKBE4ugJPC9LQ">
+              <children xmi:type="notation:Node" xmi:id="_XBJPkA1DEeKBE4ugJPC9LQ" type="5010">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_XBJPkQ1DEeKBE4ugJPC9LQ" x="-16"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_XBTnoA1DEeKBE4ugJPC9LQ" type="3005" element="_W_Xt8A1DEeKBE4ugJPC9LQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_XBUOsA1DEeKBE4ugJPC9LQ" fontName="Cantarell"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XBUOsQ1DEeKBE4ugJPC9LQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_XBIogQ1DEeKBE4ugJPC9LQ" fontName="Cantarell" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XBIogg1DEeKBE4ugJPC9LQ" y="62" width="70" height="80"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XBKdsA1DEeKBE4ugJPC9LQ" type="3012" element="_W_YVAA1DEeKBE4ugJPC9LQ">
+              <children xmi:type="notation:Node" xmi:id="_XBLr0A1DEeKBE4ugJPC9LQ" type="5010">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_XBLr0Q1DEeKBE4ugJPC9LQ" y="-21"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_XBU1wA1DEeKBE4ugJPC9LQ" type="3005" element="_W_YVAQ1DEeKBE4ugJPC9LQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_XBU1wQ1DEeKBE4ugJPC9LQ" fontName="Cantarell"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XBU1wg1DEeKBE4ugJPC9LQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_XBLEwA1DEeKBE4ugJPC9LQ" fontName="Cantarell" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XBLEwQ1DEeKBE4ugJPC9LQ" x="71" y="62" width="70" height="80"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XBNhAA1DEeKBE4ugJPC9LQ" type="3012" element="_W_Y8EA1DEeKBE4ugJPC9LQ">
+              <children xmi:type="notation:Node" xmi:id="_XBOIEA1DEeKBE4ugJPC9LQ" type="5010">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_XBOIEQ1DEeKBE4ugJPC9LQ" y="-21"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_XBVc0A1DEeKBE4ugJPC9LQ" type="3005" element="_W_ZjIA1DEeKBE4ugJPC9LQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_XBVc0Q1DEeKBE4ugJPC9LQ" fontName="Cantarell"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XBVc0g1DEeKBE4ugJPC9LQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_XBNhAQ1DEeKBE4ugJPC9LQ" fontName="Cantarell" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XBNhAg1DEeKBE4ugJPC9LQ" x="142" y="8" width="70" height="80"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XBP9QA1DEeKBE4ugJPC9LQ" type="3012" element="_W_ZjIQ1DEeKBE4ugJPC9LQ">
+              <children xmi:type="notation:Node" xmi:id="_XBQkUA1DEeKBE4ugJPC9LQ" type="5010">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_XBQkUQ1DEeKBE4ugJPC9LQ" y="-21"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_XBWD4A1DEeKBE4ugJPC9LQ" type="3005" element="_W_aKMA1DEeKBE4ugJPC9LQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_XBWD4Q1DEeKBE4ugJPC9LQ" fontName="Cantarell"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XBWD4g1DEeKBE4ugJPC9LQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_XBP9QQ1DEeKBE4ugJPC9LQ" fontName="Cantarell" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XBP9Qg1DEeKBE4ugJPC9LQ" x="71" y="-72" width="70" height="80"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_XARs4Q1DEeKBE4ugJPC9LQ" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XARs4g1DEeKBE4ugJPC9LQ" x="2508"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XATiEA1DEeKBE4ugJPC9LQ" type="2002" element="_W_GBIA1DEeKBE4ugJPC9LQ">
+            <children xmi:type="notation:Node" xmi:id="_XAUJIA1DEeKBE4ugJPC9LQ" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_XAUJIQ1DEeKBE4ugJPC9LQ" type="7001">
+              <styles xmi:type="notation:SortingStyle" xmi:id="_XAUJIg1DEeKBE4ugJPC9LQ"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_XAUJIw1DEeKBE4ugJPC9LQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XBWq8A1DEeKBE4ugJPC9LQ" type="3012" element="_W_bYUA1DEeKBE4ugJPC9LQ">
+              <children xmi:type="notation:Node" xmi:id="_XBXSAA1DEeKBE4ugJPC9LQ" type="5010">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_XBXSAQ1DEeKBE4ugJPC9LQ" x="-16"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_XBoXwA1DEeKBE4ugJPC9LQ" type="3005" element="_W_bYUQ1DEeKBE4ugJPC9LQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_XBoXwQ1DEeKBE4ugJPC9LQ" fontName="Cantarell"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XBoXwg1DEeKBE4ugJPC9LQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_XBWq8Q1DEeKBE4ugJPC9LQ" fontName="Cantarell" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XBWq8g1DEeKBE4ugJPC9LQ" y="62" width="70" height="80"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XBZHMA1DEeKBE4ugJPC9LQ" type="3012" element="_W_b_YA1DEeKBE4ugJPC9LQ">
+              <children xmi:type="notation:Node" xmi:id="_XBa8YA1DEeKBE4ugJPC9LQ" type="5010">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_XBa8YQ1DEeKBE4ugJPC9LQ" y="-21"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_XBo-0A1DEeKBE4ugJPC9LQ" type="3005" element="_W_b_YQ1DEeKBE4ugJPC9LQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_XBo-0Q1DEeKBE4ugJPC9LQ" fontName="Cantarell"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XBo-0g1DEeKBE4ugJPC9LQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_XBZHMQ1DEeKBE4ugJPC9LQ" fontName="Cantarell" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XBZHMg1DEeKBE4ugJPC9LQ" x="71" y="62" width="70" height="80"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XBcxkA1DEeKBE4ugJPC9LQ" type="3012" element="_W_cmcA1DEeKBE4ugJPC9LQ">
+              <children xmi:type="notation:Node" xmi:id="_XBdYoA1DEeKBE4ugJPC9LQ" type="5010">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_XBdYoQ1DEeKBE4ugJPC9LQ" y="-21"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_XBpl4A1DEeKBE4ugJPC9LQ" type="3005" element="_W_dNgA1DEeKBE4ugJPC9LQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_XBpl4Q1DEeKBE4ugJPC9LQ" fontName="Cantarell"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XBpl4g1DEeKBE4ugJPC9LQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_XBcxkQ1DEeKBE4ugJPC9LQ" fontName="Cantarell" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XBcxkg1DEeKBE4ugJPC9LQ" x="142" y="8" width="70" height="80"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XBf04A1DEeKBE4ugJPC9LQ" type="3012" element="_W_dNgQ1DEeKBE4ugJPC9LQ">
+              <children xmi:type="notation:Node" xmi:id="_XBgb8A1DEeKBE4ugJPC9LQ" type="5010">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_XBgb8Q1DEeKBE4ugJPC9LQ" y="-21"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_XBqM8A1DEeKBE4ugJPC9LQ" type="3005" element="_W_d0kA1DEeKBE4ugJPC9LQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_XBqM8Q1DEeKBE4ugJPC9LQ" fontName="Cantarell"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XBqM8g1DEeKBE4ugJPC9LQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_XBf04Q1DEeKBE4ugJPC9LQ" fontName="Cantarell" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XBf04g1DEeKBE4ugJPC9LQ" x="71" y="-72" width="70" height="80"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XBjfQA1DEeKBE4ugJPC9LQ" type="3012" element="_W_d0kQ1DEeKBE4ugJPC9LQ">
+              <children xmi:type="notation:Node" xmi:id="_XBkGUA1DEeKBE4ugJPC9LQ" type="5010">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_XBkGUQ1DEeKBE4ugJPC9LQ" x="-16"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_XBq0AA1DEeKBE4ugJPC9LQ" type="3005" element="_W_fCsA1DEeKBE4ugJPC9LQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_XBq0AQ1DEeKBE4ugJPC9LQ" fontName="Cantarell"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XBq0Ag1DEeKBE4ugJPC9LQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_XBjfQQ1DEeKBE4ugJPC9LQ" fontName="Cantarell" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XBjfQg1DEeKBE4ugJPC9LQ" y="-72" width="70" height="80"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_XATiEQ1DEeKBE4ugJPC9LQ" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XATiEg1DEeKBE4ugJPC9LQ" x="2652"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XAUwMA1DEeKBE4ugJPC9LQ" type="2002" element="_W_GoMA1DEeKBE4ugJPC9LQ">
+            <children xmi:type="notation:Node" xmi:id="_XAVXQA1DEeKBE4ugJPC9LQ" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_XAV-UA1DEeKBE4ugJPC9LQ" type="7001">
+              <styles xmi:type="notation:SortingStyle" xmi:id="_XAV-UQ1DEeKBE4ugJPC9LQ"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_XAV-Ug1DEeKBE4ugJPC9LQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_XAUwMQ1DEeKBE4ugJPC9LQ" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XAUwMg1DEeKBE4ugJPC9LQ" x="1872" y="312"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XAV-Uw1DEeKBE4ugJPC9LQ" type="2002" element="_W_HPQA1DEeKBE4ugJPC9LQ">
+            <children xmi:type="notation:Node" xmi:id="_XAXMcA1DEeKBE4ugJPC9LQ" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_XAXMcQ1DEeKBE4ugJPC9LQ" type="7001">
+              <styles xmi:type="notation:SortingStyle" xmi:id="_XAXMcg1DEeKBE4ugJPC9LQ"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_XAXMcw1DEeKBE4ugJPC9LQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_XAV-VA1DEeKBE4ugJPC9LQ" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XAV-VQ1DEeKBE4ugJPC9LQ" x="1872" y="384"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ZdKHkA1aEeK4EOlI1BAouA" type="2002" element="_ZbRRMA1aEeK4EOlI1BAouA">
+            <children xmi:type="notation:Node" xmi:id="_ZdMj0A1aEeK4EOlI1BAouA" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_ZdNK4A1aEeK4EOlI1BAouA" type="7001">
+              <styles xmi:type="notation:SortingStyle" xmi:id="_ZdNK4Q1aEeK4EOlI1BAouA"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_ZdNK4g1aEeK4EOlI1BAouA"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_aJm94A1aEeK4EOlI1BAouA" type="3012" element="_aIDesA1aEeK4EOlI1BAouA">
+              <children xmi:type="notation:Node" xmi:id="_aJoMAA1aEeK4EOlI1BAouA" type="5010">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_aJoMAQ1aEeK4EOlI1BAouA" x="14" y="-4"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_aJqBMA1aEeK4EOlI1BAouA" type="3005" element="_aIDesQ1aEeK4EOlI1BAouA">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_aJqBMQ1aEeK4EOlI1BAouA" fontName="Cantarell"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aJqBMg1aEeK4EOlI1BAouA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_aJm94Q1aEeK4EOlI1BAouA" fontName="Cantarell" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aJm94g1aEeK4EOlI1BAouA" x="101" y="123" width="13" height="15"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_amuXsA1aEeK4EOlI1BAouA" type="3012" element="_alpZoA1aEeK4EOlI1BAouA">
+              <children xmi:type="notation:Node" xmi:id="_amu-wA1aEeK4EOlI1BAouA" type="5010">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_amu-wQ1aEeK4EOlI1BAouA" x="14" y="-4"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_amwz8A1aEeK4EOlI1BAouA" type="3005" element="_alpZoQ1aEeK4EOlI1BAouA">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_amwz8Q1aEeK4EOlI1BAouA" fontName="Cantarell"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_amwz8g1aEeK4EOlI1BAouA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_amuXsQ1aEeK4EOlI1BAouA" fontName="Cantarell" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_amuXsg1aEeK4EOlI1BAouA" x="314" y="70" width="13" height="15"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_bCDo0A1aEeK4EOlI1BAouA" type="3012" element="_bBN7UA1aEeK4EOlI1BAouA">
+              <children xmi:type="notation:Node" xmi:id="_bCEP4A1aEeK4EOlI1BAouA" type="5010">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_bCEP4Q1aEeK4EOlI1BAouA" x="14" y="-4"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_bCFeAA1aEeK4EOlI1BAouA" type="3005" element="_bBN7UQ1aEeK4EOlI1BAouA">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_bCFeAQ1aEeK4EOlI1BAouA" fontName="Cantarell"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bCFeAg1aEeK4EOlI1BAouA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_bCDo0Q1aEeK4EOlI1BAouA" fontName="Cantarell" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bCDo0g1aEeK4EOlI1BAouA" x="281" y="-7" width="13" height="15"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ZdKHkQ1aEeK4EOlI1BAouA" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZdKHkg1aEeK4EOlI1BAouA" x="2040" y="252" width="322" height="131"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_W8NFMg1DEeKBE4ugJPC9LQ"/>
+          <edges xmi:type="notation:Edge" xmi:id="_Yf7DQA1aEeK4EOlI1BAouA" type="4001" element="_YfzHcA1aEeK4EOlI1BAouA" source="_XAV-Uw1DEeKBE4ugJPC9LQ" target="_XAUwMA1DEeKBE4ugJPC9LQ">
+            <children xmi:type="notation:Node" xmi:id="_Yf7qUA1aEeK4EOlI1BAouA" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Yf7qUQ1aEeK4EOlI1BAouA" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_Yf8RYA1aEeK4EOlI1BAouA" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Yf8RYQ1aEeK4EOlI1BAouA" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_Yf8RYg1aEeK4EOlI1BAouA" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Yf8RYw1aEeK4EOlI1BAouA" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_Yf7DQQ1aEeK4EOlI1BAouA"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_Yf7DQg1aEeK4EOlI1BAouA" fontName="Cantarell"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Yf7DQw1aEeK4EOlI1BAouA" points="[1872, 384, 1872, 384]$[1872, 312, 1872, 312]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Yf84cA1aEeK4EOlI1BAouA" id="(0.5,0.5)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Yf84cQ1aEeK4EOlI1BAouA" id="(0.5,0.5)"/>
+          </edges>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_W-0UUA1DEeKBE4ugJPC9LQ" name="Bool_Type" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="aadl2:DataType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.0"/>
+        <semanticElements xmi:type="aadl2:DataType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.0"/>
+        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W-07YA1DEeKBE4ugJPC9LQ" showIcon="false" labelPosition="node" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data.svg">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='DataType']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='DataType']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_W-1icA1DEeKBE4ugJPC9LQ" name="Float_Type" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="aadl2:DataType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.1"/>
+        <semanticElements xmi:type="aadl2:DataType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.1"/>
+        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W-1icQ1DEeKBE4ugJPC9LQ" showIcon="false" labelPosition="node" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data.svg">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='DataType']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='DataType']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_W-2JgA1DEeKBE4ugJPC9LQ" name="piout" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="aadl2:DataType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.28"/>
+        <semanticElements xmi:type="aadl2:DataType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.28"/>
+        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W-2JgQ1DEeKBE4ugJPC9LQ" showIcon="false" labelPosition="node" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data.svg">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='DataType']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='DataType']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_W-3XoA1DEeKBE4ugJPC9LQ" name="Button_Panel" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="aadl2:ThreadType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.2"/>
+        <semanticElements xmi:type="aadl2:ThreadType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.2"/>
+        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W-3-sA1DEeKBE4ugJPC9LQ" showIcon="false" labelPosition="node" workspacePath="/org.obeonetwork.dsl.aadl.design/images/thread.svg">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='ThreadType']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='ThreadType']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_W-3-sQ1DEeKBE4ugJPC9LQ" name="Drivermodelogic" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="aadl2:ThreadType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.4"/>
+        <semanticElements xmi:type="aadl2:ThreadType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.4"/>
+        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W-4lwA1DEeKBE4ugJPC9LQ" showIcon="false" labelPosition="node" workspacePath="/org.obeonetwork.dsl.aadl.design/images/thread.svg">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='ThreadType']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='ThreadType']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_W-4lwQ1DEeKBE4ugJPC9LQ" name="Refspd" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="aadl2:ThreadType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.6"/>
+        <semanticElements xmi:type="aadl2:ThreadType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.6"/>
+        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W-5M0A1DEeKBE4ugJPC9LQ" showIcon="false" labelPosition="node" workspacePath="/org.obeonetwork.dsl.aadl.design/images/thread.svg">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='ThreadType']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='ThreadType']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_W-5M0Q1DEeKBE4ugJPC9LQ" name="Instrumentpanel" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="aadl2:ThreadType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.8"/>
+        <semanticElements xmi:type="aadl2:ThreadType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.8"/>
+        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W-5z4A1DEeKBE4ugJPC9LQ" showIcon="false" labelPosition="node" workspacePath="/org.obeonetwork.dsl.aadl.design/images/thread.svg">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='ThreadType']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='ThreadType']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_W-5z4Q1DEeKBE4ugJPC9LQ" name="Cruise1" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="aadl2:ThreadType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.14"/>
+        <semanticElements xmi:type="aadl2:ThreadType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.14"/>
+        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W-6a8A1DEeKBE4ugJPC9LQ" showIcon="false" labelPosition="node" workspacePath="/org.obeonetwork.dsl.aadl.design/images/thread.svg">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='ThreadType']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='ThreadType']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_W-6a8Q1DEeKBE4ugJPC9LQ" name="Cruise2" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="aadl2:ThreadType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.16"/>
+        <semanticElements xmi:type="aadl2:ThreadType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.16"/>
+        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W-7CAA1DEeKBE4ugJPC9LQ" showIcon="false" labelPosition="node" workspacePath="/org.obeonetwork.dsl.aadl.design/images/thread.svg">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='ThreadType']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='ThreadType']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_W-8QIA1DEeKBE4ugJPC9LQ" name="Hci_Process" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="aadl2:ProcessType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.10"/>
+        <semanticElements xmi:type="aadl2:ProcessType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.10"/>
+        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W-8QIQ1DEeKBE4ugJPC9LQ" showIcon="false" labelPosition="node" workspacePath="/org.obeonetwork.dsl.aadl.design/images/process.svg">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='ProcessType']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='ProcessType']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_W-83MA1DEeKBE4ugJPC9LQ" name="Cruisecontrol_Process" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="aadl2:ProcessType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.18"/>
+        <semanticElements xmi:type="aadl2:ProcessType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.18"/>
+        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W-83MQ1DEeKBE4ugJPC9LQ" showIcon="false" labelPosition="node" workspacePath="/org.obeonetwork.dsl.aadl.design/images/process.svg">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='ProcessType']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='ProcessType']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_W--FUA1DEeKBE4ugJPC9LQ" name="Lan_Type" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="aadl2:BusType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.22"/>
+        <semanticElements xmi:type="aadl2:BusType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.22"/>
+        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W--sYA1DEeKBE4ugJPC9LQ" showIcon="false" labelPosition="node" workspacePath="/org.obeonetwork.dsl.aadl.design/images/bus.svg">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='BusType']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='BusType']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_W-_6gA1DEeKBE4ugJPC9LQ" name="Powerpc" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="aadl2:ProcessorType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.24"/>
+        <semanticElements xmi:type="aadl2:ProcessorType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.24"/>
+        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W-_6gQ1DEeKBE4ugJPC9LQ" showIcon="false" labelPosition="node" workspacePath="/org.obeonetwork.dsl.aadl.design/images/processor.svg">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='ProcessorType']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='ProcessorType']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DNodeContainer" xmi:id="_W_EL8A1DEeKBE4ugJPC9LQ" name="Hci">
+        <target xmi:type="aadl2:SystemType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12"/>
+        <semanticElements xmi:type="aadl2:SystemType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12"/>
+        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_W_RnUA1DEeKBE4ugJPC9LQ" name="Breakpedalpressed" width="-1" height="-1">
+          <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.0"/>
+          <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.0"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_SOYA1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_W_S1cA1DEeKBE4ugJPC9LQ" name="Clutchpedalpressed" width="-1" height="-1">
+          <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.1"/>
+          <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.1"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_S1cQ1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_W_TcgA1DEeKBE4ugJPC9LQ" name="Autospd_Mph" width="-1" height="-1">
+          <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.2"/>
+          <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.2"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_UDkA1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_W_UqoA1DEeKBE4ugJPC9LQ" name="Engspd_Rpm" width="-1" height="-1">
+          <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.3"/>
+          <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.3"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_UqoQ1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_W_VRsA1DEeKBE4ugJPC9LQ" name="Cruiseactive" width="-1" height="-1">
+          <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.4"/>
+          <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.4"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_VRsQ1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_W_V4wA1DEeKBE4ugJPC9LQ" name="Refspd_Mph" width="-1" height="-1">
+          <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.5"/>
+          <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.5"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_Wf0A1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
+        </ownedBorderedNodes>
+        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_EL8Q1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DNodeContainer" xmi:id="_W_EzAA1DEeKBE4ugJPC9LQ" name="Cruisecontrollaws">
+        <target xmi:type="aadl2:SystemType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.20"/>
+        <semanticElements xmi:type="aadl2:SystemType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.20"/>
+        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_W_XG4A1DEeKBE4ugJPC9LQ" name="Cruiseactive" width="-1" height="-1">
+          <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedDataPort.0"/>
+          <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedDataPort.0"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_Xt8A1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_W_YVAA1DEeKBE4ugJPC9LQ" name="Refspd_Mph" width="-1" height="-1">
+          <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedDataPort.1"/>
+          <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedDataPort.1"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_YVAQ1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_W_Y8EA1DEeKBE4ugJPC9LQ" name="Autospd_Mph" width="-1" height="-1">
+          <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedDataPort.2"/>
+          <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedDataPort.2"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_ZjIA1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_W_ZjIQ1DEeKBE4ugJPC9LQ" name="Throttlepos_In" width="-1" height="-1">
+          <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedDataPort.3"/>
+          <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedDataPort.3"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_aKMA1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
+        </ownedBorderedNodes>
+        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_FaEA1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DNodeContainer" xmi:id="_W_GBIA1DEeKBE4ugJPC9LQ" name="Cruisecontrol">
+        <target xmi:type="aadl2:SystemType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26"/>
+        <semanticElements xmi:type="aadl2:SystemType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26"/>
+        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_W_bYUA1DEeKBE4ugJPC9LQ" name="Breakpedalpressed" width="-1" height="-1">
+          <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedDataPort.0"/>
+          <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedDataPort.0"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_bYUQ1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_W_b_YA1DEeKBE4ugJPC9LQ" name="Clutchpedalpressed" width="-1" height="-1">
+          <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedDataPort.1"/>
+          <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedDataPort.1"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_b_YQ1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_W_cmcA1DEeKBE4ugJPC9LQ" name="Autospd_Mph" width="-1" height="-1">
+          <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedDataPort.2"/>
+          <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedDataPort.2"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_dNgA1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_W_dNgQ1DEeKBE4ugJPC9LQ" name="Engspd_Rpm" width="-1" height="-1">
+          <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedDataPort.3"/>
+          <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedDataPort.3"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_d0kA1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_W_d0kQ1DEeKBE4ugJPC9LQ" name="Throttlepos_In" width="-1" height="-1">
+          <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedDataPort.4"/>
+          <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedDataPort.4"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_fCsA1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
+        </ownedBorderedNodes>
+        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_GBIQ1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DNodeContainer" xmi:id="_W_GoMA1DEeKBE4ugJPC9LQ" name="simple" incomingEdges="_YfzHcA1aEeK4EOlI1BAouA">
+        <target xmi:type="aadl2:SystemType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.29"/>
+        <semanticElements xmi:type="aadl2:SystemType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.29"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_GoMQ1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DNodeContainer" xmi:id="_W_HPQA1DEeKBE4ugJPC9LQ" name="complex" outgoingEdges="_YfzHcA1aEeK4EOlI1BAouA">
+        <target xmi:type="aadl2:SystemType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.30"/>
+        <semanticElements xmi:type="aadl2:SystemType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.30"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_HPQQ1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DEdge" xmi:id="_YfzHcA1aEeK4EOlI1BAouA" sourceNode="_W_HPQA1DEeKBE4ugJPC9LQ" targetNode="_W_GoMA1DEeKBE4ugJPC9LQ">
+        <target xmi:type="aadl2:TypeExtension" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.30/@ownedExtension"/>
+        <semanticElements xmi:type="aadl2:TypeExtension" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.30/@ownedExtension"/>
+        <ownedStyle xmi:type="viewpoint:EdgeStyle" xmi:id="_YfzHcQ1aEeK4EOlI1BAouA" size="2">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@edgeMappings[name='TypeExtension']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_YfzHcg1aEeK4EOlI1BAouA" red="136" green="136" blue="136"/>
+          <centerLabelStyle xmi:type="viewpoint:CenterLabelStyle" xmi:id="_YfzHcw1aEeK4EOlI1BAouA">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_YfzHdA1aEeK4EOlI1BAouA"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description:EdgeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@edgeMappings[name='TypeExtension']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DNodeContainer" xmi:id="_ZbRRMA1aEeK4EOlI1BAouA" name="New System">
+        <target xmi:type="aadl2:SystemType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.31"/>
+        <semanticElements xmi:type="aadl2:SystemType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.31"/>
+        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_aIDesA1aEeK4EOlI1BAouA" name="New Data Port" width="-1" height="-1">
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_aIDesQ1aEeK4EOlI1BAouA" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_alpZoA1aEeK4EOlI1BAouA" name="bla" width="-1" height="-1">
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_alpZoQ1aEeK4EOlI1BAouA" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_bBN7UA1aEeK4EOlI1BAouA" name="New Data Port" width="-1" height="-1">
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_bBN7UQ1aEeK4EOlI1BAouA" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
+        </ownedBorderedNodes>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_ZbR4QA1aEeK4EOlI1BAouA" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']"/>
+      </ownedDiagramElements>
+      <description xmi:type="description:DiagramDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']"/>
+      <filterVariableHistory xmi:type="viewpoint:FilterVariableHistory" xmi:id="_W7-bsg1DEeKBE4ugJPC9LQ"/>
+      <activatedLayers xmi:type="description:Layer" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer"/>
+      <target xmi:type="aadl2:PublicPackageSection" href="cruise_control.aadl#//@ownedPublicSection"/>
     </ownedRepresentations>
     <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']"/>
   </ownedViews>
@@ -1381,10 +2216,7 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_fdYCIAi7EeKVy6YrFzUdCA" showIcon="false" labelPosition="node" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data.svg">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@nodeMappings[name='Data']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@nodeMappings[name='Data']"/>
+        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_fdYCIAi7EeKVy6YrFzUdCA" showIcon="false" labelPosition="node" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data.svg"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_fdZQQAi7EeKVy6YrFzUdCA" name="Float_Type" width="-1" height="-1" resizeKind="NSEW">
         <target xmi:type="aadl2:DataType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.1"/>
@@ -1392,10 +2224,7 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_fdZQQQi7EeKVy6YrFzUdCA" showIcon="false" labelPosition="node" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data.svg">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@nodeMappings[name='Data']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@nodeMappings[name='Data']"/>
+        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_fdZQQQi7EeKVy6YrFzUdCA" showIcon="false" labelPosition="node" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data.svg"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_fdZ3UAi7EeKVy6YrFzUdCA" name="piout" width="-1" height="-1" resizeKind="NSEW">
         <target xmi:type="aadl2:DataType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.28"/>
@@ -1403,10 +2232,7 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_fdaeYAi7EeKVy6YrFzUdCA" showIcon="false" labelPosition="node" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data.svg">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@nodeMappings[name='Data']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@nodeMappings[name='Data']"/>
+        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_fdaeYAi7EeKVy6YrFzUdCA" showIcon="false" labelPosition="node" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data.svg"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_fdbsgAi7EeKVy6YrFzUdCA" name="Hci_Process" width="-1" height="-1" resizeKind="NSEW">
         <target xmi:type="aadl2:ProcessType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.10"/>
@@ -1414,10 +2240,7 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_fdcTkAi7EeKVy6YrFzUdCA" showIcon="false" labelPosition="node" workspacePath="/org.obeonetwork.dsl.aadl.design/images/process.svg">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@nodeMappings[name='Process']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@nodeMappings[name='Process']"/>
+        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_fdcTkAi7EeKVy6YrFzUdCA" showIcon="false" labelPosition="node" workspacePath="/org.obeonetwork.dsl.aadl.design/images/process.svg"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_fdc6oAi7EeKVy6YrFzUdCA" name="Hci_Process.Model" width="-1" height="-1" resizeKind="NSEW">
         <target xmi:type="aadl2:ProcessImplementation" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.11"/>
@@ -1425,10 +2248,7 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_fddhsAi7EeKVy6YrFzUdCA" showIcon="false" labelPosition="node" workspacePath="/org.obeonetwork.dsl.aadl.design/images/process.svg">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@nodeMappings[name='Process']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@nodeMappings[name='Process']"/>
+        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_fddhsAi7EeKVy6YrFzUdCA" showIcon="false" labelPosition="node" workspacePath="/org.obeonetwork.dsl.aadl.design/images/process.svg"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_fdeIwAi7EeKVy6YrFzUdCA" name="P_Hci_Process" width="-1" height="-1" resizeKind="NSEW">
         <target xmi:type="aadl2:ProcessSubcomponent" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.13/@ownedProcessSubcomponent.0"/>
@@ -1436,10 +2256,7 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_fdev0Ai7EeKVy6YrFzUdCA" showIcon="false" labelPosition="node" workspacePath="/org.obeonetwork.dsl.aadl.design/images/process.svg">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@nodeMappings[name='Process']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@nodeMappings[name='Process']"/>
+        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_fdev0Ai7EeKVy6YrFzUdCA" showIcon="false" labelPosition="node" workspacePath="/org.obeonetwork.dsl.aadl.design/images/process.svg"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_fdev0Qi7EeKVy6YrFzUdCA" name="Cruisecontrol_Process" width="-1" height="-1" resizeKind="NSEW">
         <target xmi:type="aadl2:ProcessType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.18"/>
@@ -1447,10 +2264,7 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_fdfW4Ai7EeKVy6YrFzUdCA" showIcon="false" labelPosition="node" workspacePath="/org.obeonetwork.dsl.aadl.design/images/process.svg">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@nodeMappings[name='Process']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@nodeMappings[name='Process']"/>
+        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_fdfW4Ai7EeKVy6YrFzUdCA" showIcon="false" labelPosition="node" workspacePath="/org.obeonetwork.dsl.aadl.design/images/process.svg"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_fdf98Ai7EeKVy6YrFzUdCA" name="Cruisecontrol_Process.Model" width="-1" height="-1" resizeKind="NSEW">
         <target xmi:type="aadl2:ProcessImplementation" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.19"/>
@@ -1458,10 +2272,7 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_fdglAAi7EeKVy6YrFzUdCA" showIcon="false" labelPosition="node" workspacePath="/org.obeonetwork.dsl.aadl.design/images/process.svg">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@nodeMappings[name='Process']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@nodeMappings[name='Process']"/>
+        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_fdglAAi7EeKVy6YrFzUdCA" showIcon="false" labelPosition="node" workspacePath="/org.obeonetwork.dsl.aadl.design/images/process.svg"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_fdglAQi7EeKVy6YrFzUdCA" name="P_Cruisecontrol_Process" width="-1" height="-1" resizeKind="NSEW">
         <target xmi:type="aadl2:ProcessSubcomponent" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.21/@ownedProcessSubcomponent.0"/>
@@ -1469,10 +2280,7 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_fdhMEAi7EeKVy6YrFzUdCA" showIcon="false" labelPosition="node" workspacePath="/org.obeonetwork.dsl.aadl.design/images/process.svg">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@nodeMappings[name='Process']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@nodeMappings[name='Process']"/>
+        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_fdhMEAi7EeKVy6YrFzUdCA" showIcon="false" labelPosition="node" workspacePath="/org.obeonetwork.dsl.aadl.design/images/process.svg"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="viewpoint:DNodeList" xmi:id="_fdkPYAi7EeKVy6YrFzUdCA" name="Hci">
         <target xmi:type="aadl2:SystemType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12"/>
@@ -1480,42 +2288,33 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_fdkPYQi7EeKVy6YrFzUdCA" labelSize="10" labelFormat="bold" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@containerMappings[name='SystemTypeContainer']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@containerMappings[name='SystemTypeContainer']"/>
+        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_fdkPYQi7EeKVy6YrFzUdCA" labelSize="10" labelFormat="bold" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg"/>
         <ownedElements xmi:type="viewpoint:DNodeListElement" xmi:id="_fdn5wAi7EeKVy6YrFzUdCA" name="Hci.Model">
           <target xmi:type="aadl2:SystemImplementation" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.13"/>
           <semanticElements xmi:type="aadl2:SystemImplementation" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.13"/>
           <ownedStyle xmi:type="viewpoint:BundledImage" xmi:id="_fdpu8Ai7EeKVy6YrFzUdCA" showIcon="false">
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_fdpu8Qi7EeKVy6YrFzUdCA"/>
-            <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@containerMappings[name='SystemTypeContainer']/@subNodeMappings[name='SystemImplementation']/@style"/>
             <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_fdpu8gi7EeKVy6YrFzUdCA"/>
             <color xmi:type="viewpoint:RGBValues" xmi:id="_fdpu8wi7EeKVy6YrFzUdCA"/>
           </ownedStyle>
-          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@containerMappings[name='SystemTypeContainer']/@subNodeMappings[name='SystemImplementation']"/>
         </ownedElements>
         <ownedElements xmi:type="viewpoint:DNodeListElement" xmi:id="_fdqWAAi7EeKVy6YrFzUdCA" name="Cruisecontrollaws.Model">
           <target xmi:type="aadl2:SystemImplementation" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.21"/>
           <semanticElements xmi:type="aadl2:SystemImplementation" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.21"/>
           <ownedStyle xmi:type="viewpoint:BundledImage" xmi:id="_fdqWAQi7EeKVy6YrFzUdCA" showIcon="false">
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_fdqWAgi7EeKVy6YrFzUdCA"/>
-            <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@containerMappings[name='SystemTypeContainer']/@subNodeMappings[name='SystemImplementation']/@style"/>
             <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_fdqWAwi7EeKVy6YrFzUdCA"/>
             <color xmi:type="viewpoint:RGBValues" xmi:id="_fdqWBAi7EeKVy6YrFzUdCA"/>
           </ownedStyle>
-          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@containerMappings[name='SystemTypeContainer']/@subNodeMappings[name='SystemImplementation']"/>
         </ownedElements>
         <ownedElements xmi:type="viewpoint:DNodeListElement" xmi:id="_fdq9EAi7EeKVy6YrFzUdCA" name="Cruisecontrol.Generic">
           <target xmi:type="aadl2:SystemImplementation" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.27"/>
           <semanticElements xmi:type="aadl2:SystemImplementation" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.27"/>
           <ownedStyle xmi:type="viewpoint:BundledImage" xmi:id="_fdrkIAi7EeKVy6YrFzUdCA" showIcon="false">
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_fdrkIQi7EeKVy6YrFzUdCA"/>
-            <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@containerMappings[name='SystemTypeContainer']/@subNodeMappings[name='SystemImplementation']/@style"/>
             <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_fdrkIgi7EeKVy6YrFzUdCA"/>
             <color xmi:type="viewpoint:RGBValues" xmi:id="_fdrkIwi7EeKVy6YrFzUdCA"/>
           </ownedStyle>
-          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@containerMappings[name='SystemTypeContainer']/@subNodeMappings[name='SystemImplementation']"/>
         </ownedElements>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="viewpoint:DNodeList" xmi:id="_fdk2cAi7EeKVy6YrFzUdCA" name="Cruisecontrollaws">
@@ -1524,90 +2323,69 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_fdldgAi7EeKVy6YrFzUdCA" labelSize="10" labelFormat="bold" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@containerMappings[name='SystemTypeContainer']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@containerMappings[name='SystemTypeContainer']"/>
+        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_fdldgAi7EeKVy6YrFzUdCA" labelSize="10" labelFormat="bold" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg"/>
         <ownedElements xmi:type="viewpoint:DNodeListElement" xmi:id="_fdtZUAi7EeKVy6YrFzUdCA" name="Hci.Model">
           <target xmi:type="aadl2:SystemImplementation" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.13"/>
           <semanticElements xmi:type="aadl2:SystemImplementation" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.13"/>
           <ownedStyle xmi:type="viewpoint:BundledImage" xmi:id="_fduAYAi7EeKVy6YrFzUdCA" showIcon="false">
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_fduAYQi7EeKVy6YrFzUdCA"/>
-            <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@containerMappings[name='SystemTypeContainer']/@subNodeMappings[name='SystemImplementation']/@style"/>
             <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_fduAYgi7EeKVy6YrFzUdCA"/>
             <color xmi:type="viewpoint:RGBValues" xmi:id="_fduAYwi7EeKVy6YrFzUdCA"/>
           </ownedStyle>
-          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@containerMappings[name='SystemTypeContainer']/@subNodeMappings[name='SystemImplementation']"/>
         </ownedElements>
         <ownedElements xmi:type="viewpoint:DNodeListElement" xmi:id="_fduncAi7EeKVy6YrFzUdCA" name="Cruisecontrollaws.Model">
           <target xmi:type="aadl2:SystemImplementation" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.21"/>
           <semanticElements xmi:type="aadl2:SystemImplementation" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.21"/>
           <ownedStyle xmi:type="viewpoint:BundledImage" xmi:id="_fdvOgAi7EeKVy6YrFzUdCA" showIcon="false">
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_fdvOgQi7EeKVy6YrFzUdCA"/>
-            <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@containerMappings[name='SystemTypeContainer']/@subNodeMappings[name='SystemImplementation']/@style"/>
             <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_fdvOggi7EeKVy6YrFzUdCA"/>
             <color xmi:type="viewpoint:RGBValues" xmi:id="_fdvOgwi7EeKVy6YrFzUdCA"/>
           </ownedStyle>
-          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@containerMappings[name='SystemTypeContainer']/@subNodeMappings[name='SystemImplementation']"/>
         </ownedElements>
         <ownedElements xmi:type="viewpoint:DNodeListElement" xmi:id="_fdv1kAi7EeKVy6YrFzUdCA" name="Cruisecontrol.Generic">
           <target xmi:type="aadl2:SystemImplementation" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.27"/>
           <semanticElements xmi:type="aadl2:SystemImplementation" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.27"/>
           <ownedStyle xmi:type="viewpoint:BundledImage" xmi:id="_fdwcoAi7EeKVy6YrFzUdCA" showIcon="false">
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_fdwcoQi7EeKVy6YrFzUdCA"/>
-            <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@containerMappings[name='SystemTypeContainer']/@subNodeMappings[name='SystemImplementation']/@style"/>
             <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_fdwcogi7EeKVy6YrFzUdCA"/>
             <color xmi:type="viewpoint:RGBValues" xmi:id="_fdwcowi7EeKVy6YrFzUdCA"/>
           </ownedStyle>
-          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@containerMappings[name='SystemTypeContainer']/@subNodeMappings[name='SystemImplementation']"/>
         </ownedElements>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="viewpoint:DNodeList" xmi:id="_fdmEkAi7EeKVy6YrFzUdCA" name="Cruisecontrol">
         <target xmi:type="aadl2:SystemType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26"/>
         <semanticElements xmi:type="aadl2:SystemType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26"/>
-        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_fdmEkQi7EeKVy6YrFzUdCA" labelSize="10" labelFormat="bold" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@containerMappings[name='SystemTypeContainer']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@containerMappings[name='SystemTypeContainer']"/>
+        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_fdmEkQi7EeKVy6YrFzUdCA" labelSize="10" labelFormat="bold" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg"/>
         <ownedElements xmi:type="viewpoint:DNodeListElement" xmi:id="_fdyR0Ai7EeKVy6YrFzUdCA" name="Hci.Model">
           <target xmi:type="aadl2:SystemImplementation" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.13"/>
           <semanticElements xmi:type="aadl2:SystemImplementation" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.13"/>
           <ownedStyle xmi:type="viewpoint:BundledImage" xmi:id="_fdy44Ai7EeKVy6YrFzUdCA" showIcon="false">
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_fdy44Qi7EeKVy6YrFzUdCA"/>
-            <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@containerMappings[name='SystemTypeContainer']/@subNodeMappings[name='SystemImplementation']/@style"/>
             <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_fdy44gi7EeKVy6YrFzUdCA"/>
             <color xmi:type="viewpoint:RGBValues" xmi:id="_fdy44wi7EeKVy6YrFzUdCA"/>
           </ownedStyle>
-          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@containerMappings[name='SystemTypeContainer']/@subNodeMappings[name='SystemImplementation']"/>
         </ownedElements>
         <ownedElements xmi:type="viewpoint:DNodeListElement" xmi:id="_fdzf8Ai7EeKVy6YrFzUdCA" name="Cruisecontrollaws.Model">
           <target xmi:type="aadl2:SystemImplementation" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.21"/>
           <semanticElements xmi:type="aadl2:SystemImplementation" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.21"/>
           <ownedStyle xmi:type="viewpoint:BundledImage" xmi:id="_fd0HAAi7EeKVy6YrFzUdCA" showIcon="false">
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_fd0HAQi7EeKVy6YrFzUdCA"/>
-            <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@containerMappings[name='SystemTypeContainer']/@subNodeMappings[name='SystemImplementation']/@style"/>
             <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_fd0HAgi7EeKVy6YrFzUdCA"/>
             <color xmi:type="viewpoint:RGBValues" xmi:id="_fd0HAwi7EeKVy6YrFzUdCA"/>
           </ownedStyle>
-          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@containerMappings[name='SystemTypeContainer']/@subNodeMappings[name='SystemImplementation']"/>
         </ownedElements>
         <ownedElements xmi:type="viewpoint:DNodeListElement" xmi:id="_fd0uEAi7EeKVy6YrFzUdCA" name="Cruisecontrol.Generic">
           <target xmi:type="aadl2:SystemImplementation" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.27"/>
           <semanticElements xmi:type="aadl2:SystemImplementation" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.27"/>
           <ownedStyle xmi:type="viewpoint:BundledImage" xmi:id="_fd0uEQi7EeKVy6YrFzUdCA" showIcon="false">
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_fd0uEgi7EeKVy6YrFzUdCA"/>
-            <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@containerMappings[name='SystemTypeContainer']/@subNodeMappings[name='SystemImplementation']/@style"/>
             <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_fd0uEwi7EeKVy6YrFzUdCA"/>
             <color xmi:type="viewpoint:RGBValues" xmi:id="_fd0uFAi7EeKVy6YrFzUdCA"/>
           </ownedStyle>
-          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@containerMappings[name='SystemTypeContainer']/@subNodeMappings[name='SystemImplementation']"/>
         </ownedElements>
       </ownedDiagramElements>
-      <description xmi:type="description:DiagramDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']"/>
       <filterVariableHistory xmi:type="viewpoint:FilterVariableHistory" xmi:id="_fb2YIQi7EeKVy6YrFzUdCA"/>
-      <activatedLayers xmi:type="description:Layer" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer"/>
       <target xmi:type="aadl2:AadlPackage" href="cruise_control.aadl#/"/>
     </ownedRepresentations>
-    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL']"/>
   </ownedViews>
 </viewpoint:DAnalysis>
