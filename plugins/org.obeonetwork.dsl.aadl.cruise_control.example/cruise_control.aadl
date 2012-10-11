@@ -260,6 +260,7 @@ end Cruisecontrol.Generic;
 	data piout
 	end piout;
 
+private
 system simple
 end simple;
 
