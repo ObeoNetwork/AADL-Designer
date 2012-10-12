@@ -299,6 +299,20 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="OutDataPort_CR" label="Output Data Port" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='OutDataPort']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[target/]">
+                <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.DataPort" referenceName="ownedDataPort">
+                  <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="New Output Data Port"/>
+                  <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.DirectionType" referenceName="direction">
+                    <subModelOperations xsi:type="tool:SetValue" featureName="direction" valueExpression="out"/>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
         </toolSections>
         <toolSections name="Execution Platform Components">
           <ownedTools xsi:type="tool:NodeCreationDescription" name="ProcessorType_CR" label="Processor Type" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@nodeMappings[name='ProcessorType']">
