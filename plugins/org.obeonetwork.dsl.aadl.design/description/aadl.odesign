@@ -68,8 +68,11 @@
           </style>
         </edgeMappings>
         <containerMappings name="SystemType" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='SystemType_DEL']" labelDirectEdit="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='SystemType_EDIT']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SystemType">
-          <borderedNodeMappings name="DataPort" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='DataPort_DEL']" labelDirectEdit="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='DataPort_EDIT']" semanticCandidatesExpression="[getDirectedPorts('o_directie')/]" domainClass="aadl2.DataPort">
+          <borderedNodeMappings name="InDataPort" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='DataPort_DEL']" labelDirectEdit="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='DataPort_EDIT']" semanticCandidatesExpression="[getDirectedPorts('input')/]" domainClass="aadl2.DataPort">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg"/>
+          </borderedNodeMappings>
+          <borderedNodeMappings name="OutDataPort" semanticCandidatesExpression="[getDirectedPorts('output')/]" domainClass="aadl2.DataPort">
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg"/>
           </borderedNodeMappings>
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg"/>
         </containerMappings>
@@ -140,7 +143,7 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool:NodeCreationDescription" name="DataPort_CR" label="Data Port" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="DataPort_CR" label="Data Port" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='InDataPort']">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>
