@@ -146,20 +146,6 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool:NodeCreationDescription" name="InOutDataPort_CR" label="Input/Output Data Port" nodeMappings="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='InOutDataPort']">
-            <variable name="container"/>
-            <viewVariable name="containerView"/>
-            <initialOperation>
-              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[target/]">
-                <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.DataPort" referenceName="ownedDataPort">
-                  <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="New Input/Output Data Port"/>
-                  <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.DirectionType" referenceName="direction">
-                    <subModelOperations xsi:type="tool:SetValue" featureName="direction" valueExpression="in out"/>
-                  </subModelOperations>
-                </subModelOperations>
-              </firstModelOperations>
-            </initialOperation>
-          </ownedTools>
           <ownedTools xsi:type="tool:DeleteElementDescription" name="DataType_DEL" label="Delete Datatype">
             <element name="element"/>
             <elementView name="elementView"/>
@@ -363,6 +349,23 @@
                   <subModelOperations xsi:type="tool:SetValue" featureName="dataFeatureClassifier" valueExpression="[element/]">
                     <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.DirectionType" referenceName="direction">
                       <subModelOperations xsi:type="tool:SetValue" featureName="direction" valueExpression="out"/>
+                    </subModelOperations>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:SelectionWizardDescription" name="InOutDataInport_CR" label="Input/Output Data Port" precondition="[oclIsKindOf(aadl2::SystemType)/]" candidatesExpression="[getComponents('DataType')/]" iconPath="/org.obeonetwork.dsl.aadl.design/images/inoutdataport_icon.gif" windowTitle="Data Type Selection Wizard">
+            <element name="element"/>
+            <containerView name="containerView"/>
+            <container name="container"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[container/]">
+                <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.DataPort" referenceName="ownedDataPort">
+                  <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="New Input/Output Data Port"/>
+                  <subModelOperations xsi:type="tool:SetValue" featureName="dataFeatureClassifier" valueExpression="[element/]">
+                    <subModelOperations xsi:type="tool:CreateInstance" typeName="aadl2.DirectionType" referenceName="direction">
+                      <subModelOperations xsi:type="tool:SetValue" featureName="direction" valueExpression="in out"/>
                     </subModelOperations>
                   </subModelOperations>
                 </subModelOperations>
