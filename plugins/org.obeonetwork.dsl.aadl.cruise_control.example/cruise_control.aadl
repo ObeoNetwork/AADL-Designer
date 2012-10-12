@@ -260,7 +260,9 @@ end Cruisecontrol.Generic;
 	data piout
 	end piout;
 
-private
+data private_type
+end private_type;
+
 system simple
 end simple;
 
@@ -268,6 +270,15 @@ system complex extends simple
 end complex;
 
 system neam
+features
+	 i1            : in data port Bool_Type;
+     i2 : in data port Bool_Type;
+     i3 : in data port Float_Type;
+     i4 :  in data port Float_Type;
+     o1 : out data port Float_Type;
+     o2 :  out data port Float_Type;
+     io1 : in out data port Float_Type;
+     io2 :  in out data port Float_Type;
 end neam;
 
 system implementation neam.Generic

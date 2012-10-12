@@ -1,4 +1,118 @@
 <?xml version="1.0" encoding="ASCII"?>
-<instance:SystemInstance xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:instance="http://aadl.info/AADL/2.0/instance" xmi:id="_v8bsQAgQEeKE4pA0LeKrDw" name="Hci_Model_Instance" category="system">
+<instance:SystemInstance xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aadl2="http://aadl.info/AADL/2.0" xmlns:instance="http://aadl.info/AADL/2.0/instance" xmi:id="_4r0LkBOzEeKk6syFYBwdng" name="Hci_Model_Instance" category="system">
+  <featureInstance xmi:id="_4sm1wBOzEeKk6syFYBwdng" name="Breakpedalpressed">
+    <feature xsi:type="aadl2:DataPort" href="../cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.0"/>
+  </featureInstance>
+  <featureInstance xmi:id="_4snc0BOzEeKk6syFYBwdng" name="Clutchpedalpressed">
+    <feature xsi:type="aadl2:DataPort" href="../cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.1"/>
+  </featureInstance>
+  <featureInstance xmi:id="_4snc0ROzEeKk6syFYBwdng" name="Autospd_Mph">
+    <feature xsi:type="aadl2:DataPort" href="../cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.2"/>
+  </featureInstance>
+  <featureInstance xmi:id="_4soD4BOzEeKk6syFYBwdng" name="Engspd_Rpm">
+    <feature xsi:type="aadl2:DataPort" href="../cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.3"/>
+  </featureInstance>
+  <featureInstance xmi:id="_4soq8BOzEeKk6syFYBwdng" name="Cruiseactive" direction="out">
+    <feature xsi:type="aadl2:DataPort" href="../cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.4"/>
+  </featureInstance>
+  <featureInstance xmi:id="_4soq8ROzEeKk6syFYBwdng" name="Refspd_Mph" direction="out">
+    <feature xsi:type="aadl2:DataPort" href="../cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.5"/>
+  </featureInstance>
+  <componentInstance xmi:id="_4sEqQBOzEeKk6syFYBwdng" name="P_Hci_Process" category="process">
+    <featureInstance xmi:id="_4sjycBOzEeKk6syFYBwdng" name="Breakpedalpressed">
+      <feature xsi:type="aadl2:DataPort" href="../cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.10/@ownedDataPort.0"/>
+    </featureInstance>
+    <featureInstance xmi:id="_4skZgBOzEeKk6syFYBwdng" name="Clutchpedalpressed">
+      <feature xsi:type="aadl2:DataPort" href="../cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.10/@ownedDataPort.1"/>
+    </featureInstance>
+    <featureInstance xmi:id="_4slAkBOzEeKk6syFYBwdng" name="Autospd_Mph">
+      <feature xsi:type="aadl2:DataPort" href="../cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.10/@ownedDataPort.2"/>
+    </featureInstance>
+    <featureInstance xmi:id="_4slAkROzEeKk6syFYBwdng" name="Engspd_Rpm">
+      <feature xsi:type="aadl2:DataPort" href="../cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.10/@ownedDataPort.3"/>
+    </featureInstance>
+    <featureInstance xmi:id="_4slnoBOzEeKk6syFYBwdng" name="Cruiseactive" direction="out">
+      <feature xsi:type="aadl2:DataPort" href="../cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.10/@ownedDataPort.4"/>
+    </featureInstance>
+    <featureInstance xmi:id="_4smOsBOzEeKk6syFYBwdng" name="Refspd_Mph" direction="out">
+      <feature xsi:type="aadl2:DataPort" href="../cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.10/@ownedDataPort.5"/>
+    </featureInstance>
+    <componentInstance xmi:id="_4sPCUBOzEeKk6syFYBwdng" name="T_Buttonpanel" category="thread">
+      <featureInstance xmi:id="_4sUh4BOzEeKk6syFYBwdng" name="Activate" direction="out">
+        <feature xsi:type="aadl2:DataPort" href="../cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.2/@ownedDataPort.0"/>
+      </featureInstance>
+      <featureInstance xmi:id="_4sVI8BOzEeKk6syFYBwdng" name="Cancel" direction="out">
+        <feature xsi:type="aadl2:DataPort" href="../cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.2/@ownedDataPort.1"/>
+      </featureInstance>
+      <featureInstance xmi:id="_4sVwABOzEeKk6syFYBwdng" name="Onnotoff" direction="out">
+        <feature xsi:type="aadl2:DataPort" href="../cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.2/@ownedDataPort.2"/>
+      </featureInstance>
+      <featureInstance xmi:id="_4sWXEBOzEeKk6syFYBwdng" name="Incspeed" direction="out">
+        <feature xsi:type="aadl2:DataPort" href="../cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.2/@ownedDataPort.3"/>
+      </featureInstance>
+      <featureInstance xmi:id="_4sWXEROzEeKk6syFYBwdng" name="Decspd" direction="out">
+        <feature xsi:type="aadl2:DataPort" href="../cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.2/@ownedDataPort.4"/>
+      </featureInstance>
+      <subcomponent xsi:type="aadl2:ThreadSubcomponent" href="../cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.11/@ownedThreadSubcomponent.0"/>
+      <index>0</index>
+    </componentInstance>
+    <componentInstance xmi:id="_4sW-IBOzEeKk6syFYBwdng" name="T_Drivermodelogic" category="thread">
+      <featureInstance xmi:id="_4sZaYBOzEeKk6syFYBwdng" name="Breakpedalpressed">
+        <feature xsi:type="aadl2:DataPort" href="../cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.4/@ownedDataPort.0"/>
+      </featureInstance>
+      <featureInstance xmi:id="_4sZaYROzEeKk6syFYBwdng" name="Clutchpedalpressed">
+        <feature xsi:type="aadl2:DataPort" href="../cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.4/@ownedDataPort.1"/>
+      </featureInstance>
+      <featureInstance xmi:id="_4saBcBOzEeKk6syFYBwdng" name="Activate">
+        <feature xsi:type="aadl2:DataPort" href="../cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.4/@ownedDataPort.2"/>
+      </featureInstance>
+      <featureInstance xmi:id="_4saogBOzEeKk6syFYBwdng" name="Cancel">
+        <feature xsi:type="aadl2:DataPort" href="../cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.4/@ownedDataPort.3"/>
+      </featureInstance>
+      <featureInstance xmi:id="_4saogROzEeKk6syFYBwdng" name="Onnotoff">
+        <feature xsi:type="aadl2:DataPort" href="../cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.4/@ownedDataPort.4"/>
+      </featureInstance>
+      <featureInstance xmi:id="_4sbPkBOzEeKk6syFYBwdng" name="Cruiseactive" direction="out">
+        <feature xsi:type="aadl2:DataPort" href="../cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.4/@ownedDataPort.5"/>
+      </featureInstance>
+      <subcomponent xsi:type="aadl2:ThreadSubcomponent" href="../cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.11/@ownedThreadSubcomponent.1"/>
+      <index>0</index>
+    </componentInstance>
+    <componentInstance xmi:id="_4sb2oBOzEeKk6syFYBwdng" name="T_Refspd" category="thread">
+      <featureInstance xmi:id="_4sdr0BOzEeKk6syFYBwdng" name="Activate">
+        <feature xsi:type="aadl2:DataPort" href="../cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.6/@ownedDataPort.0"/>
+      </featureInstance>
+      <featureInstance xmi:id="_4seS4BOzEeKk6syFYBwdng" name="Cruiseactive">
+        <feature xsi:type="aadl2:DataPort" href="../cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.6/@ownedDataPort.1"/>
+      </featureInstance>
+      <featureInstance xmi:id="_4se58BOzEeKk6syFYBwdng" name="Incspeed">
+        <feature xsi:type="aadl2:DataPort" href="../cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.6/@ownedDataPort.2"/>
+      </featureInstance>
+      <featureInstance xmi:id="_4se58ROzEeKk6syFYBwdng" name="Decspd">
+        <feature xsi:type="aadl2:DataPort" href="../cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.6/@ownedDataPort.3"/>
+      </featureInstance>
+      <featureInstance xmi:id="_4sfhABOzEeKk6syFYBwdng" name="Refspd_Mph" direction="out">
+        <feature xsi:type="aadl2:DataPort" href="../cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.6/@ownedDataPort.4"/>
+      </featureInstance>
+      <subcomponent xsi:type="aadl2:ThreadSubcomponent" href="../cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.11/@ownedThreadSubcomponent.2"/>
+      <index>0</index>
+    </componentInstance>
+    <componentInstance xmi:id="_4sgIEBOzEeKk6syFYBwdng" name="T_Instrumentpanel" category="thread">
+      <featureInstance xmi:id="_4sh9QBOzEeKk6syFYBwdng" name="Autospd_Mph">
+        <feature xsi:type="aadl2:DataPort" href="../cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.8/@ownedDataPort.0"/>
+      </featureInstance>
+      <featureInstance xmi:id="_4sikUBOzEeKk6syFYBwdng" name="Engspd_Rpm">
+        <feature xsi:type="aadl2:DataPort" href="../cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.8/@ownedDataPort.1"/>
+      </featureInstance>
+      <featureInstance xmi:id="_4sjLYBOzEeKk6syFYBwdng" name="Refspd_Mph">
+        <feature xsi:type="aadl2:DataPort" href="../cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.8/@ownedDataPort.2"/>
+      </featureInstance>
+      <subcomponent xsi:type="aadl2:ThreadSubcomponent" href="../cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.11/@ownedThreadSubcomponent.3"/>
+      <index>0</index>
+    </componentInstance>
+    <subcomponent xsi:type="aadl2:ProcessSubcomponent" href="../cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.13/@ownedProcessSubcomponent.0"/>
+    <index>0</index>
+  </componentInstance>
+  <systemOperationMode xmi:id="_4tRkIBOzEeKk6syFYBwdng" name="No Modes"/>
   <systemImplementation href="../cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.13"/>
 </instance:SystemInstance>

@@ -1,227 +1,240 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aadl2:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aadl2="http://aadl.info/AADL/2.0" xmi:id="_EgP8sA1CEeKPJI81-Gy4PQ" name="CruiseControl" publicSection="_EgP8sQ1CEeKPJI81-Gy4PQ">
-  <ownedPublicSection xmi:id="_EgP8sQ1CEeKPJI81-Gy4PQ">
-    <ownedClassifier xsi:type="aadl2:DataType" xmi:id="_EgP8sg1CEeKPJI81-Gy4PQ" name="Bool_Type">
-      <ownedComment xmi:id="_EgP8sw1CEeKPJI81-Gy4PQ" body="--   properties"/>
-      <ownedComment xmi:id="_EgP8tA1CEeKPJI81-Gy4PQ" body="--      Source_Data_Size             => 16 B;"/>
+<aadl2:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aadl2="http://aadl.info/AADL/2.0" xmi:id="_yVzEsROzEeKk6syFYBwdng" name="CruiseControl" publicSection="_yVzEshOzEeKk6syFYBwdng" privateSection="_yV05_BOzEeKk6syFYBwdng">
+  <ownedPublicSection xmi:id="_yVzEshOzEeKk6syFYBwdng">
+    <ownedClassifier xsi:type="aadl2:DataType" xmi:id="_yVzEsxOzEeKk6syFYBwdng" name="Bool_Type">
+      <ownedComment xmi:id="_yVzEtBOzEeKk6syFYBwdng" body="--   properties"/>
+      <ownedComment xmi:id="_yVzEtROzEeKk6syFYBwdng" body="--      Source_Data_Size             => 16 B;"/>
     </ownedClassifier>
-    <ownedClassifier xsi:type="aadl2:DataType" xmi:id="_EgP8tQ1CEeKPJI81-Gy4PQ" name="Float_Type">
-      <ownedComment xmi:id="_EgP8tg1CEeKPJI81-Gy4PQ" body="--   properties"/>
-      <ownedComment xmi:id="_EgP8tw1CEeKPJI81-Gy4PQ" body="--      Source_Data_Size             => 32 B;"/>
+    <ownedClassifier xsi:type="aadl2:DataType" xmi:id="_yVzEthOzEeKk6syFYBwdng" name="Float_Type">
+      <ownedComment xmi:id="_yVzEtxOzEeKk6syFYBwdng" body="--   properties"/>
+      <ownedComment xmi:id="_yVzEuBOzEeKk6syFYBwdng" body="--      Source_Data_Size             => 32 B;"/>
     </ownedClassifier>
-    <ownedClassifier xsi:type="aadl2:ThreadType" xmi:id="_EgP8uA1CEeKPJI81-Gy4PQ" name="Button_Panel">
-      <ownedComment xmi:id="_EgP8uQ1CEeKPJI81-Gy4PQ" body="--   Composition of HCI System"/>
-      <ownedDataPort xmi:id="_EgQjwA1CEeKPJI81-Gy4PQ" name="Activate" direction="out" dataFeatureClassifier="_EgP8sg1CEeKPJI81-Gy4PQ"/>
-      <ownedDataPort xmi:id="_EgQjwQ1CEeKPJI81-Gy4PQ" name="Cancel" direction="out" dataFeatureClassifier="_EgP8sg1CEeKPJI81-Gy4PQ"/>
-      <ownedDataPort xmi:id="_EgQjwg1CEeKPJI81-Gy4PQ" name="Onnotoff" direction="out" dataFeatureClassifier="_EgP8sg1CEeKPJI81-Gy4PQ"/>
-      <ownedDataPort xmi:id="_EgQjww1CEeKPJI81-Gy4PQ" name="Incspeed" direction="out" dataFeatureClassifier="_EgP8sg1CEeKPJI81-Gy4PQ"/>
-      <ownedDataPort xmi:id="_EgQjxA1CEeKPJI81-Gy4PQ" name="Decspd" direction="out" dataFeatureClassifier="_EgP8sg1CEeKPJI81-Gy4PQ"/>
+    <ownedClassifier xsi:type="aadl2:ThreadType" xmi:id="_yVzEuROzEeKk6syFYBwdng" name="Button_Panel">
+      <ownedComment xmi:id="_yVzEuhOzEeKk6syFYBwdng" body="--   Composition of HCI System"/>
+      <ownedDataPort xmi:id="_yVzEuxOzEeKk6syFYBwdng" name="Activate" direction="out" dataFeatureClassifier="_yVzEsxOzEeKk6syFYBwdng"/>
+      <ownedDataPort xmi:id="_yVzEvBOzEeKk6syFYBwdng" name="Cancel" direction="out" dataFeatureClassifier="_yVzEsxOzEeKk6syFYBwdng"/>
+      <ownedDataPort xmi:id="_yVzEvROzEeKk6syFYBwdng" name="Onnotoff" direction="out" dataFeatureClassifier="_yVzEsxOzEeKk6syFYBwdng"/>
+      <ownedDataPort xmi:id="_yVzEvhOzEeKk6syFYBwdng" name="Incspeed" direction="out" dataFeatureClassifier="_yVzEsxOzEeKk6syFYBwdng"/>
+      <ownedDataPort xmi:id="_yVzEvxOzEeKk6syFYBwdng" name="Decspd" direction="out" dataFeatureClassifier="_yVzEsxOzEeKk6syFYBwdng"/>
     </ownedClassifier>
-    <ownedClassifier xsi:type="aadl2:ThreadImplementation" xmi:id="_EgQjxQ1CEeKPJI81-Gy4PQ" name="Button_Panel.Gui">
-      <ownedComment xmi:id="_EgQjxg1CEeKPJI81-Gy4PQ" body="--   properties"/>
-      <ownedComment xmi:id="_EgQjxw1CEeKPJI81-Gy4PQ" body="--      Dispatch_Protocol            =>Periodic;"/>
-      <ownedComment xmi:id="_EgQjyA1CEeKPJI81-Gy4PQ" body="--      Period                       => 20 Ms;"/>
-      <ownedRealization xmi:id="_EgQjyQ1CEeKPJI81-Gy4PQ" implemented="_EgP8uA1CEeKPJI81-Gy4PQ"/>
+    <ownedClassifier xsi:type="aadl2:ThreadImplementation" xmi:id="_yVzEwBOzEeKk6syFYBwdng" name="Button_Panel.Gui">
+      <ownedComment xmi:id="_yVzEwROzEeKk6syFYBwdng" body="--   properties"/>
+      <ownedComment xmi:id="_yVzEwhOzEeKk6syFYBwdng" body="--      Dispatch_Protocol            =>Periodic;"/>
+      <ownedComment xmi:id="_yVzEwxOzEeKk6syFYBwdng" body="--      Period                       => 20 Ms;"/>
+      <ownedRealization xmi:id="_yVzExBOzEeKk6syFYBwdng" implemented="_yVzEuROzEeKk6syFYBwdng"/>
     </ownedClassifier>
-    <ownedClassifier xsi:type="aadl2:ThreadType" xmi:id="_EgQjyg1CEeKPJI81-Gy4PQ" name="Drivermodelogic">
-      <ownedDataPort xmi:id="_EgQjyw1CEeKPJI81-Gy4PQ" name="Breakpedalpressed" direction="in" dataFeatureClassifier="_EgP8sg1CEeKPJI81-Gy4PQ"/>
-      <ownedDataPort xmi:id="_EgQjzA1CEeKPJI81-Gy4PQ" name="Clutchpedalpressed" direction="in" dataFeatureClassifier="_EgP8sg1CEeKPJI81-Gy4PQ"/>
-      <ownedDataPort xmi:id="_EgQjzQ1CEeKPJI81-Gy4PQ" name="Activate" direction="in" dataFeatureClassifier="_EgP8sg1CEeKPJI81-Gy4PQ"/>
-      <ownedDataPort xmi:id="_EgQjzg1CEeKPJI81-Gy4PQ" name="Cancel" direction="in" dataFeatureClassifier="_EgP8sg1CEeKPJI81-Gy4PQ"/>
-      <ownedDataPort xmi:id="_EgQjzw1CEeKPJI81-Gy4PQ" name="Onnotoff" direction="in" dataFeatureClassifier="_EgP8sg1CEeKPJI81-Gy4PQ"/>
-      <ownedDataPort xmi:id="_EgQj0A1CEeKPJI81-Gy4PQ" name="Cruiseactive" direction="out" dataFeatureClassifier="_EgP8sg1CEeKPJI81-Gy4PQ"/>
+    <ownedClassifier xsi:type="aadl2:ThreadType" xmi:id="_yVzExROzEeKk6syFYBwdng" name="Drivermodelogic">
+      <ownedDataPort xmi:id="_yVzExhOzEeKk6syFYBwdng" name="Breakpedalpressed" direction="in" dataFeatureClassifier="_yVzEsxOzEeKk6syFYBwdng"/>
+      <ownedDataPort xmi:id="_yVzExxOzEeKk6syFYBwdng" name="Clutchpedalpressed" direction="in" dataFeatureClassifier="_yVzEsxOzEeKk6syFYBwdng"/>
+      <ownedDataPort xmi:id="_yVzEyBOzEeKk6syFYBwdng" name="Activate" direction="in" dataFeatureClassifier="_yVzEsxOzEeKk6syFYBwdng"/>
+      <ownedDataPort xmi:id="_yVzEyROzEeKk6syFYBwdng" name="Cancel" direction="in" dataFeatureClassifier="_yVzEsxOzEeKk6syFYBwdng"/>
+      <ownedDataPort xmi:id="_yVzEyhOzEeKk6syFYBwdng" name="Onnotoff" direction="in" dataFeatureClassifier="_yVzEsxOzEeKk6syFYBwdng"/>
+      <ownedDataPort xmi:id="_yVzEyxOzEeKk6syFYBwdng" name="Cruiseactive" direction="out" dataFeatureClassifier="_yVzEsxOzEeKk6syFYBwdng"/>
     </ownedClassifier>
-    <ownedClassifier xsi:type="aadl2:ThreadImplementation" xmi:id="_EgQj0Q1CEeKPJI81-Gy4PQ" name="Drivermodelogic.Simulink">
-      <ownedComment xmi:id="_EgQj0g1CEeKPJI81-Gy4PQ" body="--   properties"/>
-      <ownedComment xmi:id="_EgQj0w1CEeKPJI81-Gy4PQ" body="--      Dispatch_Protocol            =>Periodic;"/>
-      <ownedComment xmi:id="_EgQj1A1CEeKPJI81-Gy4PQ" body="--      Period                       => 10 Ms;"/>
-      <ownedRealization xmi:id="_EgQj1Q1CEeKPJI81-Gy4PQ" implemented="_EgQjyg1CEeKPJI81-Gy4PQ"/>
+    <ownedClassifier xsi:type="aadl2:ThreadImplementation" xmi:id="_yVzEzBOzEeKk6syFYBwdng" name="Drivermodelogic.Simulink">
+      <ownedComment xmi:id="_yVzEzROzEeKk6syFYBwdng" body="--   properties"/>
+      <ownedComment xmi:id="_yVzEzhOzEeKk6syFYBwdng" body="--      Dispatch_Protocol            =>Periodic;"/>
+      <ownedComment xmi:id="_yVzEzxOzEeKk6syFYBwdng" body="--      Period                       => 10 Ms;"/>
+      <ownedRealization xmi:id="_yVzE0BOzEeKk6syFYBwdng" implemented="_yVzExROzEeKk6syFYBwdng"/>
     </ownedClassifier>
-    <ownedClassifier xsi:type="aadl2:ThreadType" xmi:id="_EgQj1g1CEeKPJI81-Gy4PQ" name="Refspd">
-      <ownedDataPort xmi:id="_EgQj1w1CEeKPJI81-Gy4PQ" name="Activate" direction="in" dataFeatureClassifier="_EgP8sg1CEeKPJI81-Gy4PQ"/>
-      <ownedDataPort xmi:id="_EgQj2A1CEeKPJI81-Gy4PQ" name="Cruiseactive" direction="in" dataFeatureClassifier="_EgP8sg1CEeKPJI81-Gy4PQ"/>
-      <ownedDataPort xmi:id="_EgQj2Q1CEeKPJI81-Gy4PQ" name="Incspeed" direction="in" dataFeatureClassifier="_EgP8sg1CEeKPJI81-Gy4PQ"/>
-      <ownedDataPort xmi:id="_EgQj2g1CEeKPJI81-Gy4PQ" name="Decspd" direction="in" dataFeatureClassifier="_EgP8sg1CEeKPJI81-Gy4PQ"/>
-      <ownedDataPort xmi:id="_EgQj2w1CEeKPJI81-Gy4PQ" name="Refspd_Mph" direction="out" dataFeatureClassifier="_EgP8tQ1CEeKPJI81-Gy4PQ"/>
+    <ownedClassifier xsi:type="aadl2:ThreadType" xmi:id="_yVzE0ROzEeKk6syFYBwdng" name="Refspd">
+      <ownedDataPort xmi:id="_yVzE0hOzEeKk6syFYBwdng" name="Activate" direction="in" dataFeatureClassifier="_yVzEsxOzEeKk6syFYBwdng"/>
+      <ownedDataPort xmi:id="_yVzE0xOzEeKk6syFYBwdng" name="Cruiseactive" direction="in" dataFeatureClassifier="_yVzEsxOzEeKk6syFYBwdng"/>
+      <ownedDataPort xmi:id="_yVzE1BOzEeKk6syFYBwdng" name="Incspeed" direction="in" dataFeatureClassifier="_yVzEsxOzEeKk6syFYBwdng"/>
+      <ownedDataPort xmi:id="_yVzE1ROzEeKk6syFYBwdng" name="Decspd" direction="in" dataFeatureClassifier="_yVzEsxOzEeKk6syFYBwdng"/>
+      <ownedDataPort xmi:id="_yVzrwBOzEeKk6syFYBwdng" name="Refspd_Mph" direction="out" dataFeatureClassifier="_yVzEthOzEeKk6syFYBwdng"/>
     </ownedClassifier>
-    <ownedClassifier xsi:type="aadl2:ThreadImplementation" xmi:id="_EgQj3A1CEeKPJI81-Gy4PQ" name="Refspd.Simulink">
-      <ownedComment xmi:id="_EgQj3Q1CEeKPJI81-Gy4PQ" body="--   properties"/>
-      <ownedComment xmi:id="_EgQj3g1CEeKPJI81-Gy4PQ" body="--      Dispatch_Protocol            =>Periodic;"/>
-      <ownedComment xmi:id="_EgQj3w1CEeKPJI81-Gy4PQ" body="--      Period                       => 20 Ms;"/>
-      <ownedRealization xmi:id="_EgQj4A1CEeKPJI81-Gy4PQ" implemented="_EgQj1g1CEeKPJI81-Gy4PQ"/>
+    <ownedClassifier xsi:type="aadl2:ThreadImplementation" xmi:id="_yVzrwROzEeKk6syFYBwdng" name="Refspd.Simulink">
+      <ownedComment xmi:id="_yVzrwhOzEeKk6syFYBwdng" body="--   properties"/>
+      <ownedComment xmi:id="_yVzrwxOzEeKk6syFYBwdng" body="--      Dispatch_Protocol            =>Periodic;"/>
+      <ownedComment xmi:id="_yVzrxBOzEeKk6syFYBwdng" body="--      Period                       => 20 Ms;"/>
+      <ownedRealization xmi:id="_yVzrxROzEeKk6syFYBwdng" implemented="_yVzE0ROzEeKk6syFYBwdng"/>
     </ownedClassifier>
-    <ownedClassifier xsi:type="aadl2:ThreadType" xmi:id="_EgQj4Q1CEeKPJI81-Gy4PQ" name="Instrumentpanel">
-      <ownedDataPort xmi:id="_EgQj4g1CEeKPJI81-Gy4PQ" name="Autospd_Mph" direction="in" dataFeatureClassifier="_EgP8tQ1CEeKPJI81-Gy4PQ"/>
-      <ownedDataPort xmi:id="_EgQj4w1CEeKPJI81-Gy4PQ" name="Engspd_Rpm" direction="in" dataFeatureClassifier="_EgP8tQ1CEeKPJI81-Gy4PQ"/>
-      <ownedDataPort xmi:id="_EgQj5A1CEeKPJI81-Gy4PQ" name="Refspd_Mph" direction="in" dataFeatureClassifier="_EgP8tQ1CEeKPJI81-Gy4PQ"/>
+    <ownedClassifier xsi:type="aadl2:ThreadType" xmi:id="_yVzrxhOzEeKk6syFYBwdng" name="Instrumentpanel">
+      <ownedDataPort xmi:id="_yVzrxxOzEeKk6syFYBwdng" name="Autospd_Mph" direction="in" dataFeatureClassifier="_yVzEthOzEeKk6syFYBwdng"/>
+      <ownedDataPort xmi:id="_yVzryBOzEeKk6syFYBwdng" name="Engspd_Rpm" direction="in" dataFeatureClassifier="_yVzEthOzEeKk6syFYBwdng"/>
+      <ownedDataPort xmi:id="_yVzryROzEeKk6syFYBwdng" name="Refspd_Mph" direction="in" dataFeatureClassifier="_yVzEthOzEeKk6syFYBwdng"/>
     </ownedClassifier>
-    <ownedClassifier xsi:type="aadl2:ThreadImplementation" xmi:id="_EgQj5Q1CEeKPJI81-Gy4PQ" name="Instrumentpanel.Gui">
-      <ownedComment xmi:id="_EgQj5g1CEeKPJI81-Gy4PQ" body="--   properties"/>
-      <ownedComment xmi:id="_EgQj5w1CEeKPJI81-Gy4PQ" body="--      Dispatch_Protocol            =>Periodic;"/>
-      <ownedComment xmi:id="_EgQj6A1CEeKPJI81-Gy4PQ" body="--      Period                       => 30 Ms;"/>
-      <ownedRealization xmi:id="_EgQj6Q1CEeKPJI81-Gy4PQ" implemented="_EgQj4Q1CEeKPJI81-Gy4PQ"/>
+    <ownedClassifier xsi:type="aadl2:ThreadImplementation" xmi:id="_yVzryhOzEeKk6syFYBwdng" name="Instrumentpanel.Gui">
+      <ownedComment xmi:id="_yVzryxOzEeKk6syFYBwdng" body="--   properties"/>
+      <ownedComment xmi:id="_yVzrzBOzEeKk6syFYBwdng" body="--      Dispatch_Protocol            =>Periodic;"/>
+      <ownedComment xmi:id="_yVzrzROzEeKk6syFYBwdng" body="--      Period                       => 30 Ms;"/>
+      <ownedRealization xmi:id="_yVzrzhOzEeKk6syFYBwdng" implemented="_yVzrxhOzEeKk6syFYBwdng"/>
     </ownedClassifier>
-    <ownedClassifier xsi:type="aadl2:ProcessType" xmi:id="_EgQj6g1CEeKPJI81-Gy4PQ" name="Hci_Process">
-      <ownedDataPort xmi:id="_EgQj6w1CEeKPJI81-Gy4PQ" name="Breakpedalpressed" direction="in" dataFeatureClassifier="_EgP8sg1CEeKPJI81-Gy4PQ"/>
-      <ownedDataPort xmi:id="_EgQj7A1CEeKPJI81-Gy4PQ" name="Clutchpedalpressed" direction="in" dataFeatureClassifier="_EgP8sg1CEeKPJI81-Gy4PQ"/>
-      <ownedDataPort xmi:id="_EgQj7Q1CEeKPJI81-Gy4PQ" name="Autospd_Mph" direction="in" dataFeatureClassifier="_EgP8tQ1CEeKPJI81-Gy4PQ"/>
-      <ownedDataPort xmi:id="_EgQj7g1CEeKPJI81-Gy4PQ" name="Engspd_Rpm" direction="in" dataFeatureClassifier="_EgP8tQ1CEeKPJI81-Gy4PQ"/>
-      <ownedDataPort xmi:id="_EgQj7w1CEeKPJI81-Gy4PQ" name="Cruiseactive" direction="out" dataFeatureClassifier="_EgP8sg1CEeKPJI81-Gy4PQ"/>
-      <ownedDataPort xmi:id="_EgQj8A1CEeKPJI81-Gy4PQ" name="Refspd_Mph" direction="out" dataFeatureClassifier="_EgP8tQ1CEeKPJI81-Gy4PQ"/>
+    <ownedClassifier xsi:type="aadl2:ProcessType" xmi:id="_yVzrzxOzEeKk6syFYBwdng" name="Hci_Process">
+      <ownedDataPort xmi:id="_yVzr0BOzEeKk6syFYBwdng" name="Breakpedalpressed" direction="in" dataFeatureClassifier="_yVzEsxOzEeKk6syFYBwdng"/>
+      <ownedDataPort xmi:id="_yVzr0ROzEeKk6syFYBwdng" name="Clutchpedalpressed" direction="in" dataFeatureClassifier="_yVzEsxOzEeKk6syFYBwdng"/>
+      <ownedDataPort xmi:id="_yVzr0hOzEeKk6syFYBwdng" name="Autospd_Mph" direction="in" dataFeatureClassifier="_yVzEthOzEeKk6syFYBwdng"/>
+      <ownedDataPort xmi:id="_yVzr0xOzEeKk6syFYBwdng" name="Engspd_Rpm" direction="in" dataFeatureClassifier="_yVzEthOzEeKk6syFYBwdng"/>
+      <ownedDataPort xmi:id="_yVzr1BOzEeKk6syFYBwdng" name="Cruiseactive" direction="out" dataFeatureClassifier="_yVzEsxOzEeKk6syFYBwdng"/>
+      <ownedDataPort xmi:id="_yVzr1ROzEeKk6syFYBwdng" name="Refspd_Mph" direction="out" dataFeatureClassifier="_yVzEthOzEeKk6syFYBwdng"/>
     </ownedClassifier>
-    <ownedClassifier xsi:type="aadl2:ProcessImplementation" xmi:id="_EgQj8Q1CEeKPJI81-Gy4PQ" name="Hci_Process.Model">
-      <ownedComment xmi:id="_EgQj8g1CEeKPJI81-Gy4PQ" body="--   connections"/>
-      <ownedComment xmi:id="_EgQj8w1CEeKPJI81-Gy4PQ" body="--      -- Bus"/>
-      <ownedComment xmi:id="_EgQj9A1CEeKPJI81-Gy4PQ" body="--      data port Breakpedalpressed  -> T_Drivermodelogic.Breakpedalpressed;"/>
-      <ownedComment xmi:id="_EgQj9Q1CEeKPJI81-Gy4PQ" body="--      data port Clutchpedalpressed -> T_Drivermodelogic.Clutchpedalpressed;"/>
-      <ownedComment xmi:id="_EgQj9g1CEeKPJI81-Gy4PQ" body="--      data port Autospd_Mph        -> T_Instrumentpanel.Autospd_Mph;"/>
-      <ownedComment xmi:id="_EgQj9w1CEeKPJI81-Gy4PQ" body="--      data port Engspd_Rpm         -> T_Instrumentpanel.Engspd_Rpm;"/>
-      <ownedComment xmi:id="_EgQj-A1CEeKPJI81-Gy4PQ" body="--      data port T_Drivermodelogic.Cruiseactive-> Cruiseactive;"/>
-      <ownedComment xmi:id="_EgQj-Q1CEeKPJI81-Gy4PQ" body="--      data port T_Refspd.Refspd_Mph-> Refspd_Mph;"/>
-      <ownedComment xmi:id="_EgQj-g1CEeKPJI81-Gy4PQ" body="--      -- Internal"/>
-      <ownedComment xmi:id="_EgQj-w1CEeKPJI81-Gy4PQ" body="--      data port T_Drivermodelogic.Cruiseactive-> T_Refspd.Cruiseactive;"/>
-      <ownedComment xmi:id="_EgQj_A1CEeKPJI81-Gy4PQ" body="--      data port T_Buttonpanel.Activate->  T_Drivermodelogic.Activate;"/>
-      <ownedComment xmi:id="_EgQj_Q1CEeKPJI81-Gy4PQ" body="--      data port T_Buttonpanel.Cancel->  T_Drivermodelogic.Cancel;"/>
-      <ownedComment xmi:id="_EgQj_g1CEeKPJI81-Gy4PQ" body="--      data port T_Buttonpanel.Onnotoff->  T_Drivermodelogic.Onnotoff;"/>
-      <ownedComment xmi:id="_EgQj_w1CEeKPJI81-Gy4PQ" body="--      data port T_Buttonpanel.Activate->  T_Refspd.Activate;"/>
-      <ownedComment xmi:id="_EgQkAA1CEeKPJI81-Gy4PQ" body="--      data port T_Buttonpanel.Incspeed->  T_Refspd.Incspeed;"/>
-      <ownedComment xmi:id="_EgQkAQ1CEeKPJI81-Gy4PQ" body="--      data port T_Buttonpanel.Decspd->  T_Refspd.Decspd;"/>
-      <ownedComment xmi:id="_EgQkAg1CEeKPJI81-Gy4PQ" body="--      data port T_Refspd.Refspd_Mph->  T_Instrumentpanel.Refspd_Mph;"/>
-      <ownedRealization xmi:id="_EgQkAw1CEeKPJI81-Gy4PQ" implemented="_EgQj6g1CEeKPJI81-Gy4PQ"/>
-      <ownedThreadSubcomponent xmi:id="_EgQkBA1CEeKPJI81-Gy4PQ" name="T_Buttonpanel" threadSubcomponentType="_EgQjxQ1CEeKPJI81-Gy4PQ"/>
-      <ownedThreadSubcomponent xmi:id="_EgQkBQ1CEeKPJI81-Gy4PQ" name="T_Drivermodelogic" threadSubcomponentType="_EgQj0Q1CEeKPJI81-Gy4PQ"/>
-      <ownedThreadSubcomponent xmi:id="_EgQkBg1CEeKPJI81-Gy4PQ" name="T_Refspd" threadSubcomponentType="_EgQj3A1CEeKPJI81-Gy4PQ"/>
-      <ownedThreadSubcomponent xmi:id="_EgQkBw1CEeKPJI81-Gy4PQ" name="T_Instrumentpanel" threadSubcomponentType="_EgQj5Q1CEeKPJI81-Gy4PQ"/>
+    <ownedClassifier xsi:type="aadl2:ProcessImplementation" xmi:id="_yVzr1hOzEeKk6syFYBwdng" name="Hci_Process.Model">
+      <ownedComment xmi:id="_yVzr1xOzEeKk6syFYBwdng" body="--   connections"/>
+      <ownedComment xmi:id="_yVzr2BOzEeKk6syFYBwdng" body="--      -- Bus"/>
+      <ownedComment xmi:id="_yVzr2ROzEeKk6syFYBwdng" body="--      data port Breakpedalpressed  -> T_Drivermodelogic.Breakpedalpressed;"/>
+      <ownedComment xmi:id="_yVzr2hOzEeKk6syFYBwdng" body="--      data port Clutchpedalpressed -> T_Drivermodelogic.Clutchpedalpressed;"/>
+      <ownedComment xmi:id="_yVzr2xOzEeKk6syFYBwdng" body="--      data port Autospd_Mph        -> T_Instrumentpanel.Autospd_Mph;"/>
+      <ownedComment xmi:id="_yVzr3BOzEeKk6syFYBwdng" body="--      data port Engspd_Rpm         -> T_Instrumentpanel.Engspd_Rpm;"/>
+      <ownedComment xmi:id="_yVzr3ROzEeKk6syFYBwdng" body="--      data port T_Drivermodelogic.Cruiseactive-> Cruiseactive;"/>
+      <ownedComment xmi:id="_yVzr3hOzEeKk6syFYBwdng" body="--      data port T_Refspd.Refspd_Mph-> Refspd_Mph;"/>
+      <ownedComment xmi:id="_yVzr3xOzEeKk6syFYBwdng" body="--      -- Internal"/>
+      <ownedComment xmi:id="_yVzr4BOzEeKk6syFYBwdng" body="--      data port T_Drivermodelogic.Cruiseactive-> T_Refspd.Cruiseactive;"/>
+      <ownedComment xmi:id="_yVzr4ROzEeKk6syFYBwdng" body="--      data port T_Buttonpanel.Activate->  T_Drivermodelogic.Activate;"/>
+      <ownedComment xmi:id="_yVzr4hOzEeKk6syFYBwdng" body="--      data port T_Buttonpanel.Cancel->  T_Drivermodelogic.Cancel;"/>
+      <ownedComment xmi:id="_yVzr4xOzEeKk6syFYBwdng" body="--      data port T_Buttonpanel.Onnotoff->  T_Drivermodelogic.Onnotoff;"/>
+      <ownedComment xmi:id="_yVzr5BOzEeKk6syFYBwdng" body="--      data port T_Buttonpanel.Activate->  T_Refspd.Activate;"/>
+      <ownedComment xmi:id="_yVzr5ROzEeKk6syFYBwdng" body="--      data port T_Buttonpanel.Incspeed->  T_Refspd.Incspeed;"/>
+      <ownedComment xmi:id="_yVzr5hOzEeKk6syFYBwdng" body="--      data port T_Buttonpanel.Decspd->  T_Refspd.Decspd;"/>
+      <ownedComment xmi:id="_yVzr5xOzEeKk6syFYBwdng" body="--      data port T_Refspd.Refspd_Mph->  T_Instrumentpanel.Refspd_Mph;"/>
+      <ownedRealization xmi:id="_yVzr6BOzEeKk6syFYBwdng" implemented="_yVzrzxOzEeKk6syFYBwdng"/>
+      <ownedThreadSubcomponent xmi:id="_yVzr6ROzEeKk6syFYBwdng" name="T_Buttonpanel" threadSubcomponentType="_yVzEwBOzEeKk6syFYBwdng"/>
+      <ownedThreadSubcomponent xmi:id="_yVzr6hOzEeKk6syFYBwdng" name="T_Drivermodelogic" threadSubcomponentType="_yVzEzBOzEeKk6syFYBwdng"/>
+      <ownedThreadSubcomponent xmi:id="_yVzr6xOzEeKk6syFYBwdng" name="T_Refspd" threadSubcomponentType="_yVzrwROzEeKk6syFYBwdng"/>
+      <ownedThreadSubcomponent xmi:id="_yVzr7BOzEeKk6syFYBwdng" name="T_Instrumentpanel" threadSubcomponentType="_yVzryhOzEeKk6syFYBwdng"/>
     </ownedClassifier>
-    <ownedClassifier xsi:type="aadl2:SystemType" xmi:id="_EgQkCA1CEeKPJI81-Gy4PQ" name="Hci">
-      <ownedDataPort xmi:id="_EgQkCQ1CEeKPJI81-Gy4PQ" name="Breakpedalpressed" direction="in" dataFeatureClassifier="_EgP8sg1CEeKPJI81-Gy4PQ"/>
-      <ownedDataPort xmi:id="_EgQkCg1CEeKPJI81-Gy4PQ" name="Clutchpedalpressed" direction="in" dataFeatureClassifier="_EgP8sg1CEeKPJI81-Gy4PQ"/>
-      <ownedDataPort xmi:id="_EgQkCw1CEeKPJI81-Gy4PQ" name="Autospd_Mph" direction="in" dataFeatureClassifier="_EgP8tQ1CEeKPJI81-Gy4PQ"/>
-      <ownedDataPort xmi:id="_EgQkDA1CEeKPJI81-Gy4PQ" name="Engspd_Rpm" direction="in" dataFeatureClassifier="_EgP8tQ1CEeKPJI81-Gy4PQ"/>
-      <ownedDataPort xmi:id="_EgQkDQ1CEeKPJI81-Gy4PQ" name="Cruiseactive" direction="out" dataFeatureClassifier="_EgP8sg1CEeKPJI81-Gy4PQ"/>
-      <ownedDataPort xmi:id="_EgQkDg1CEeKPJI81-Gy4PQ" name="Refspd_Mph" direction="out" dataFeatureClassifier="_EgP8tQ1CEeKPJI81-Gy4PQ"/>
+    <ownedClassifier xsi:type="aadl2:SystemType" xmi:id="_yVzr7ROzEeKk6syFYBwdng" name="Hci">
+      <ownedDataPort xmi:id="_yVzr7hOzEeKk6syFYBwdng" name="Breakpedalpressed" direction="in" dataFeatureClassifier="_yVzEsxOzEeKk6syFYBwdng"/>
+      <ownedDataPort xmi:id="_yVzr7xOzEeKk6syFYBwdng" name="Clutchpedalpressed" direction="in" dataFeatureClassifier="_yVzEsxOzEeKk6syFYBwdng"/>
+      <ownedDataPort xmi:id="_yVzr8BOzEeKk6syFYBwdng" name="Autospd_Mph" direction="in" dataFeatureClassifier="_yVzEthOzEeKk6syFYBwdng"/>
+      <ownedDataPort xmi:id="_yVzr8ROzEeKk6syFYBwdng" name="Engspd_Rpm" direction="in" dataFeatureClassifier="_yVzEthOzEeKk6syFYBwdng"/>
+      <ownedDataPort xmi:id="_yVzr8hOzEeKk6syFYBwdng" name="Cruiseactive" direction="out" dataFeatureClassifier="_yVzEsxOzEeKk6syFYBwdng"/>
+      <ownedDataPort xmi:id="_yVzr8xOzEeKk6syFYBwdng" name="Refspd_Mph" direction="out" dataFeatureClassifier="_yVzEthOzEeKk6syFYBwdng"/>
     </ownedClassifier>
-    <ownedClassifier xsi:type="aadl2:SystemImplementation" xmi:id="_EgQkDw1CEeKPJI81-Gy4PQ" name="Hci.Model">
-      <ownedComment xmi:id="_EgQkEA1CEeKPJI81-Gy4PQ" body="--   connections"/>
-      <ownedComment xmi:id="_EgQkEQ1CEeKPJI81-Gy4PQ" body="--      -- Bus"/>
-      <ownedComment xmi:id="_EgQkEg1CEeKPJI81-Gy4PQ" body="--      data port Breakpedalpressed  -> P_Hci_Process.Breakpedalpressed;"/>
-      <ownedComment xmi:id="_EgQkEw1CEeKPJI81-Gy4PQ" body="--      data port Clutchpedalpressed -> P_Hci_Process.Clutchpedalpressed;"/>
-      <ownedComment xmi:id="_EgQkFA1CEeKPJI81-Gy4PQ" body="--      data port Autospd_Mph        -> P_Hci_Process.Autospd_Mph;"/>
-      <ownedComment xmi:id="_EgQkFQ1CEeKPJI81-Gy4PQ" body="--      data port Engspd_Rpm         -> P_Hci_Process.Engspd_Rpm;"/>
-      <ownedComment xmi:id="_EgQkFg1CEeKPJI81-Gy4PQ" body="--      data port P_Hci_Process.Cruiseactive-> Cruiseactive;"/>
-      <ownedComment xmi:id="_EgQkFw1CEeKPJI81-Gy4PQ" body="--      data port P_Hci_Process.Refspd_Mph-> Refspd_Mph;"/>
-      <ownedRealization xmi:id="_EgQkGA1CEeKPJI81-Gy4PQ" implemented="_EgQkCA1CEeKPJI81-Gy4PQ"/>
-      <ownedProcessSubcomponent xmi:id="_EgQkGQ1CEeKPJI81-Gy4PQ" name="P_Hci_Process" processSubcomponentType="_EgQj8Q1CEeKPJI81-Gy4PQ"/>
+    <ownedClassifier xsi:type="aadl2:SystemImplementation" xmi:id="_yVzr9BOzEeKk6syFYBwdng" name="Hci.Model">
+      <ownedComment xmi:id="_yVzr9ROzEeKk6syFYBwdng" body="--   connections"/>
+      <ownedComment xmi:id="_yVzr9hOzEeKk6syFYBwdng" body="--      -- Bus"/>
+      <ownedComment xmi:id="_yVzr9xOzEeKk6syFYBwdng" body="--      data port Breakpedalpressed  -> P_Hci_Process.Breakpedalpressed;"/>
+      <ownedComment xmi:id="_yVzr-BOzEeKk6syFYBwdng" body="--      data port Clutchpedalpressed -> P_Hci_Process.Clutchpedalpressed;"/>
+      <ownedComment xmi:id="_yVzr-ROzEeKk6syFYBwdng" body="--      data port Autospd_Mph        -> P_Hci_Process.Autospd_Mph;"/>
+      <ownedComment xmi:id="_yVzr-hOzEeKk6syFYBwdng" body="--      data port Engspd_Rpm         -> P_Hci_Process.Engspd_Rpm;"/>
+      <ownedComment xmi:id="_yVzr-xOzEeKk6syFYBwdng" body="--      data port P_Hci_Process.Cruiseactive-> Cruiseactive;"/>
+      <ownedComment xmi:id="_yVzr_BOzEeKk6syFYBwdng" body="--      data port P_Hci_Process.Refspd_Mph-> Refspd_Mph;"/>
+      <ownedRealization xmi:id="_yVzr_ROzEeKk6syFYBwdng" implemented="_yVzr7ROzEeKk6syFYBwdng"/>
+      <ownedProcessSubcomponent xmi:id="_yVzr_hOzEeKk6syFYBwdng" name="P_Hci_Process" processSubcomponentType="_yVzr1hOzEeKk6syFYBwdng"/>
     </ownedClassifier>
-    <ownedClassifier xsi:type="aadl2:ThreadType" xmi:id="_EgQkGg1CEeKPJI81-Gy4PQ" name="Cruise1">
-      <ownedComment xmi:id="_EgQkGw1CEeKPJI81-Gy4PQ" body="--   End of Composition of HCI System"/>
-      <ownedComment xmi:id="_EgQkHA1CEeKPJI81-Gy4PQ" body="--   Composition of CruiseControlLaws System"/>
-      <ownedDataPort xmi:id="_EgQkHQ1CEeKPJI81-Gy4PQ" name="Cruiseactive" direction="in" dataFeatureClassifier="_EgP8sg1CEeKPJI81-Gy4PQ"/>
-      <ownedDataPort xmi:id="_EgRK0A1CEeKPJI81-Gy4PQ" name="Refspd_Mph" direction="in" dataFeatureClassifier="_EgP8tQ1CEeKPJI81-Gy4PQ"/>
-      <ownedDataPort xmi:id="_EgRK0Q1CEeKPJI81-Gy4PQ" name="Autospd_Mph" direction="in" dataFeatureClassifier="_EgP8tQ1CEeKPJI81-Gy4PQ"/>
-      <ownedDataPort xmi:id="_EgRK0g1CEeKPJI81-Gy4PQ" name="Filautospd_Mph" direction="out" dataFeatureClassifier="_EgP8tQ1CEeKPJI81-Gy4PQ"/>
-      <ownedDataPort xmi:id="_EgRK0w1CEeKPJI81-Gy4PQ" name="Filrefspd_Mph" direction="out" dataFeatureClassifier="_EgP8tQ1CEeKPJI81-Gy4PQ"/>
+    <ownedClassifier xsi:type="aadl2:ThreadType" xmi:id="_yVzr_xOzEeKk6syFYBwdng" name="Cruise1">
+      <ownedComment xmi:id="_yVzsABOzEeKk6syFYBwdng" body="--   End of Composition of HCI System"/>
+      <ownedComment xmi:id="_yVzsAROzEeKk6syFYBwdng" body="--   Composition of CruiseControlLaws System"/>
+      <ownedDataPort xmi:id="_yVzsAhOzEeKk6syFYBwdng" name="Cruiseactive" direction="in" dataFeatureClassifier="_yVzEsxOzEeKk6syFYBwdng"/>
+      <ownedDataPort xmi:id="_yVzsAxOzEeKk6syFYBwdng" name="Refspd_Mph" direction="in" dataFeatureClassifier="_yVzEthOzEeKk6syFYBwdng"/>
+      <ownedDataPort xmi:id="_yV0S0BOzEeKk6syFYBwdng" name="Autospd_Mph" direction="in" dataFeatureClassifier="_yVzEthOzEeKk6syFYBwdng"/>
+      <ownedDataPort xmi:id="_yV0S0ROzEeKk6syFYBwdng" name="Filautospd_Mph" direction="out" dataFeatureClassifier="_yVzEthOzEeKk6syFYBwdng"/>
+      <ownedDataPort xmi:id="_yV0S0hOzEeKk6syFYBwdng" name="Filrefspd_Mph" direction="out" dataFeatureClassifier="_yVzEthOzEeKk6syFYBwdng"/>
     </ownedClassifier>
-    <ownedClassifier xsi:type="aadl2:ThreadImplementation" xmi:id="_EgRK1A1CEeKPJI81-Gy4PQ" name="Cruise1.Simulink">
-      <ownedComment xmi:id="_EgRK1Q1CEeKPJI81-Gy4PQ" body="--   properties"/>
-      <ownedComment xmi:id="_EgRK1g1CEeKPJI81-Gy4PQ" body="--      Dispatch_Protocol            =>Periodic;"/>
-      <ownedComment xmi:id="_EgRK1w1CEeKPJI81-Gy4PQ" body="--      Period                       => 20 Ms;"/>
-      <ownedRealization xmi:id="_EgRK2A1CEeKPJI81-Gy4PQ" implemented="_EgQkGg1CEeKPJI81-Gy4PQ"/>
+    <ownedClassifier xsi:type="aadl2:ThreadImplementation" xmi:id="_yV0S0xOzEeKk6syFYBwdng" name="Cruise1.Simulink">
+      <ownedComment xmi:id="_yV0S1BOzEeKk6syFYBwdng" body="--   properties"/>
+      <ownedComment xmi:id="_yV0S1ROzEeKk6syFYBwdng" body="--      Dispatch_Protocol            =>Periodic;"/>
+      <ownedComment xmi:id="_yV0S1hOzEeKk6syFYBwdng" body="--      Period                       => 20 Ms;"/>
+      <ownedRealization xmi:id="_yV0S1xOzEeKk6syFYBwdng" implemented="_yVzr_xOzEeKk6syFYBwdng"/>
     </ownedClassifier>
-    <ownedClassifier xsi:type="aadl2:ThreadType" xmi:id="_EgRK2Q1CEeKPJI81-Gy4PQ" name="Cruise2">
-      <ownedDataPort xmi:id="_EgRK2g1CEeKPJI81-Gy4PQ" name="Filautospd_Mph" direction="in" dataFeatureClassifier="_EgP8tQ1CEeKPJI81-Gy4PQ"/>
-      <ownedDataPort xmi:id="_EgRK2w1CEeKPJI81-Gy4PQ" name="Filrefspd_Mph" direction="in" dataFeatureClassifier="_EgP8tQ1CEeKPJI81-Gy4PQ"/>
-      <ownedDataPort xmi:id="_EgRK3A1CEeKPJI81-Gy4PQ" name="Throttlepos_In" direction="out" dataFeatureClassifier="_EgP8tQ1CEeKPJI81-Gy4PQ"/>
+    <ownedClassifier xsi:type="aadl2:ThreadType" xmi:id="_yV0S2BOzEeKk6syFYBwdng" name="Cruise2">
+      <ownedDataPort xmi:id="_yV0S2ROzEeKk6syFYBwdng" name="Filautospd_Mph" direction="in" dataFeatureClassifier="_yVzEthOzEeKk6syFYBwdng"/>
+      <ownedDataPort xmi:id="_yV0S2hOzEeKk6syFYBwdng" name="Filrefspd_Mph" direction="in" dataFeatureClassifier="_yVzEthOzEeKk6syFYBwdng"/>
+      <ownedDataPort xmi:id="_yV0S2xOzEeKk6syFYBwdng" name="Throttlepos_In" direction="out" dataFeatureClassifier="_yVzEthOzEeKk6syFYBwdng"/>
     </ownedClassifier>
-    <ownedClassifier xsi:type="aadl2:ThreadImplementation" xmi:id="_EgRK3Q1CEeKPJI81-Gy4PQ" name="Cruise2.Simulink">
-      <ownedComment xmi:id="_EgRK3g1CEeKPJI81-Gy4PQ" body="--   properties"/>
-      <ownedComment xmi:id="_EgRK3w1CEeKPJI81-Gy4PQ" body="--      Dispatch_Protocol            =>Periodic;"/>
-      <ownedComment xmi:id="_EgRK4A1CEeKPJI81-Gy4PQ" body="--      Period                       => 20 Ms;"/>
-      <ownedRealization xmi:id="_EgRK4Q1CEeKPJI81-Gy4PQ" implemented="_EgRK2Q1CEeKPJI81-Gy4PQ"/>
+    <ownedClassifier xsi:type="aadl2:ThreadImplementation" xmi:id="_yV0S3BOzEeKk6syFYBwdng" name="Cruise2.Simulink">
+      <ownedComment xmi:id="_yV0S3ROzEeKk6syFYBwdng" body="--   properties"/>
+      <ownedComment xmi:id="_yV0S3hOzEeKk6syFYBwdng" body="--      Dispatch_Protocol            =>Periodic;"/>
+      <ownedComment xmi:id="_yV0S3xOzEeKk6syFYBwdng" body="--      Period                       => 20 Ms;"/>
+      <ownedRealization xmi:id="_yV0S4BOzEeKk6syFYBwdng" implemented="_yV0S2BOzEeKk6syFYBwdng"/>
     </ownedClassifier>
-    <ownedClassifier xsi:type="aadl2:ProcessType" xmi:id="_EgRK4g1CEeKPJI81-Gy4PQ" name="Cruisecontrol_Process">
-      <ownedDataPort xmi:id="_EgRK4w1CEeKPJI81-Gy4PQ" name="Cruiseactive" direction="in" dataFeatureClassifier="_EgP8sg1CEeKPJI81-Gy4PQ"/>
-      <ownedDataPort xmi:id="_EgRK5A1CEeKPJI81-Gy4PQ" name="Refspd_Mph" direction="in" dataFeatureClassifier="_EgP8tQ1CEeKPJI81-Gy4PQ"/>
-      <ownedDataPort xmi:id="_EgRK5Q1CEeKPJI81-Gy4PQ" name="Autospd_Mph" direction="in" dataFeatureClassifier="_EgP8tQ1CEeKPJI81-Gy4PQ"/>
-      <ownedDataPort xmi:id="_EgRK5g1CEeKPJI81-Gy4PQ" name="Throttlepos_In" direction="out" dataFeatureClassifier="_EgP8tQ1CEeKPJI81-Gy4PQ"/>
+    <ownedClassifier xsi:type="aadl2:ProcessType" xmi:id="_yV0S4ROzEeKk6syFYBwdng" name="Cruisecontrol_Process">
+      <ownedDataPort xmi:id="_yV0S4hOzEeKk6syFYBwdng" name="Cruiseactive" direction="in" dataFeatureClassifier="_yVzEsxOzEeKk6syFYBwdng"/>
+      <ownedDataPort xmi:id="_yV0S4xOzEeKk6syFYBwdng" name="Refspd_Mph" direction="in" dataFeatureClassifier="_yVzEthOzEeKk6syFYBwdng"/>
+      <ownedDataPort xmi:id="_yV0S5BOzEeKk6syFYBwdng" name="Autospd_Mph" direction="in" dataFeatureClassifier="_yVzEthOzEeKk6syFYBwdng"/>
+      <ownedDataPort xmi:id="_yV0S5ROzEeKk6syFYBwdng" name="Throttlepos_In" direction="out" dataFeatureClassifier="_yVzEthOzEeKk6syFYBwdng"/>
     </ownedClassifier>
-    <ownedClassifier xsi:type="aadl2:ProcessImplementation" xmi:id="_EgRK5w1CEeKPJI81-Gy4PQ" name="Cruisecontrol_Process.Model">
-      <ownedComment xmi:id="_EgRK6A1CEeKPJI81-Gy4PQ" body="--   connections"/>
-      <ownedComment xmi:id="_EgRK6Q1CEeKPJI81-Gy4PQ" body="--      --  Bus"/>
-      <ownedComment xmi:id="_EgRK6g1CEeKPJI81-Gy4PQ" body="--      data port Cruiseactive       ->  T_Cruise1.Cruiseactive;"/>
-      <ownedComment xmi:id="_EgRK6w1CEeKPJI81-Gy4PQ" body="--      data port Refspd_Mph         ->  T_Cruise1.Refspd_Mph;"/>
-      <ownedComment xmi:id="_EgRK7A1CEeKPJI81-Gy4PQ" body="--      data port Autospd_Mph        ->  T_Cruise1.Autospd_Mph;"/>
-      <ownedComment xmi:id="_EgRK7Q1CEeKPJI81-Gy4PQ" body="--      data port T_Cruise2.Throttlepos_In->  Throttlepos_In;"/>
-      <ownedComment xmi:id="_EgRK7g1CEeKPJI81-Gy4PQ" body="--      --  Internal"/>
-      <ownedComment xmi:id="_EgRK7w1CEeKPJI81-Gy4PQ" body="--      data port T_Cruise1.Filautospd_Mph->  T_Cruise2.Filautospd_Mph;"/>
-      <ownedComment xmi:id="_EgRK8A1CEeKPJI81-Gy4PQ" body="--      data port T_Cruise1.Filrefspd_Mph->  T_Cruise2.Filrefspd_Mph;"/>
-      <ownedRealization xmi:id="_EgRK8Q1CEeKPJI81-Gy4PQ" implemented="_EgRK4g1CEeKPJI81-Gy4PQ"/>
-      <ownedThreadSubcomponent xmi:id="_EgRK8g1CEeKPJI81-Gy4PQ" name="T_Cruise1" threadSubcomponentType="_EgRK1A1CEeKPJI81-Gy4PQ"/>
-      <ownedThreadSubcomponent xmi:id="_EgRK8w1CEeKPJI81-Gy4PQ" name="T_Cruise2" threadSubcomponentType="_EgRK3Q1CEeKPJI81-Gy4PQ"/>
+    <ownedClassifier xsi:type="aadl2:ProcessImplementation" xmi:id="_yV0S5hOzEeKk6syFYBwdng" name="Cruisecontrol_Process.Model">
+      <ownedComment xmi:id="_yV0S5xOzEeKk6syFYBwdng" body="--   connections"/>
+      <ownedComment xmi:id="_yV0S6BOzEeKk6syFYBwdng" body="--      --  Bus"/>
+      <ownedComment xmi:id="_yV0S6ROzEeKk6syFYBwdng" body="--      data port Cruiseactive       ->  T_Cruise1.Cruiseactive;"/>
+      <ownedComment xmi:id="_yV0S6hOzEeKk6syFYBwdng" body="--      data port Refspd_Mph         ->  T_Cruise1.Refspd_Mph;"/>
+      <ownedComment xmi:id="_yV0S6xOzEeKk6syFYBwdng" body="--      data port Autospd_Mph        ->  T_Cruise1.Autospd_Mph;"/>
+      <ownedComment xmi:id="_yV0S7BOzEeKk6syFYBwdng" body="--      data port T_Cruise2.Throttlepos_In->  Throttlepos_In;"/>
+      <ownedComment xmi:id="_yV0S7ROzEeKk6syFYBwdng" body="--      --  Internal"/>
+      <ownedComment xmi:id="_yV0S7hOzEeKk6syFYBwdng" body="--      data port T_Cruise1.Filautospd_Mph->  T_Cruise2.Filautospd_Mph;"/>
+      <ownedComment xmi:id="_yV0S7xOzEeKk6syFYBwdng" body="--      data port T_Cruise1.Filrefspd_Mph->  T_Cruise2.Filrefspd_Mph;"/>
+      <ownedRealization xmi:id="_yV0S8BOzEeKk6syFYBwdng" implemented="_yV0S4ROzEeKk6syFYBwdng"/>
+      <ownedThreadSubcomponent xmi:id="_yV0S8ROzEeKk6syFYBwdng" name="T_Cruise1" threadSubcomponentType="_yV0S0xOzEeKk6syFYBwdng"/>
+      <ownedThreadSubcomponent xmi:id="_yV0S8hOzEeKk6syFYBwdng" name="T_Cruise2" threadSubcomponentType="_yV0S3BOzEeKk6syFYBwdng"/>
     </ownedClassifier>
-    <ownedClassifier xsi:type="aadl2:SystemType" xmi:id="_EgRK9A1CEeKPJI81-Gy4PQ" name="Cruisecontrollaws">
-      <ownedDataPort xmi:id="_EgRK9Q1CEeKPJI81-Gy4PQ" name="Cruiseactive" direction="in" dataFeatureClassifier="_EgP8sg1CEeKPJI81-Gy4PQ"/>
-      <ownedDataPort xmi:id="_EgRK9g1CEeKPJI81-Gy4PQ" name="Refspd_Mph" direction="in" dataFeatureClassifier="_EgP8tQ1CEeKPJI81-Gy4PQ"/>
-      <ownedDataPort xmi:id="_EgRK9w1CEeKPJI81-Gy4PQ" name="Autospd_Mph" direction="in" dataFeatureClassifier="_EgP8tQ1CEeKPJI81-Gy4PQ"/>
-      <ownedDataPort xmi:id="_EgRK-A1CEeKPJI81-Gy4PQ" name="Throttlepos_In" direction="out" dataFeatureClassifier="_EgP8tQ1CEeKPJI81-Gy4PQ"/>
+    <ownedClassifier xsi:type="aadl2:SystemType" xmi:id="_yV0S8xOzEeKk6syFYBwdng" name="Cruisecontrollaws">
+      <ownedDataPort xmi:id="_yV0S9BOzEeKk6syFYBwdng" name="Cruiseactive" direction="in" dataFeatureClassifier="_yVzEsxOzEeKk6syFYBwdng"/>
+      <ownedDataPort xmi:id="_yV0S9ROzEeKk6syFYBwdng" name="Refspd_Mph" direction="in" dataFeatureClassifier="_yVzEthOzEeKk6syFYBwdng"/>
+      <ownedDataPort xmi:id="_yV0S9hOzEeKk6syFYBwdng" name="Autospd_Mph" direction="in" dataFeatureClassifier="_yVzEthOzEeKk6syFYBwdng"/>
+      <ownedDataPort xmi:id="_yV0S9xOzEeKk6syFYBwdng" name="Throttlepos_In" direction="out" dataFeatureClassifier="_yVzEthOzEeKk6syFYBwdng"/>
     </ownedClassifier>
-    <ownedClassifier xsi:type="aadl2:SystemImplementation" xmi:id="_EgRK-Q1CEeKPJI81-Gy4PQ" name="Cruisecontrollaws.Model">
-      <ownedComment xmi:id="_EgRK-g1CEeKPJI81-Gy4PQ" body="--   connections"/>
-      <ownedComment xmi:id="_EgRK-w1CEeKPJI81-Gy4PQ" body="--      --  Bus"/>
-      <ownedComment xmi:id="_EgRK_A1CEeKPJI81-Gy4PQ" body="--      data port Cruiseactive       ->  P_Cruisecontrol_Process.Cruiseactive;"/>
-      <ownedComment xmi:id="_EgRK_Q1CEeKPJI81-Gy4PQ" body="--      data port Refspd_Mph         ->  P_Cruisecontrol_Process.Refspd_Mph;"/>
-      <ownedComment xmi:id="_EgRK_g1CEeKPJI81-Gy4PQ" body="--      data port Autospd_Mph        ->  P_Cruisecontrol_Process.Autospd_Mph;"/>
-      <ownedComment xmi:id="_EgRK_w1CEeKPJI81-Gy4PQ" body="--      data port P_Cruisecontrol_Process.Throttlepos_In->  Throttlepos_In;"/>
-      <ownedRealization xmi:id="_EgRLAA1CEeKPJI81-Gy4PQ" implemented="_EgRK9A1CEeKPJI81-Gy4PQ"/>
-      <ownedProcessSubcomponent xmi:id="_EgRLAQ1CEeKPJI81-Gy4PQ" name="P_Cruisecontrol_Process" processSubcomponentType="_EgRK5w1CEeKPJI81-Gy4PQ"/>
+    <ownedClassifier xsi:type="aadl2:SystemImplementation" xmi:id="_yV0S-BOzEeKk6syFYBwdng" name="Cruisecontrollaws.Model">
+      <ownedComment xmi:id="_yV0S-ROzEeKk6syFYBwdng" body="--   connections"/>
+      <ownedComment xmi:id="_yV0S-hOzEeKk6syFYBwdng" body="--      --  Bus"/>
+      <ownedComment xmi:id="_yV0S-xOzEeKk6syFYBwdng" body="--      data port Cruiseactive       ->  P_Cruisecontrol_Process.Cruiseactive;"/>
+      <ownedComment xmi:id="_yV0S_BOzEeKk6syFYBwdng" body="--      data port Refspd_Mph         ->  P_Cruisecontrol_Process.Refspd_Mph;"/>
+      <ownedComment xmi:id="_yV0S_ROzEeKk6syFYBwdng" body="--      data port Autospd_Mph        ->  P_Cruisecontrol_Process.Autospd_Mph;"/>
+      <ownedComment xmi:id="_yV0S_hOzEeKk6syFYBwdng" body="--      data port P_Cruisecontrol_Process.Throttlepos_In->  Throttlepos_In;"/>
+      <ownedRealization xmi:id="_yV0S_xOzEeKk6syFYBwdng" implemented="_yV0S8xOzEeKk6syFYBwdng"/>
+      <ownedProcessSubcomponent xmi:id="_yV0TABOzEeKk6syFYBwdng" name="P_Cruisecontrol_Process" processSubcomponentType="_yV0S5hOzEeKk6syFYBwdng"/>
     </ownedClassifier>
-    <ownedClassifier xsi:type="aadl2:BusType" xmi:id="_EgRLAg1CEeKPJI81-Gy4PQ" name="Lan_Type">
-      <ownedComment xmi:id="_EgRLAw1CEeKPJI81-Gy4PQ" body="--   End of Composition of CruiseControlLaws System"/>
+    <ownedClassifier xsi:type="aadl2:BusType" xmi:id="_yV0TAROzEeKk6syFYBwdng" name="Lan_Type">
+      <ownedComment xmi:id="_yV0TAhOzEeKk6syFYBwdng" body="--   End of Composition of CruiseControlLaws System"/>
     </ownedClassifier>
-    <ownedClassifier xsi:type="aadl2:BusImplementation" xmi:id="_EgRLBA1CEeKPJI81-Gy4PQ" name="Lan_Type.i">
-      <ownedRealization xmi:id="_EgRLBQ1CEeKPJI81-Gy4PQ" implemented="_EgRLAg1CEeKPJI81-Gy4PQ"/>
+    <ownedClassifier xsi:type="aadl2:BusImplementation" xmi:id="_yV0TAxOzEeKk6syFYBwdng" name="Lan_Type.i">
+      <ownedRealization xmi:id="_yV0TBBOzEeKk6syFYBwdng" implemented="_yV0TAROzEeKk6syFYBwdng"/>
     </ownedClassifier>
-    <ownedClassifier xsi:type="aadl2:ProcessorType" xmi:id="_EgRLBg1CEeKPJI81-Gy4PQ" name="Powerpc">
-      <ownedBusAccess xmi:id="_EgRLBw1CEeKPJI81-Gy4PQ" name="B_Lan" kind="requires" busFeatureClassifier="_EgRLAg1CEeKPJI81-Gy4PQ"/>
+    <ownedClassifier xsi:type="aadl2:ProcessorType" xmi:id="_yV0TBROzEeKk6syFYBwdng" name="Powerpc">
+      <ownedBusAccess xmi:id="_yV0TBhOzEeKk6syFYBwdng" name="B_Lan" kind="requires" busFeatureClassifier="_yV0TAROzEeKk6syFYBwdng"/>
     </ownedClassifier>
-    <ownedClassifier xsi:type="aadl2:ProcessorImplementation" xmi:id="_EgRLCA1CEeKPJI81-Gy4PQ" name="Powerpc.Generic">
-      <ownedRealization xmi:id="_EgRLCQ1CEeKPJI81-Gy4PQ" implemented="_EgRLBg1CEeKPJI81-Gy4PQ"/>
+    <ownedClassifier xsi:type="aadl2:ProcessorImplementation" xmi:id="_yV0TBxOzEeKk6syFYBwdng" name="Powerpc.Generic">
+      <ownedRealization xmi:id="_yV0TCBOzEeKk6syFYBwdng" implemented="_yV0TBROzEeKk6syFYBwdng"/>
     </ownedClassifier>
-    <ownedClassifier xsi:type="aadl2:SystemType" xmi:id="_EgRLCg1CEeKPJI81-Gy4PQ" name="Cruisecontrol">
-      <ownedDataPort xmi:id="_EgRLCw1CEeKPJI81-Gy4PQ" name="Breakpedalpressed" direction="in" dataFeatureClassifier="_EgP8sg1CEeKPJI81-Gy4PQ"/>
-      <ownedDataPort xmi:id="_EgRLDA1CEeKPJI81-Gy4PQ" name="Clutchpedalpressed" direction="in" dataFeatureClassifier="_EgP8sg1CEeKPJI81-Gy4PQ"/>
-      <ownedDataPort xmi:id="_EgRLDQ1CEeKPJI81-Gy4PQ" name="Autospd_Mph" direction="in" dataFeatureClassifier="_EgP8tQ1CEeKPJI81-Gy4PQ"/>
-      <ownedDataPort xmi:id="_EgRLDg1CEeKPJI81-Gy4PQ" name="Engspd_Rpm" direction="in" dataFeatureClassifier="_EgP8tQ1CEeKPJI81-Gy4PQ"/>
-      <ownedDataPort xmi:id="_EgRLDw1CEeKPJI81-Gy4PQ" name="Throttlepos_In" direction="out" dataFeatureClassifier="_EgP8tQ1CEeKPJI81-Gy4PQ"/>
+    <ownedClassifier xsi:type="aadl2:SystemType" xmi:id="_yV0TCROzEeKk6syFYBwdng" name="Cruisecontrol">
+      <ownedDataPort xmi:id="_yV0TChOzEeKk6syFYBwdng" name="Breakpedalpressed" direction="in" dataFeatureClassifier="_yVzEsxOzEeKk6syFYBwdng"/>
+      <ownedDataPort xmi:id="_yV054BOzEeKk6syFYBwdng" name="Clutchpedalpressed" direction="in" dataFeatureClassifier="_yVzEsxOzEeKk6syFYBwdng"/>
+      <ownedDataPort xmi:id="_yV054ROzEeKk6syFYBwdng" name="Autospd_Mph" direction="in" dataFeatureClassifier="_yVzEthOzEeKk6syFYBwdng"/>
+      <ownedDataPort xmi:id="_yV054hOzEeKk6syFYBwdng" name="Engspd_Rpm" direction="in" dataFeatureClassifier="_yVzEthOzEeKk6syFYBwdng"/>
+      <ownedDataPort xmi:id="_yV054xOzEeKk6syFYBwdng" name="Throttlepos_In" direction="out" dataFeatureClassifier="_yVzEthOzEeKk6syFYBwdng"/>
     </ownedClassifier>
-    <ownedClassifier xsi:type="aadl2:SystemImplementation" xmi:id="_EgRLEA1CEeKPJI81-Gy4PQ" name="Cruisecontrol.Generic">
-      <ownedComment xmi:id="_EgRLEQ1CEeKPJI81-Gy4PQ" body="--   connections"/>
-      <ownedComment xmi:id="_EgRLEg1CEeKPJI81-Gy4PQ" body="--      -- External"/>
-      <ownedComment xmi:id="_EgRLEw1CEeKPJI81-Gy4PQ" body="--      data port   Breakpedalpressed->   S_Hci.Breakpedalpressed;"/>
-      <ownedComment xmi:id="_EgRLFA1CEeKPJI81-Gy4PQ" body="--      data port   Clutchpedalpressed->   S_Hci.Clutchpedalpressed;"/>
-      <ownedComment xmi:id="_EgRLFQ1CEeKPJI81-Gy4PQ" body="--      data port   Autospd_Mph      ->   S_Hci.Autospd_Mph;"/>
-      <ownedComment xmi:id="_EgRLFg1CEeKPJI81-Gy4PQ" body="--      data port   Engspd_Rpm       ->   S_Hci.Engspd_Rpm;"/>
-      <ownedComment xmi:id="_EgRLFw1CEeKPJI81-Gy4PQ" body="--      data port   Autospd_Mph      ->   S_Cruisecontrollaws.Autospd_Mph;"/>
-      <ownedComment xmi:id="_EgRLGA1CEeKPJI81-Gy4PQ" body="--      data port   S_Cruisecontrollaws.Throttlepos_In->   Throttlepos_In;"/>
-      <ownedComment xmi:id="_EgRLGQ1CEeKPJI81-Gy4PQ" body="--      Cruiseactive                 : data port S_Hci.Cruiseactive->  S_Cruisecontrollaws.Cruiseactive {Allowed_Connection_Binding=> reference Lan;};"/>
-      <ownedComment xmi:id="_EgRLGg1CEeKPJI81-Gy4PQ" body="--      Refspd_Mph                   : data port S_Hci.Refspd_Mph->  S_Cruisecontrollaws.Refspd_Mph {Allowed_Connection_Binding=> reference Lan;};"/>
-      <ownedComment xmi:id="_EgRLGw1CEeKPJI81-Gy4PQ" body="--      --  Bus"/>
-      <ownedComment xmi:id="_EgRLHA1CEeKPJI81-Gy4PQ" body="--      bus access Lan -> Hci_Processor.B_Lan;"/>
-      <ownedComment xmi:id="_EgRLHQ1CEeKPJI81-Gy4PQ" body="--      bus access Lan -> Ccl_Processor.B_Lan;"/>
-      <ownedComment xmi:id="_EgRLHg1CEeKPJI81-Gy4PQ" body="--properties"/>
-      <ownedComment xmi:id="_EgRLHw1CEeKPJI81-Gy4PQ" body="--&#x9;Allowed_Processor_Binding=> reference Hci_Processor applies to S_Hci;"/>
-      <ownedComment xmi:id="_EgRLIA1CEeKPJI81-Gy4PQ" body="--&#x9;Allowed_Processor_Binding=> reference Ccl_Processor applies to S_Cruisecontrollaws;"/>
-      <ownedRealization xmi:id="_EgRLIQ1CEeKPJI81-Gy4PQ" implemented="_EgRLCg1CEeKPJI81-Gy4PQ"/>
-      <ownedBusSubcomponent xmi:id="_EgRLIg1CEeKPJI81-Gy4PQ" name="Lan" busSubcomponentType="_EgRLBA1CEeKPJI81-Gy4PQ"/>
-      <ownedProcessorSubcomponent xmi:id="_EgRLIw1CEeKPJI81-Gy4PQ" name="Hci_Processor" processorSubcomponentType="_EgRLCA1CEeKPJI81-Gy4PQ"/>
-      <ownedProcessorSubcomponent xmi:id="_EgRLJA1CEeKPJI81-Gy4PQ" name="Ccl_Processor" processorSubcomponentType="_EgRLCA1CEeKPJI81-Gy4PQ"/>
-      <ownedSystemSubcomponent xmi:id="_EgRLJQ1CEeKPJI81-Gy4PQ" name="S_Hci" systemSubcomponentType="_EgQkDw1CEeKPJI81-Gy4PQ"/>
-      <ownedSystemSubcomponent xmi:id="_EgRLJg1CEeKPJI81-Gy4PQ" name="S_Cruisecontrollaws" systemSubcomponentType="_EgRK-Q1CEeKPJI81-Gy4PQ"/>
+    <ownedClassifier xsi:type="aadl2:SystemImplementation" xmi:id="_yV055BOzEeKk6syFYBwdng" name="Cruisecontrol.Generic">
+      <ownedComment xmi:id="_yV055ROzEeKk6syFYBwdng" body="--   connections"/>
+      <ownedComment xmi:id="_yV055hOzEeKk6syFYBwdng" body="--      -- External"/>
+      <ownedComment xmi:id="_yV055xOzEeKk6syFYBwdng" body="--      data port   Breakpedalpressed->   S_Hci.Breakpedalpressed;"/>
+      <ownedComment xmi:id="_yV056BOzEeKk6syFYBwdng" body="--      data port   Clutchpedalpressed->   S_Hci.Clutchpedalpressed;"/>
+      <ownedComment xmi:id="_yV056ROzEeKk6syFYBwdng" body="--      data port   Autospd_Mph      ->   S_Hci.Autospd_Mph;"/>
+      <ownedComment xmi:id="_yV056hOzEeKk6syFYBwdng" body="--      data port   Engspd_Rpm       ->   S_Hci.Engspd_Rpm;"/>
+      <ownedComment xmi:id="_yV056xOzEeKk6syFYBwdng" body="--      data port   Autospd_Mph      ->   S_Cruisecontrollaws.Autospd_Mph;"/>
+      <ownedComment xmi:id="_yV057BOzEeKk6syFYBwdng" body="--      data port   S_Cruisecontrollaws.Throttlepos_In->   Throttlepos_In;"/>
+      <ownedComment xmi:id="_yV057ROzEeKk6syFYBwdng" body="--      Cruiseactive                 : data port S_Hci.Cruiseactive->  S_Cruisecontrollaws.Cruiseactive {Allowed_Connection_Binding=> reference Lan;};"/>
+      <ownedComment xmi:id="_yV057hOzEeKk6syFYBwdng" body="--      Refspd_Mph                   : data port S_Hci.Refspd_Mph->  S_Cruisecontrollaws.Refspd_Mph {Allowed_Connection_Binding=> reference Lan;};"/>
+      <ownedComment xmi:id="_yV057xOzEeKk6syFYBwdng" body="--      --  Bus"/>
+      <ownedComment xmi:id="_yV058BOzEeKk6syFYBwdng" body="--      bus access Lan -> Hci_Processor.B_Lan;"/>
+      <ownedComment xmi:id="_yV058ROzEeKk6syFYBwdng" body="--      bus access Lan -> Ccl_Processor.B_Lan;"/>
+      <ownedComment xmi:id="_yV058hOzEeKk6syFYBwdng" body="--properties"/>
+      <ownedComment xmi:id="_yV058xOzEeKk6syFYBwdng" body="--&#x9;Allowed_Processor_Binding=> reference Hci_Processor applies to S_Hci;"/>
+      <ownedComment xmi:id="_yV059BOzEeKk6syFYBwdng" body="--&#x9;Allowed_Processor_Binding=> reference Ccl_Processor applies to S_Cruisecontrollaws;"/>
+      <ownedRealization xmi:id="_yV059ROzEeKk6syFYBwdng" implemented="_yV0TCROzEeKk6syFYBwdng"/>
+      <ownedBusSubcomponent xmi:id="_yV059hOzEeKk6syFYBwdng" name="Lan" busSubcomponentType="_yV0TAxOzEeKk6syFYBwdng"/>
+      <ownedProcessorSubcomponent xmi:id="_yV059xOzEeKk6syFYBwdng" name="Hci_Processor" processorSubcomponentType="_yV0TBxOzEeKk6syFYBwdng"/>
+      <ownedProcessorSubcomponent xmi:id="_yV05-BOzEeKk6syFYBwdng" name="Ccl_Processor" processorSubcomponentType="_yV0TBxOzEeKk6syFYBwdng"/>
+      <ownedSystemSubcomponent xmi:id="_yV05-ROzEeKk6syFYBwdng" name="S_Hci" systemSubcomponentType="_yVzr9BOzEeKk6syFYBwdng"/>
+      <ownedSystemSubcomponent xmi:id="_yV05-hOzEeKk6syFYBwdng" name="S_Cruisecontrollaws" systemSubcomponentType="_yV0S-BOzEeKk6syFYBwdng"/>
     </ownedClassifier>
-    <ownedClassifier xsi:type="aadl2:DataType" xmi:id="_EgRLJw1CEeKPJI81-Gy4PQ" name="piout"/>
-    <ownedClassifier xsi:type="aadl2:SystemType" xmi:id="_EgRx4A1CEeKPJI81-Gy4PQ" name="simple"/>
-    <ownedClassifier xsi:type="aadl2:SystemType" xmi:id="_EgRx4Q1CEeKPJI81-Gy4PQ" name="complex">
-      <ownedExtension xmi:id="_EgRx4g1CEeKPJI81-Gy4PQ" extended="_EgRx4A1CEeKPJI81-Gy4PQ"/>
-    </ownedClassifier>
+    <ownedClassifier xsi:type="aadl2:DataType" xmi:id="_yV05-xOzEeKk6syFYBwdng" name="piout"/>
   </ownedPublicSection>
+  <ownedPrivateSection xmi:id="_yV05_BOzEeKk6syFYBwdng">
+    <ownedClassifier xsi:type="aadl2:DataType" xmi:id="_yV05_ROzEeKk6syFYBwdng" name="private_type"/>
+    <ownedClassifier xsi:type="aadl2:SystemType" xmi:id="_yV05_hOzEeKk6syFYBwdng" name="simple"/>
+    <ownedClassifier xsi:type="aadl2:SystemType" xmi:id="_yV05_xOzEeKk6syFYBwdng" name="complex">
+      <ownedExtension xmi:id="_yV06ABOzEeKk6syFYBwdng" extended="_yV05_hOzEeKk6syFYBwdng"/>
+    </ownedClassifier>
+    <ownedClassifier xsi:type="aadl2:SystemType" xmi:id="_yV06AROzEeKk6syFYBwdng" name="neam"/>
+    <ownedClassifier xsi:type="aadl2:SystemImplementation" xmi:id="_yV06AhOzEeKk6syFYBwdng" name="neam.Generic">
+      <ownedRealization xmi:id="_yV06AxOzEeKk6syFYBwdng" implemented="_yV06AROzEeKk6syFYBwdng"/>
+    </ownedClassifier>
+    <ownedClassifier xsi:type="aadl2:SystemImplementation" xmi:id="_yV06BBOzEeKk6syFYBwdng" name="simple.New_Implementation">
+      <ownedRealization xmi:id="_yV06BROzEeKk6syFYBwdng" implemented="_yV05_hOzEeKk6syFYBwdng"/>
+    </ownedClassifier>
+    <ownedClassifier xsi:type="aadl2:ProcessImplementation" xmi:id="_yV06BhOzEeKk6syFYBwdng" name="Cruisecontrol_Process.ssss">
+      <ownedRealization xmi:id="_yV06BxOzEeKk6syFYBwdng" implemented="_yV0S4ROzEeKk6syFYBwdng"/>
+    </ownedClassifier>
+  </ownedPrivateSection>
 </aadl2:Package>
