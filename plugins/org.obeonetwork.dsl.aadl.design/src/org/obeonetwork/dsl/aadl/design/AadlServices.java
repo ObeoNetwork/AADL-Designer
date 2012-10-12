@@ -99,12 +99,16 @@ public class AadlServices {
 				DataPort port = (DataPort) singleResource;
 				DirectionType direction = port.getDirection();
 				System.out.println(port.getDirection());
-				if (direction.incoming() && portDirection.equals("input")){
+				if (direction.incoming() && !direction.outgoing() && portDirection.equals("input")){
 					//System.out.println("Port : " + port.getName()	+ " is an input port");
 					directedPorts.add(port);
 				}
-				if (direction.outgoing() && portDirection.equals("output")){
+				if (direction.outgoing() && !direction.incoming() && portDirection.equals("output")){
 					//System.out.println("Port : " + port.getName()	+ " is an output port");
+					directedPorts.add(port);
+				}
+				if (direction.incoming() && direction.outgoing() && portDirection.equals("inout")){
+					//System.out.println("Port : " + port.getName()	+ " is an input/output port");
 					directedPorts.add(port);
 				}
 			}
