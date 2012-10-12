@@ -10,6 +10,8 @@ import org.eclipse.emf.ecore.resource.ResourceSet;
 import org.osate.aadl2.Aadl2Package;
 import org.osate.aadl2.AadlPackage;
 import org.osate.aadl2.ComponentType;
+import org.osate.aadl2.DataPort;
+import org.osate.aadl2.DirectionType;
 import org.osate.aadl2.SystemType;
 import org.osate.aadl2.ThreadType;
 
@@ -86,6 +88,25 @@ public class AadlServices {
 		}
 		
 		return componentsCollectionResult;
+	}
+	
+	public void getDirectedPorts(EObject model, String portDirection){
+		System.out.println("<<<<<<<<<<<<<<<<<<<==========getDirectedPorts==============>>>>>>>>>>>>>>>>>>>>>\n");
+		//System.out.println(model.eContents());
+		TreeIterator<EObject> i = model.eAllContents();
+		DirectionType dt;
+		while (i.hasNext()){
+			EObject singleResource = i.next();
+			
+			//finding the desired component Type
+			if (singleResource.eClass().getName().equals("DataPort")){
+		
+				//System.out.println("Attributes: " + singleResource.eClass().getEAllAttributes().get(2));
+				System.out.println(singleResource);
+			}
+		}
+		
+		System.out.println("\n<<<<<<<<<<<<<<<<<<<=========getDirectedPorts===============>>>>>>>>>>>>>>>>>>>>>\n");
 	}
 	
 	
