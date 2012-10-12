@@ -517,8 +517,8 @@
         </ownedDiagramElements>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="viewpoint:DNodeContainer" xmi:id="_aPMz4RINEeKnIb29nKFRYw" name="neam.Generic">
-        <target xmi:type="aadl2:SystemImplementation" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.32"/>
-        <semanticElements xmi:type="aadl2:SystemImplementation" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.32"/>
+        <target xmi:type="aadl2:SystemType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.32"/>
+        <semanticElements xmi:type="aadl2:SystemType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.32"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -539,8 +539,8 @@
         <actualMapping xmi:type="description:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@containerMappings[name='SystemImplementation']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="viewpoint:DNodeContainer" xmi:id="_5tgZURLHEeKK_oM1rih4zA" name="Cruisecontrol_Process.ssss">
-        <target xmi:type="aadl2:ProcessImplementation" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.34"/>
-        <semanticElements xmi:type="aadl2:ProcessImplementation" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.34"/>
+        <target xmi:type="aadl2:SystemImplementation" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.34"/>
+        <semanticElements xmi:type="aadl2:SystemImplementation" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.34"/>
         <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_5thncBLHEeKK_oM1rih4zA" labelSize="12" labelFormat="bold" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/process.svg">
           <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@containerMappings[name='ProcessImplementation']/@style"/>
         </ownedStyle>
@@ -968,28 +968,6 @@
               <styles xmi:type="notation:ShapeStyle" xmi:id="_EhZSMRRTEeKM2LmYNBkuQw" fontName="Cantarell" fontHeight="8"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EhZSMhRTEeKM2LmYNBkuQw" x="365" y="28" width="13" height="15"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_Ms8-YBRTEeKM2LmYNBkuQw" type="3012" element="_MsnnMBRTEeKM2LmYNBkuQw">
-              <children xmi:type="notation:Node" xmi:id="_Ms9lcBRTEeKM2LmYNBkuQw" type="5010">
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_Ms9lcRRTEeKM2LmYNBkuQw" x="14" y="-4"/>
-              </children>
-              <children xmi:type="notation:Node" xmi:id="_Mta4cBRTEeKM2LmYNBkuQw" type="3005" element="_MsnnMRRTEeKM2LmYNBkuQw">
-                <styles xmi:type="notation:ShapeStyle" xmi:id="_Mta4cRRTEeKM2LmYNBkuQw" fontName="Cantarell"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Mta4chRTEeKM2LmYNBkuQw"/>
-              </children>
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_Ms8-YRRTEeKM2LmYNBkuQw" fontName="Cantarell" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ms8-YhRTEeKM2LmYNBkuQw" x="365" y="48" width="13" height="15"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_MtCd8BRTEeKM2LmYNBkuQw" type="3012" element="_MsoOQBRTEeKM2LmYNBkuQw">
-              <children xmi:type="notation:Node" xmi:id="_MtDFABRTEeKM2LmYNBkuQw" type="5010">
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_MtDFARRTEeKM2LmYNBkuQw" x="14" y="-4"/>
-              </children>
-              <children xmi:type="notation:Node" xmi:id="_MtbfgBRTEeKM2LmYNBkuQw" type="3005" element="_MsoOQRRTEeKM2LmYNBkuQw">
-                <styles xmi:type="notation:ShapeStyle" xmi:id="_MtbfgRRTEeKM2LmYNBkuQw" fontName="Cantarell"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MtbfghRTEeKM2LmYNBkuQw"/>
-              </children>
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_MtCd8RRTEeKM2LmYNBkuQw" fontName="Cantarell" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MtCd8hRTEeKM2LmYNBkuQw" x="365" y="72" width="13" height="15"/>
-            </children>
             <children xmi:type="notation:Node" xmi:id="_MtGIUBRTEeKM2LmYNBkuQw" type="3012" element="_MsrRkBRTEeKM2LmYNBkuQw">
               <children xmi:type="notation:Node" xmi:id="_MtGvYBRTEeKM2LmYNBkuQw" type="5010">
                 <layoutConstraint xmi:type="notation:Location" xmi:id="_MtGvYRRTEeKM2LmYNBkuQw" x="14" y="-4"/>
@@ -1012,30 +990,63 @@
               <styles xmi:type="notation:ShapeStyle" xmi:id="_MtLA0RRTEeKM2LmYNBkuQw" fontName="Cantarell" fontHeight="8"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MtLA0hRTEeKM2LmYNBkuQw" x="365" y="120" width="13" height="15"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_MtPSQBRTEeKM2LmYNBkuQw" type="3012" element="_MssfsBRTEeKM2LmYNBkuQw">
-              <children xmi:type="notation:Node" xmi:id="_MtP5UBRTEeKM2LmYNBkuQw" type="5010">
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_MtP5URRTEeKM2LmYNBkuQw" x="14" y="-4"/>
+            <children xmi:type="notation:Node" xmi:id="_Q0tMABRVEeKN5p5A3xf4Jw" type="3012" element="_QzPMYRRVEeKN5p5A3xf4Jw">
+              <children xmi:type="notation:Node" xmi:id="_Q0zSoBRVEeKN5p5A3xf4Jw" type="5010">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_Q0zSoRRVEeKN5p5A3xf4Jw" x="27" y="-4"/>
               </children>
-              <children xmi:type="notation:Node" xmi:id="_MtdUsBRTEeKM2LmYNBkuQw" type="3005" element="_MssfsRRTEeKM2LmYNBkuQw">
-                <styles xmi:type="notation:ShapeStyle" xmi:id="_MtdUsRRTEeKM2LmYNBkuQw" fontName="Cantarell"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MtdUshRTEeKM2LmYNBkuQw"/>
+              <children xmi:type="notation:Node" xmi:id="_Q5BEQBRVEeKN5p5A3xf4Jw" type="3005" element="_QzQagBRVEeKN5p5A3xf4Jw">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_Q5BEQRRVEeKN5p5A3xf4Jw" fontName="Cantarell"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q5BEQhRVEeKN5p5A3xf4Jw"/>
               </children>
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_MtPSQRRTEeKM2LmYNBkuQw" fontName="Cantarell" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MtPSQhRTEeKM2LmYNBkuQw" x="365" y="136" width="13" height="15"/>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_Q0tMARRVEeKN5p5A3xf4Jw" fontName="Cantarell" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q0tMAhRVEeKN5p5A3xf4Jw" x="365" y="76" width="26" height="15"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_MtUx0BRTEeKM2LmYNBkuQw" type="3012" element="_MstGwBRTEeKM2LmYNBkuQw">
-              <children xmi:type="notation:Node" xmi:id="_MtVY4BRTEeKM2LmYNBkuQw" type="5010">
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_MtVY4RRTEeKM2LmYNBkuQw" x="14" y="-4"/>
+            <children xmi:type="notation:Node" xmi:id="_Q48LwBRVEeKN5p5A3xf4Jw" type="3012" element="_QzRBkBRVEeKN5p5A3xf4Jw">
+              <children xmi:type="notation:Node" xmi:id="_Q48y0BRVEeKN5p5A3xf4Jw" type="5010">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_Q48y0RRVEeKN5p5A3xf4Jw" x="27" y="-4"/>
               </children>
-              <children xmi:type="notation:Node" xmi:id="_Mtd7wBRTEeKM2LmYNBkuQw" type="3005" element="_MstGwRRTEeKM2LmYNBkuQw">
-                <styles xmi:type="notation:ShapeStyle" xmi:id="_Mtd7wRRTEeKM2LmYNBkuQw" fontName="Cantarell"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Mtd7whRTEeKM2LmYNBkuQw"/>
+              <children xmi:type="notation:Node" xmi:id="_Q5BrUBRVEeKN5p5A3xf4Jw" type="3005" element="_QzRooBRVEeKN5p5A3xf4Jw">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_Q5BrURRVEeKN5p5A3xf4Jw" fontName="Cantarell"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q5BrUhRVEeKN5p5A3xf4Jw"/>
               </children>
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_MtUx0RRTEeKM2LmYNBkuQw" fontName="Cantarell" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MtUx0hRTEeKM2LmYNBkuQw" x="365" y="152" width="13" height="15"/>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_Q48LwRRVEeKN5p5A3xf4Jw" fontName="Cantarell" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q48LwhRVEeKN5p5A3xf4Jw" x="365" y="60" width="26" height="15"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_16FNEBReEeKO8dhOHbxiaQ" type="3012" element="_13PUcRReEeKO8dhOHbxiaQ">
+              <children xmi:type="notation:Node" xmi:id="_16KFkBReEeKO8dhOHbxiaQ" type="5010">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_16KFkRReEeKO8dhOHbxiaQ" x="14" y="-4"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_16PlIBReEeKO8dhOHbxiaQ" type="3005" element="_13PUchReEeKO8dhOHbxiaQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_16PlIRReEeKO8dhOHbxiaQ" fontName="Cantarell"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_16PlIhReEeKO8dhOHbxiaQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_16FNERReEeKO8dhOHbxiaQ" fontName="Cantarell" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_16FNEhReEeKO8dhOHbxiaQ" x="367" y="199" width="13" height="15"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_2VCqwBReEeKO8dhOHbxiaQ" type="3012" element="_2TqxwBReEeKO8dhOHbxiaQ">
+              <children xmi:type="notation:Node" xmi:id="_2VD44BReEeKO8dhOHbxiaQ" type="5010">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_2VD44RReEeKO8dhOHbxiaQ" x="14" y="-4"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_2VFuEBReEeKO8dhOHbxiaQ" type="3005" element="_2TqxwRReEeKO8dhOHbxiaQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_2VGVIBReEeKO8dhOHbxiaQ" fontName="Cantarell"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2VGVIRReEeKO8dhOHbxiaQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_2VDR0BReEeKO8dhOHbxiaQ" fontName="Cantarell" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2VDR0RReEeKO8dhOHbxiaQ" x="367" y="222" width="13" height="15"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_2tN6MBReEeKO8dhOHbxiaQ" type="3012" element="_2r2oQBReEeKO8dhOHbxiaQ">
+              <children xmi:type="notation:Node" xmi:id="_2tOhQBReEeKO8dhOHbxiaQ" type="5010">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_2tOhQRReEeKO8dhOHbxiaQ" x="27" y="-4"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_2tSysBReEeKO8dhOHbxiaQ" type="3005" element="_2r2oQRReEeKO8dhOHbxiaQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_2tSysRReEeKO8dhOHbxiaQ" fontName="Cantarell"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2tSyshReEeKO8dhOHbxiaQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_2tN6MRReEeKO8dhOHbxiaQ" fontName="Cantarell" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2tN6MhReEeKO8dhOHbxiaQ" x="367" y="244" width="26" height="15"/>
             </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_6pbHhBRSEeKM2LmYNBkuQw" fontName="Cantarell" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6pbHhRRSEeKM2LmYNBkuQw" x="36" y="264" width="375" height="171"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6pbHhRRSEeKM2LmYNBkuQw" x="36" y="264" width="375" height="279"/>
           </children>
           <styles xmi:type="notation:DiagramStyle" xmi:id="_Av_yAgi_EeKrrKHHrKmc4Q"/>
           <edges xmi:type="notation:Edge" xmi:id="_6picQBRSEeKM2LmYNBkuQw" type="4001" element="_6o8mYBRSEeKM2LmYNBkuQw" source="_6pZ5YxRSEeKM2LmYNBkuQw" target="_6pYEMBRSEeKM2LmYNBkuQw">
@@ -1128,7 +1139,7 @@
         <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_zdr5kBRSEeKM2LmYNBkuQw" name="Breakpedalpressed" width="-1" height="-1">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.0"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.0"/>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_zdsgoBRSEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_zdsgoBRSEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_port.svg">
             <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='InDataPort']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='InDataPort']"/>
@@ -1136,7 +1147,7 @@
         <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_zdtHsBRSEeKM2LmYNBkuQw" name="Clutchpedalpressed" width="-1" height="-1">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.1"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.1"/>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_zdtuwBRSEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_zdtuwBRSEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_port.svg">
             <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='InDataPort']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='InDataPort']"/>
@@ -1144,7 +1155,7 @@
         <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_zdtuwRRSEeKM2LmYNBkuQw" name="Autospd_Mph" width="-1" height="-1">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.2"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.2"/>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_zduV0BRSEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_zduV0BRSEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_port.svg">
             <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='InDataPort']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='InDataPort']"/>
@@ -1152,7 +1163,7 @@
         <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_zdu84BRSEeKM2LmYNBkuQw" name="Engspd_Rpm" width="-1" height="-1">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.3"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.3"/>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_zdvj8BRSEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_zdvj8BRSEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_port.svg">
             <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='InDataPort']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='InDataPort']"/>
@@ -1160,7 +1171,7 @@
         <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_zdwyEBRSEeKM2LmYNBkuQw" name="Cruiseactive" width="-1" height="-1" resizeKind="NSEW">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.4"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.4"/>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_zdxZIBRSEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_zdxZIBRSEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_port.svg">
             <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='OutDataPort']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='OutDataPort']"/>
@@ -1168,7 +1179,7 @@
         <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_zdynQBRSEeKM2LmYNBkuQw" name="Refspd_Mph" width="-1" height="-1" resizeKind="NSEW">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.5"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.5"/>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_zdynQRRSEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_zdynQRRSEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_port.svg">
             <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='OutDataPort']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='OutDataPort']"/>
@@ -1187,7 +1198,7 @@
         <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_zd0ccBRSEeKM2LmYNBkuQw" name="Cruiseactive" width="-1" height="-1">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedDataPort.0"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedDataPort.0"/>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_zd1DgBRSEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_zd1DgBRSEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_port.svg">
             <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='InDataPort']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='InDataPort']"/>
@@ -1195,7 +1206,7 @@
         <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_zd1qkBRSEeKM2LmYNBkuQw" name="Refspd_Mph" width="-1" height="-1">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedDataPort.1"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedDataPort.1"/>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_zd2RoBRSEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_zd2RoBRSEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_port.svg">
             <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='InDataPort']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='InDataPort']"/>
@@ -1203,7 +1214,7 @@
         <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_zd24sBRSEeKM2LmYNBkuQw" name="Autospd_Mph" width="-1" height="-1">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedDataPort.2"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedDataPort.2"/>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_zd3fwBRSEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_zd3fwBRSEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_port.svg">
             <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='InDataPort']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='InDataPort']"/>
@@ -1211,7 +1222,7 @@
         <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_zd5U8BRSEeKM2LmYNBkuQw" name="Throttlepos_In" width="-1" height="-1" resizeKind="NSEW">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedDataPort.3"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedDataPort.3"/>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_zd58ABRSEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_zd58ABRSEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_port.svg">
             <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='OutDataPort']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='OutDataPort']"/>
@@ -1227,7 +1238,7 @@
         <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_zd7xMBRSEeKM2LmYNBkuQw" name="Breakpedalpressed" width="-1" height="-1">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedDataPort.0"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedDataPort.0"/>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_zd8YQBRSEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_zd8YQBRSEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_port.svg">
             <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='InDataPort']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='InDataPort']"/>
@@ -1235,7 +1246,7 @@
         <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_zd8_UBRSEeKM2LmYNBkuQw" name="Clutchpedalpressed" width="-1" height="-1">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedDataPort.1"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedDataPort.1"/>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_zd9mYBRSEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_zd9mYBRSEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_port.svg">
             <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='InDataPort']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='InDataPort']"/>
@@ -1243,7 +1254,7 @@
         <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_zd-NcBRSEeKM2LmYNBkuQw" name="Autospd_Mph" width="-1" height="-1">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedDataPort.2"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedDataPort.2"/>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_zd-0gBRSEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_zd-0gBRSEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_port.svg">
             <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='InDataPort']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='InDataPort']"/>
@@ -1251,7 +1262,7 @@
         <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_zd_bkBRSEeKM2LmYNBkuQw" name="Engspd_Rpm" width="-1" height="-1">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedDataPort.3"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedDataPort.3"/>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_zeACoBRSEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_zeACoBRSEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_port.svg">
             <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='InDataPort']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='InDataPort']"/>
@@ -1259,7 +1270,7 @@
         <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_zeCe4BRSEeKM2LmYNBkuQw" name="Throttlepos_In" width="-1" height="-1" resizeKind="NSEW">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedDataPort.4"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedDataPort.4"/>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_zeDF8BRSEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_zeDF8BRSEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_port.svg">
             <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='OutDataPort']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='OutDataPort']"/>
@@ -1367,7 +1378,7 @@
         <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_Eg90YBRTEeKM2LmYNBkuQw" name="i1" width="-1" height="-1">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.32/@ownedDataPort.0"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.32/@ownedDataPort.0"/>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_Eg90YRRTEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_Eg90YRRTEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_port.svg">
             <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='InDataPort']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='InDataPort']"/>
@@ -1375,7 +1386,7 @@
         <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_Eg-bcBRTEeKM2LmYNBkuQw" name="i2" width="-1" height="-1">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.32/@ownedDataPort.1"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.32/@ownedDataPort.1"/>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_Eg_CgBRTEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_Eg_CgBRTEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_port.svg">
             <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='InDataPort']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='InDataPort']"/>
@@ -1386,7 +1397,7 @@
           <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
           <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
           <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_Eg_pkBRTEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_Eg_pkBRTEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_port.svg">
             <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='InDataPort']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='InDataPort']"/>
@@ -1397,29 +1408,7 @@
           <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
           <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
           <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_EhAQoBRTEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
-            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='InDataPort']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='InDataPort']"/>
-        </ownedBorderedNodes>
-        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_MsnnMBRTEeKM2LmYNBkuQw" name="io1" width="-1" height="-1">
-          <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.32/@ownedDataPort.6"/>
-          <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.32/@ownedDataPort.6"/>
-          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
-          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
-          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_MsnnMRRTEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
-            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='InDataPort']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='InDataPort']"/>
-        </ownedBorderedNodes>
-        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_MsoOQBRTEeKM2LmYNBkuQw" name="io2" width="-1" height="-1">
-          <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.32/@ownedDataPort.7"/>
-          <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.32/@ownedDataPort.7"/>
-          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
-          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
-          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_MsoOQRRTEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_EhAQoBRTEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_port.svg">
             <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='InDataPort']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='InDataPort']"/>
@@ -1430,7 +1419,7 @@
           <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
           <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
           <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_MsrRkRRTEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_MsrRkRRTEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_port.svg">
             <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='OutDataPort']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='OutDataPort']"/>
@@ -1441,32 +1430,56 @@
           <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
           <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
           <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_Msr4oRRTEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_Msr4oRRTEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_port.svg">
             <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='OutDataPort']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='OutDataPort']"/>
         </ownedBorderedNodes>
-        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_MssfsBRTEeKM2LmYNBkuQw" name="io1" width="-1" height="-1" resizeKind="NSEW">
+        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_QzPMYRRVEeKN5p5A3xf4Jw" name="io1" width="-1" height="-1" resizeKind="NSEW">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.32/@ownedDataPort.6"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.32/@ownedDataPort.6"/>
           <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
           <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
           <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_MssfsRRTEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
-            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='OutDataPort']/@style"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_QzQagBRVEeKN5p5A3xf4Jw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inoutport.svg">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='InOutDataPort']/@style"/>
           </ownedStyle>
-          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='OutDataPort']"/>
+          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='InOutDataPort']"/>
         </ownedBorderedNodes>
-        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_MstGwBRTEeKM2LmYNBkuQw" name="io2" width="-1" height="-1" resizeKind="NSEW">
+        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_QzRBkBRVEeKN5p5A3xf4Jw" name="io2" width="-1" height="-1" resizeKind="NSEW">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.32/@ownedDataPort.7"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.32/@ownedDataPort.7"/>
           <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
           <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
           <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_MstGwRRTEeKM2LmYNBkuQw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_QzRooBRVEeKN5p5A3xf4Jw" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inoutport.svg">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='InOutDataPort']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='InOutDataPort']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_13PUcRReEeKO8dhOHbxiaQ" name="New Input Data Port" width="-1" height="-1">
+          <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.32/@ownedDataPort.8"/>
+          <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.32/@ownedDataPort.8"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_13PUchReEeKO8dhOHbxiaQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_port.svg">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='InDataPort']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='InDataPort']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_2TqxwBReEeKO8dhOHbxiaQ" name="New Output Data Port" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.32/@ownedDataPort.9"/>
+          <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.32/@ownedDataPort.9"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_2TqxwRReEeKO8dhOHbxiaQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_port.svg">
             <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='OutDataPort']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='OutDataPort']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_2r2oQBReEeKO8dhOHbxiaQ" name="New Input/Output Data Port" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.32/@ownedDataPort.10"/>
+          <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.32/@ownedDataPort.10"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_2r2oQRReEeKO8dhOHbxiaQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inoutport.svg">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='InOutDataPort']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='InOutDataPort']"/>
         </ownedBorderedNodes>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
@@ -1505,6 +1518,15 @@
             <styles xmi:type="notation:ShapeStyle" xmi:id="_LAlbIQurEeK0rLoS9tnGbg" fontName="Cantarell" fontHeight="8"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LAlbIgurEeK0rLoS9tnGbg" x="108" y="72" width="171" height="87"/>
           </children>
+          <children xmi:type="notation:Node" xmi:id="_fu4M0BR3EeK1H7MwPjpXlw" type="2002" element="_fut0wBR3EeK1H7MwPjpXlw">
+            <children xmi:type="notation:Node" xmi:id="_fu9FUBR3EeK1H7MwPjpXlw" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_fu9sYBR3EeK1H7MwPjpXlw" type="7001">
+              <styles xmi:type="notation:SortingStyle" xmi:id="_fu9sYRR3EeK1H7MwPjpXlw"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_fu9sYhR3EeK1H7MwPjpXlw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_fu4M0RR3EeK1H7MwPjpXlw" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fu4M0hR3EeK1H7MwPjpXlw" x="336" y="72" width="135" height="87"/>
+          </children>
           <styles xmi:type="notation:DiagramStyle" xmi:id="_K-ODogurEeK0rLoS9tnGbg"/>
         </data>
       </ownedAnnotationEntries>
@@ -1518,6 +1540,17 @@
           <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@containerMappings[name='PublicPackageSection']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@containerMappings[name='PublicPackageSection']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DNodeContainer" xmi:id="_fut0wBR3EeK1H7MwPjpXlw" name="CruiseControl_private">
+        <target xmi:type="aadl2:PrivatePackageSection" href="cruise_control.aadl#//@ownedPrivateSection"/>
+        <semanticElements xmi:type="aadl2:PrivatePackageSection" href="cruise_control.aadl#//@ownedPrivateSection"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_fuvC4BR3EeK1H7MwPjpXlw" showIcon="false" labelPosition="node" workspacePath="/org.obeonetwork.dsl.aadl.design/images/package.svg">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@containerMappings[name='PrivatePackageSection']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@containerMappings[name='PrivatePackageSection']"/>
       </ownedDiagramElements>
       <description xmi:type="description:DiagramDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Package%20Diagram']"/>
       <filterVariableHistory xmi:type="viewpoint:FilterVariableHistory" xmi:id="_K9qC8AurEeK0rLoS9tnGbg"/>
@@ -2051,50 +2084,32 @@
         <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_W_RnUA1DEeKBE4ugJPC9LQ" name="Breakpedalpressed" width="-1" height="-1">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.0"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.0"/>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_SOYA1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
-            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_SOYA1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg"/>
         </ownedBorderedNodes>
         <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_W_S1cA1DEeKBE4ugJPC9LQ" name="Clutchpedalpressed" width="-1" height="-1">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.1"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.1"/>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_S1cQ1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
-            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_S1cQ1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg"/>
         </ownedBorderedNodes>
         <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_W_TcgA1DEeKBE4ugJPC9LQ" name="Autospd_Mph" width="-1" height="-1">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.2"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.2"/>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_UDkA1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
-            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_UDkA1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg"/>
         </ownedBorderedNodes>
         <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_W_UqoA1DEeKBE4ugJPC9LQ" name="Engspd_Rpm" width="-1" height="-1">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.3"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.3"/>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_UqoQ1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
-            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_UqoQ1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg"/>
         </ownedBorderedNodes>
         <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_W_VRsA1DEeKBE4ugJPC9LQ" name="Cruiseactive" width="-1" height="-1">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.4"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.4"/>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_VRsQ1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
-            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_VRsQ1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg"/>
         </ownedBorderedNodes>
         <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_W_V4wA1DEeKBE4ugJPC9LQ" name="Refspd_Mph" width="-1" height="-1">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.5"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.5"/>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_Wf0A1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
-            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_Wf0A1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg"/>
         </ownedBorderedNodes>
         <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_EL8Q1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg">
           <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@style"/>
@@ -2107,34 +2122,22 @@
         <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_W_XG4A1DEeKBE4ugJPC9LQ" name="Cruiseactive" width="-1" height="-1">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedDataPort.0"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedDataPort.0"/>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_Xt8A1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
-            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_Xt8A1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg"/>
         </ownedBorderedNodes>
         <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_W_YVAA1DEeKBE4ugJPC9LQ" name="Refspd_Mph" width="-1" height="-1">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedDataPort.1"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedDataPort.1"/>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_YVAQ1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
-            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_YVAQ1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg"/>
         </ownedBorderedNodes>
         <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_W_Y8EA1DEeKBE4ugJPC9LQ" name="Autospd_Mph" width="-1" height="-1">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedDataPort.2"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedDataPort.2"/>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_ZjIA1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
-            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_ZjIA1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg"/>
         </ownedBorderedNodes>
         <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_W_ZjIQ1DEeKBE4ugJPC9LQ" name="Throttlepos_In" width="-1" height="-1">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedDataPort.3"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedDataPort.3"/>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_aKMA1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
-            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_aKMA1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg"/>
         </ownedBorderedNodes>
         <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_FaEA1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg">
           <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@style"/>
@@ -2147,42 +2150,27 @@
         <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_W_bYUA1DEeKBE4ugJPC9LQ" name="Breakpedalpressed" width="-1" height="-1">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedDataPort.0"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedDataPort.0"/>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_bYUQ1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
-            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_bYUQ1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg"/>
         </ownedBorderedNodes>
         <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_W_b_YA1DEeKBE4ugJPC9LQ" name="Clutchpedalpressed" width="-1" height="-1">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedDataPort.1"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedDataPort.1"/>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_b_YQ1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
-            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_b_YQ1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg"/>
         </ownedBorderedNodes>
         <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_W_cmcA1DEeKBE4ugJPC9LQ" name="Autospd_Mph" width="-1" height="-1">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedDataPort.2"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedDataPort.2"/>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_dNgA1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
-            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_dNgA1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg"/>
         </ownedBorderedNodes>
         <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_W_dNgQ1DEeKBE4ugJPC9LQ" name="Engspd_Rpm" width="-1" height="-1">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedDataPort.3"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedDataPort.3"/>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_d0kA1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
-            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_d0kA1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg"/>
         </ownedBorderedNodes>
         <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_W_d0kQ1DEeKBE4ugJPC9LQ" name="Throttlepos_In" width="-1" height="-1">
           <target xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedDataPort.4"/>
           <semanticElements xmi:type="aadl2:DataPort" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedDataPort.4"/>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_fCsA1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
-            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_fCsA1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg"/>
         </ownedBorderedNodes>
         <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_W_GBIQ1DEeKBE4ugJPC9LQ" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg">
           <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@style"/>
@@ -2190,8 +2178,8 @@
         <actualMapping xmi:type="description:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="viewpoint:DNodeContainer" xmi:id="_W_GoMA1DEeKBE4ugJPC9LQ" name="simple" incomingEdges="_YfzHcA1aEeK4EOlI1BAouA">
-        <target xmi:type="aadl2:SystemType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.29"/>
-        <semanticElements xmi:type="aadl2:SystemType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.29"/>
+        <target xmi:type="aadl2:DataType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.29"/>
+        <semanticElements xmi:type="aadl2:DataType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.29"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -2212,8 +2200,6 @@
         <actualMapping xmi:type="description:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="viewpoint:DEdge" xmi:id="_YfzHcA1aEeK4EOlI1BAouA" sourceNode="_W_HPQA1DEeKBE4ugJPC9LQ" targetNode="_W_GoMA1DEeKBE4ugJPC9LQ">
-        <target xmi:type="aadl2:TypeExtension" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.30/@ownedExtension"/>
-        <semanticElements xmi:type="aadl2:TypeExtension" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.30/@ownedExtension"/>
         <ownedStyle xmi:type="viewpoint:EdgeStyle" xmi:id="_YfzHcQ1aEeK4EOlI1BAouA" size="2">
           <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@edgeMappings[name='TypeExtension']/@style"/>
           <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_YfzHcg1aEeK4EOlI1BAouA" red="136" green="136" blue="136"/>
@@ -2227,22 +2213,13 @@
         <target xmi:type="aadl2:SystemType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.31"/>
         <semanticElements xmi:type="aadl2:SystemType" href="cruise_control.aadl#//@ownedPublicSection/@ownedClassifier.31"/>
         <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_aIDesA1aEeK4EOlI1BAouA" name="New Data Port" width="-1" height="-1">
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_aIDesQ1aEeK4EOlI1BAouA" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
-            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_aIDesQ1aEeK4EOlI1BAouA" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg"/>
         </ownedBorderedNodes>
         <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_alpZoA1aEeK4EOlI1BAouA" name="bla" width="-1" height="-1">
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_alpZoQ1aEeK4EOlI1BAouA" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
-            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_alpZoQ1aEeK4EOlI1BAouA" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg"/>
         </ownedBorderedNodes>
         <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_bBN7UA1aEeK4EOlI1BAouA" name="New Data Port" width="-1" height="-1">
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_bBN7UQ1aEeK4EOlI1BAouA" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg">
-            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.aadl.design/description/aadl.odesign#//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Declaration%20Diagram']/@defaultLayer/@containerMappings[name='SystemType']/@borderedNodeMappings[name='DataPort']"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_bBN7UQ1aEeK4EOlI1BAouA" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inport.svg"/>
         </ownedBorderedNodes>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
