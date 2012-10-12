@@ -87,33 +87,32 @@ public class AadlServices {
 		return componentsCollectionResult;
 	}
 
-	public void getDirectedPorts(EObject model, String portDirection) {
-		System.out
-				.println("<<<<<<<<<<<<<<<<<<<==========getDirectedPorts==============>>>>>>>>>>>>>>>>>>>>>\n");
-		// System.out.println(model.eContents());
+	public ArrayList<DataPort> getDirectedPorts(EObject model, String portDirection) {
+		ArrayList<DataPort> directedPorts = new ArrayList<DataPort>();
+		
 		TreeIterator<EObject> i = model.eAllContents();
-		DirectionType dt;
 		while (i.hasNext()) {
 			EObject singleResource = i.next();
 
 			// finding the desired component Type
 			if (singleResource instanceof DataPort) {
 				DataPort port = (DataPort) singleResource;
-				// System.out.println("Attributes: " +
-				// singleResource.eClass().getEAllAttributes().get(2));
 				DirectionType direction = port.getDirection();
 				System.out.println(port.getDirection());
-				if (direction.incoming())
-					System.out.println("Port : " + port.getName()
-							+ " is an input port");
-				if (direction.outgoing())
-					System.out.println("Port : " + port.getName()
-							+ " is an output port");
+				if (direction.incoming() && portDirection.equals("input")){
+					//System.out.println("Port : " + port.getName()	+ " is an input port");
+					directedPorts.add(port);
+				}
+				if (direction.outgoing() && portDirection.equals("output")){
+					//System.out.println("Port : " + port.getName()	+ " is an output port");
+					directedPorts.add(port);
+				}
 			}
 		}
 
 		System.out
 				.println("\n<<<<<<<<<<<<<<<<<<<=========getDirectedPorts===============>>>>>>>>>>>>>>>>>>>>>\n");
+		return directedPorts;
 	}
 
 }
