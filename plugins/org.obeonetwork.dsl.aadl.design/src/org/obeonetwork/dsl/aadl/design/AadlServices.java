@@ -70,7 +70,7 @@ public class AadlServices {
 	
 
 		//getting the iterator for all the objects
-		TreeIterator<EObject> i = model.eAllContents();
+		TreeIterator<EObject> i = model.eContainer().eAllContents();
 		
 		//creating the Resource list to be returned
 		while (i.hasNext()){
@@ -115,5 +115,5 @@ public class AadlServices {
 		}
 		return directedPorts;
 	}
-
+	
 }
