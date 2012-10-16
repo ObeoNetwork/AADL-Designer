@@ -87,6 +87,28 @@ public class AadlServices {
 		return componentsCollectionResult;
 	}
 
+	public ArrayList<ComponentType> getPortComponents(EObject model, String componentType){
+		ArrayList<ComponentType> componentsCollectionResult = new ArrayList<ComponentType>();
+	
+
+		//getting the iterator for all the objects
+		TreeIterator<EObject> i = model.eContainer().eAllContents();
+		
+		//creating the Resource list to be returned
+		while (i.hasNext()){
+			EObject singleResource = i.next();
+			
+			//finding the desired component Type
+			if (singleResource.eClass().getName().equals(componentType)){
+		
+				//we have a component to add to the collection
+				componentsCollectionResult.add((ComponentType)singleResource);
+			}
+		}
+		
+		return componentsCollectionResult;
+	}
+	
 	public ArrayList<DataPort> getDirectedPorts(EObject model, String portDirection) {
 		ArrayList<DataPort> directedPorts = new ArrayList<DataPort>();
 		
