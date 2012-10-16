@@ -3,13 +3,6 @@
   <ownedViewpoints name="AADL2" modelFileExtension="aadl">
     <ownedRepresentations xsi:type="description:DiagramDescription" name="Package Diagram" domainClass="aadl2.AadlPackage">
       <defaultLayer name="Default">
-        <nodeMappings name="Aadl Package" semanticCandidatesExpression="[getPackages()/]" domainClass="aadl2.PackageSection">
-          <style xsi:type="style:SquareDescription" labelExpression="['bla'/]" resizeKind="NSEW">
-            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
-          </style>
-        </nodeMappings>
         <containerMappings name="PublicPackageSection" detailDescriptions="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='DeclarationDiagram_CR'] //@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Package%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='ImplementationDiagram_CR']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.PublicPackageSection">
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/package.svg"/>
         </containerMappings>
