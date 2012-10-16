@@ -314,7 +314,7 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool:SelectionWizardDescription" name="InDataInport_CR" label="Input Data Port" precondition="[oclIsKindOf(aadl2::SystemType)/]" candidatesExpression="[getComponents('DataType')/]" iconPath="/org.obeonetwork.dsl.aadl.design/images/indataport_icon.gif" windowTitle="Data Type Selection Wizard">
+          <ownedTools xsi:type="tool:SelectionWizardDescription" name="InDataInport_CR" label="Input Data Port" precondition="[oclIsKindOf(aadl2::SystemType)/]" candidatesExpression="[getPortComponents('DataType')/]" iconPath="/org.obeonetwork.dsl.aadl.design/images/indataport_icon.gif" windowTitle="Data Type Selection Wizard">
             <element name="element"/>
             <containerView name="containerView"/>
             <container name="container"/>
@@ -331,7 +331,7 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool:SelectionWizardDescription" name="OutDataInport_CR" label="Output Data Port" precondition="[oclIsKindOf(aadl2::SystemType)/]" candidatesExpression="[getComponents('DataType')/]" iconPath="/org.obeonetwork.dsl.aadl.design/images/outdataport_icon.gif" windowTitle="Data Type Selection Wizard">
+          <ownedTools xsi:type="tool:SelectionWizardDescription" name="OutDataInport_CR" label="Output Data Port" precondition="[oclIsKindOf(aadl2::SystemType)/]" candidatesExpression="[getPortComponents('DataType')/]" iconPath="/org.obeonetwork.dsl.aadl.design/images/outdataport_icon.gif" windowTitle="Data Type Selection Wizard">
             <element name="element"/>
             <containerView name="containerView"/>
             <container name="container"/>
@@ -348,7 +348,7 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool:SelectionWizardDescription" name="InOutDataInport_CR" label="Input/Output Data Port" precondition="[oclIsKindOf(aadl2::SystemType)/]" candidatesExpression="[getComponents('DataType')/]" iconPath="/org.obeonetwork.dsl.aadl.design/images/inoutdataport_icon.gif" windowTitle="Data Type Selection Wizard">
+          <ownedTools xsi:type="tool:SelectionWizardDescription" name="InOutDataInport_CR" label="Input/Output Data Port" precondition="[oclIsKindOf(aadl2::SystemType)/]" candidatesExpression="[getPortComponents('DataType')/]" iconPath="/org.obeonetwork.dsl.aadl.design/images/inoutdataport_icon.gif" windowTitle="Data Type Selection Wizard">
             <element name="element"/>
             <containerView name="containerView"/>
             <container name="container"/>
