@@ -260,6 +260,9 @@ end Cruisecontrol.Generic;
 	data piout
 	end piout;
 
+	data test_public_data
+	end test_public_data;
+
 private
 data private_type
 end private_type;
@@ -290,5 +293,8 @@ end neam.Generic;
 
 	process implementation Cruisecontrol_Process.ssss
 	end Cruisecontrol_Process.ssss;
+
+	data test_private_data
+	end test_private_data;
 
 end CruiseControl;
