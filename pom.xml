@@ -34,7 +34,6 @@
 		<module>feature/org.obeonetwork.dsl.aadl.update</module>
 		<module>feature/org.obeonetwork.dsl.aadl.feature</module>
 
-		<module>doc</module>
 	</modules>
 
 	<repositories>		
@@ -43,6 +42,12 @@
 			<layout>p2</layout>
 			<url>http://www.obeo.fr/download/release/designer/6.0/latest/indigo/update</url>
 		</repository>
+<!--
+	<repository>
+		<id>org.osate2.core</id>
+		<url>https://github.com/osate/osate2-core.git</url>
+	</repository>
+-->
 	</repositories>
 
 
