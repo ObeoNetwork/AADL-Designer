@@ -262,6 +262,66 @@ end Cruisecontrol.Generic;
 
 	data test_public_data
 	end test_public_data;
+	
+	
+-- port connections example
+
+data raw_speed
+end raw_speed;
+
+data raw_set_speed
+end raw_set_speed;
+
+data command_data
+end command_data;
+
+data processed_data
+end processed_data;
+
+process control
+	features
+		speed: in data port raw_speed;
+		brake: in event port;
+		set_speed: in event data port raw_set_speed;
+		throttle_cmd: out data port command_data;
+		Error_Signal: out event data port;
+end control;
+
+thread control_in
+	features
+		speed_in_data: in data port raw_speed;
+		brake_event: in event port;
+		set_speed_edata: in event data port raw_set_speed;
+		c_data_out: out data port processed_data;
+end control_in;
+
+thread control_out
+	features
+	c_data_in: in data port processed_data;
+	c_cmd_out: out data port command_data;
+end control_out;
+
+thread implementation control_in.input_processing_01
+end control_in.input_processing_01;
+
+thread implementation control_out.output_processing_01
+end control_out.output_processing_01;
+
+process implementation control.speed_control
+	subcomponents
+		input: thread control_in.input_processing_01;
+		control_plus_output: thread control_out.output_processing_01;
+	connections
+	speed_in: data port speed -> input.speed_in_data;
+	--brake_in: event port brake -> input.brake_event;
+	--set_speed_in: event data port set_speed -> input.set_speed_edata;
+	--c_data_transfer: data port input.c_data_out -> control_plus_output.c_data_in;
+	--data port control_plus_output.c_cmd_out -> throttle_cmd;
+	--error_connection: event data port input.Error -> Error_Signal;
+end control.speed_control;
+-- end port connection example	
+	
+	
 
 private
 data private_type
