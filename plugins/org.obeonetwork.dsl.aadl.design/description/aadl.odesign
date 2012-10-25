@@ -489,6 +489,15 @@
     <ownedRepresentations xsi:type="description:DiagramDescription" name="Implementation Diagram" domainClass="aadl2.PackageSection">
       <defaultLayer name="Default">
         <containerMappings name="SystemImplementation" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='SystemImplementation_DEL']" labelDirectEdit="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='SystemImplementation_EDIT']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SystemImplementation">
+          <borderedNodeMappings name="InDataPort_SysImpl" semanticCandidatesExpression="[getSystemImplementationDirectedPorts('input')/]" domainClass="aadl2.DataPort">
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_port.svg"/>
+          </borderedNodeMappings>
+          <borderedNodeMappings name="OutDataPort_SysImpl" semanticCandidatesExpression="[getSystemImplementationDirectedPorts('output')/]" domainClass="aadl2.DataPort">
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_port.svg"/>
+          </borderedNodeMappings>
+          <borderedNodeMappings name="InOutDataPort_SysImpl" semanticCandidatesExpression="[getSystemImplementationDirectedPorts('inout')/]" domainClass="aadl2.DataPort">
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inoutport.svg"/>
+          </borderedNodeMappings>
           <subNodeMappings name="SubSystem" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_System_DEL']" labelDirectEdit="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='SysImpl_Subcomponent_System_EDIT']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SystemSubcomponent">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg"/>
           </subNodeMappings>
@@ -525,6 +534,15 @@
           <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelFormat="bold" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/system.svg"/>
         </containerMappings>
         <containerMappings name="ThreadImplementation" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='ThreadImplementation_DEL']" labelDirectEdit="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='ThreadImplementation_EDIT']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.ThreadImplementation">
+          <borderedNodeMappings name="InDataPort_ThreadImpl" semanticCandidatesExpression="[getThreadImplementationDirectedPorts('input')/]" domainClass="aadl2.DataPort">
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_port.svg"/>
+          </borderedNodeMappings>
+          <borderedNodeMappings name="OutDataPort_ThreadImpl" semanticCandidatesExpression="[getThreadImplementationDirectedPorts('output')/]" domainClass="aadl2.DataPort">
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_port.svg"/>
+          </borderedNodeMappings>
+          <borderedNodeMappings name="InOutDataPort_ThreadImpl" semanticCandidatesExpression="[getThreadImplementationDirectedPorts('inout')/]" domainClass="aadl2.DataPort">
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inoutport.svg"/>
+          </borderedNodeMappings>
           <subNodeMappings name="SubSubProgramGroup" label="SubProgramGroup" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='ThreadImpl_Subcomponent_ProgramGroup_DEL']" labelDirectEdit="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='ThreadImpl_Subcomponent_ProgramGroup_EDIT']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.SubprogramGroupSubcomponent">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/subprogram.svg"/>
           </subNodeMappings>
@@ -537,6 +555,15 @@
           <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelFormat="bold" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/thread.svg"/>
         </containerMappings>
         <containerMappings name="ProcessImplementation" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='ProcessImplementation_DEL']" labelDirectEdit="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='ProcessImplementation_EDIT']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.ProcessImplementation">
+          <borderedNodeMappings name="InDataPort_ProcessImpl" semanticCandidatesExpression="[getProcessImplementationDirectedPorts('input')/]" domainClass="aadl2.DataPort">
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_port.svg"/>
+          </borderedNodeMappings>
+          <borderedNodeMappings name="OutDataPort_ProcessImpl" semanticCandidatesExpression="[getProcessImplementationDirectedPorts('output')/]" domainClass="aadl2.DataPort">
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_port.svg"/>
+          </borderedNodeMappings>
+          <borderedNodeMappings name="InOutDataPort_ProcessImpl" semanticCandidatesExpression="[getProcessImplementationDirectedPorts('inout')/]" domainClass="aadl2.DataPort">
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data_inoutport.svg"/>
+          </borderedNodeMappings>
           <subNodeMappings name="SubData" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='ProcessImpl_Subcomponent_Data_DEL']" labelDirectEdit="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='ProcessImpl_Subcomponent_Data_EDIT']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.DataSubcomponent">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/data.svg"/>
           </subNodeMappings>
@@ -551,6 +578,13 @@
           </subNodeMappings>
           <subNodeMappings name="SubThreadGroup" label="SubThreadGroup" deletionDescription="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='ProcessImpl_Subcomponent_ThreadGroup_DEL']" labelDirectEdit="//@ownedViewpoints[name='AADL2']/@ownedRepresentations[name='Implementation%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='ProcessImpl_Subcomponent_ThreadGroup_EDIT']" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.ThreadGroupSubcomponent">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.obeonetwork.dsl.aadl.design/images/threadgroup.svg"/>
+          </subNodeMappings>
+          <subNodeMappings name="Test_Port_connection" semanticCandidatesExpression="[eContents()/]" domainClass="aadl2.PortConnection">
+            <style xsi:type="style:SquareDescription" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
           </subNodeMappings>
           <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelFormat="bold" showIcon="false" workspacePath="/org.obeonetwork.dsl.aadl.design/images/process.svg"/>
         </containerMappings>
