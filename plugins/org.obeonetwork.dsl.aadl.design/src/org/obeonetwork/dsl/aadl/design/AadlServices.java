@@ -10,6 +10,10 @@ import org.osate.aadl2.AadlPackage;
 import org.osate.aadl2.ComponentType;
 import org.osate.aadl2.DataPort;
 import org.osate.aadl2.DirectionType;
+import org.osate.aadl2.ProcessImplementation;
+import org.osate.aadl2.ProcessType;
+import org.osate.aadl2.SystemImplementation;
+import org.osate.aadl2.ThreadImplementation;
 
 public class AadlServices {
 
@@ -135,6 +139,112 @@ public class AadlServices {
 				}
 			}
 		}
+		return directedPorts;
+	}
+	
+	public ArrayList<DataPort> getProcessImplementationDirectedPorts(EObject model, String portDirection) {
+		ArrayList<DataPort> directedPorts = new ArrayList<DataPort>();
+		
+		if (model instanceof ProcessImplementation){
+			//System.out.println("We have the right type and can move on!");
+			ProcessImplementation processImpl = (ProcessImplementation) model;
+			//System.out.println("membri: "+ processImpl.getInheritedMembers());
+			
+			
+			for (EObject i : processImpl.getInheritedMembers()){
+				if (i instanceof DataPort){
+					DataPort port = (DataPort) i;
+					//System.out.println("Port name: " + port.getName() + "\n");
+					
+					DirectionType direction = port.getDirection();
+					//System.out.println(port.getDirection());
+					if (direction.incoming() && !direction.outgoing() && portDirection.equals("input")){
+						//System.out.println("Port : " + port.getName()	+ " is an input port");
+						directedPorts.add(port);
+					}
+					if (direction.outgoing() && !direction.incoming() && portDirection.equals("output")){
+						//System.out.println("Port : " + port.getName()	+ " is an output port");
+						directedPorts.add(port);
+					}
+					if (direction.incoming() && direction.outgoing() && portDirection.equals("inout")){
+						//System.out.println("Port : " + port.getName()	+ " is an input/output port");
+						directedPorts.add(port);
+					}
+				}
+			}
+		}
+			
+		return directedPorts;
+	}
+	
+	
+	public ArrayList<DataPort> getThreadImplementationDirectedPorts(EObject model, String portDirection) {
+		ArrayList<DataPort> directedPorts = new ArrayList<DataPort>();
+		
+		if (model instanceof ThreadImplementation){
+			//System.out.println("We have the right type and can move on!");
+			ThreadImplementation threadImpl = (ThreadImplementation) model;
+			//System.out.println("membri: "+ processImpl.getInheritedMembers());
+			
+			
+			for (EObject i : threadImpl.getInheritedMembers()){
+				if (i instanceof DataPort){
+					DataPort port = (DataPort) i;
+					//System.out.println("Port name: " + port.getName() + "\n");
+					
+					DirectionType direction = port.getDirection();
+					//System.out.println(port.getDirection());
+					if (direction.incoming() && !direction.outgoing() && portDirection.equals("input")){
+						//System.out.println("Port : " + port.getName()	+ " is an input port");
+						directedPorts.add(port);
+					}
+					if (direction.outgoing() && !direction.incoming() && portDirection.equals("output")){
+						//System.out.println("Port : " + port.getName()	+ " is an output port");
+						directedPorts.add(port);
+					}
+					if (direction.incoming() && direction.outgoing() && portDirection.equals("inout")){
+						//System.out.println("Port : " + port.getName()	+ " is an input/output port");
+						directedPorts.add(port);
+					}
+				}
+			}
+		}
+			
+		return directedPorts;
+	}
+	
+	public ArrayList<DataPort> getSystemImplementationDirectedPorts(EObject model, String portDirection) {
+		ArrayList<DataPort> directedPorts = new ArrayList<DataPort>();
+		
+		if (model instanceof SystemImplementation){
+			//System.out.println("We have the right type and can move on!");
+			SystemImplementation systemImpl = (SystemImplementation) model;
+			//System.out.println("membri: "+ processImpl.getInheritedMembers());
+			
+			
+			for (EObject i : systemImpl.getInheritedMembers()){
+				if (i instanceof DataPort){
+					DataPort port = (DataPort) i;
+					//System.out.println("Port name: " + port.getName() + "\n");
+					
+					DirectionType direction = port.getDirection();
+					//System.out.println(port.getDirection());
+					if (direction.incoming() && !direction.outgoing() && portDirection.equals("input")){
+						//System.out.println("Port : " + port.getName()	+ " is an input port");
+						directedPorts.add(port);
+					}
+					if (direction.outgoing() && !direction.incoming() && portDirection.equals("output")){
+						//System.out.println("Port : " + port.getName()	+ " is an output port");
+						directedPorts.add(port);
+					}
+					if (direction.incoming() && direction.outgoing() && portDirection.equals("inout")){
+						//System.out.println("Port : " + port.getName()	+ " is an input/output port");
+						directedPorts.add(port);
+					}
+				}
+			}
+		}
+			
 		return directedPorts;
 	}
 	
