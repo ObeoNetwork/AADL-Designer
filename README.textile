@@ -6,15 +6,8 @@ It is developped under the ESA Summer Of Code In Space 2012 program and in the c
 * http://onad2012.blogspot.de/
 * http://wiki.eclipse.org/Polarsys/ProjectsIdeas/SOCISObeo
 
-Roadmap :
-End of October 1.0.0 release
+It is based on Eclipse Sirius (www.eclipse.org/sirius).
 
 These plugins are released under the EPL Open-Source License.
-
-More details about features, screenshots, release notes, dependencies here:
-
- * http://marketplace.obeonetwork.com/module/aadl
- * http://docs.obeonetwork.com/aadl
- * http://www.obeodesigner.com
 
 To build the module you'll need Maven3 and type @mvn clean verify checkstyle:checkstyle@
